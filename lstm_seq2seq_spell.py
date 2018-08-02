@@ -52,6 +52,7 @@ from __future__ import print_function
 
 from keras.models import Model
 from keras.layers import Input, LSTM, Dense
+from keras.callbacks import ModelCheckpoint, TensorBoard
 import numpy as np
 import os
 from sklearn.model_selection import train_test_split
@@ -351,11 +352,23 @@ model = Model([encoder_inputs, decoder_inputs], decoder_outputs)
 
 # Run training
 model.compile(optimizer='rmsprop', loss='categorical_crossentropy')
+
+filepath="weights-improvement-{epoch:02d}-{val_acc:.2f}.hdf5"
+checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
+
+tbCallBack = TensorBoard(log_dir='./Graph', histogram_freq=0, write_graph=True, write_images=True)
+
+callbacks_list = [checkpoint, tbCallBack]
+
+
 model.fit([encoder_input_data, decoder_input_data], decoder_target_data,
           validation_data = ([test_encoder_input_data, test_decoder_input_data], test_decoder_target_data),
           batch_size=batch_size,
           epochs=epochs,
-          validation_split=0.2)
+          callbacks=callbacks_list,
+          #validation_split=0.2,
+          shuffle=True)
+
 # Save model
 model.save('s2s.h5')
 
@@ -473,12 +486,12 @@ decoded_sentences = []
 for seq_index in range(len(test_input_texts)):
     # Take one sequence (part of the training set)
     # for trying out decoding.
-    input_seq = encoder_input_data[seq_index]
+    input_seq = test_encoder_input_data[seq_index]
     decoded_sentence = decode_sequence(input_seq)
     print('-')
     print('Input sentence:', test_input_texts[seq_index])
     print('Decoded sentence:', decoded_sentence)
     decoded_sentences.append(decoded_sentence)
 
-WER_spell_correction = calculate_WER(decoder_target_data, decoded_sentence)
+WER_spell_correction = calculate_WER(test_decoder_target_data, decoded_sentence)
 print('WER_spell_correction = ', WER_spell_correction)
