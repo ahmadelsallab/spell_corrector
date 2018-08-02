@@ -102,7 +102,7 @@ def calculate_WER(gt, pred):
         nb_w += len(gt[i])
 
     return WER / nb_w
-    
+
 # Artificial noisy spelling mistakes
 def noise_maker(sentence, threshold):
     '''Relocate, remove, or add characters to create spelling mistakes'''
@@ -136,7 +136,7 @@ def noise_maker(sentence, threshold):
             else:
                 pass
         i += 1
-    
+
     return ''.join(noisy_sentence)
 
 
@@ -166,7 +166,7 @@ for line in lines[: min(num_samples, len(lines) - 1)]:
         if char not in target_characters:
             target_characters.add(char)
 '''
-data_path = '.'
+data_path = '/root/sharedfolder/media/ahmad/E42CE9A52CE9734A/Ubuntu/OCR/Friendly/LangModel'
 # 1. Tesseract corrections:
 #__________________________
 
@@ -215,22 +215,22 @@ for sentence in sents:
 		#print(target_text)
 		target_text = '\t' + target_text + '\n'
 		target_texts.append(target_text)
-		
+
 '''
 input_characters = set()
-target_characters = set()  
+target_characters = set()
 for input_text in input_texts:
     for char in input_text:
         if char not in input_characters:
             input_characters.add(char)
     for char in target_text:
         if char not in target_characters:
-            target_characters.add(char)   
+            target_characters.add(char)
 input_token_index = dict(
     [(char, i) for i, char in enumerate(input_characters)])
 target_token_index = dict(
     [(char, i) for i, char in enumerate(target_characters)])
-'''	
+'''
 # Create a dictionary to convert the vocabulary (characters) to integers
 vocab_to_int = {}
 count = 0
@@ -247,11 +247,11 @@ for code in codes:
 	if code not in vocab_to_int:
 		vocab_to_int[code] = count
 		count += 1
-	
+
 # Create another dictionary to convert integers to their respective characters
 int_to_vocab = {}
 for character, value in vocab_to_int.items():
-    int_to_vocab[value] = character		
+    int_to_vocab[value] = character
 
 input_characters = sorted(list(vocab_to_int))
 target_characters = sorted(list(vocab_to_int))
@@ -264,10 +264,10 @@ print('Number of samples:', len(input_texts))
 print('Number of unique input tokens:', num_encoder_tokens)
 print('Number of unique output tokens:', num_decoder_tokens)
 print('Max sequence length for inputs:', max_encoder_seq_length)
-print('Max sequence length for outputs:', max_decoder_seq_length)	
-		
+print('Max sequence length for outputs:', max_decoder_seq_length)
+
 # Split the data into training and testing sentences
-input_texts, target_texts, test_input_texts, test_target_texts  = train_test_split(input_texts, target_texts, test_size = 0.15, random_state = 2) 
+input_texts, target_texts, test_input_texts, test_target_texts  = train_test_split(input_texts, target_texts, test_size = 0.15, random_state = 2)
 
 
 batch_size = 64  # Batch size for training.
@@ -276,6 +276,8 @@ latent_dim = 256  # Latent dimensionality of the encoding space.
 #num_samples = 10000  # Number of samples to train on.
 
 # Prepare seq2seq input data and targets
+
+# Train data:
 encoder_input_data = np.zeros(
     (len(input_texts), max_encoder_seq_length, num_encoder_tokens),
     dtype='float32')
@@ -298,6 +300,31 @@ for i, (input_text, target_text) in enumerate(zip(input_texts, target_texts)):
             # decoder_target_data will be ahead by one timestep
             # and will not include the start character.
             decoder_target_data[i, t - 1, vocab_to_int[char]] = 1.
+
+# Test data:
+# Prepare seq2seq input data and targets
+test_encoder_input_data = np.zeros(
+    (len(test_input_texts), max_encoder_seq_length, num_encoder_tokens),
+    dtype='float32')
+test_decoder_input_data = np.zeros(
+    (len(test_input_texts), max_decoder_seq_length, num_decoder_tokens),
+    dtype='float32')
+test_decoder_target_data = np.zeros(
+    (len(test_input_texts), max_decoder_seq_length, num_decoder_tokens),
+    dtype='float32')
+
+for i, (test_input_text, test_target_text) in enumerate(zip(test_input_texts, test_target_texts)):
+    for t, char in enumerate(test_input_text):
+        # c0..cn
+        encoder_input_data[i, t, vocab_to_int[char]] = 1.
+    for t, char in enumerate(test_target_text):
+        # c0'..cm'
+        # decoder_target_data is ahead of decoder_input_data by one timestep
+        test_decoder_input_data[i, t, vocab_to_int[char]] = 1.
+        if t > 0:
+            # decoder_target_data will be ahead by one timestep
+            # and will not include the start character.
+            test_decoder_target_data[i, t - 1, vocab_to_int[char]] = 1.
 
 # Define an input sequence and process it.
 encoder_inputs = Input(shape=(None, num_encoder_tokens))
@@ -325,6 +352,7 @@ model = Model([encoder_inputs, decoder_inputs], decoder_outputs)
 # Run training
 model.compile(optimizer='rmsprop', loss='categorical_crossentropy')
 model.fit([encoder_input_data, decoder_input_data], decoder_target_data,
+          validation_data = ([test_encoder_input_data, test_decoder_input_data], test_decoder_target_data),
           batch_size=batch_size,
           epochs=epochs,
           validation_split=0.2)
@@ -398,7 +426,7 @@ def decode_sequence(input_seq):
 
     return decoded_sentence
 
-
+'''
 for seq_index in range(100):
     # Take one sequence (part of the training set)
     # for trying out decoding.
@@ -407,10 +435,11 @@ for seq_index in range(100):
     print('-')
     print('Input sentence:', input_texts[seq_index])
     print('Decoded sentence:', decoded_sentence)
-    
-    
+
+'''
 # Calculate WER on test data
 #____________________________
+'''
 # Prepare seq2seq input data and targets
 encoder_input_data = np.zeros(
     (len(input_texts), max_encoder_seq_length, num_encoder_tokens),
@@ -437,8 +466,19 @@ for seq_index in range(len(test_input_texts)):
     decoded_sentence = decode_sequence(input_seq)
     print('-')
     print('Input sentence:', test_input_texts[seq_index])
-    print('Decoded sentence:', decoded_sentence) 
+    print('Decoded sentence:', decoded_sentence)
     decoded_sentences.append(decoded_sentence)
-    
-WER_spell_correction = calculate_WER(decoder_target_data, decoded_sentence)    
+'''
+decoded_sentences = []
+for seq_index in range(len(test_input_texts)):
+    # Take one sequence (part of the training set)
+    # for trying out decoding.
+    input_seq = encoder_input_data[seq_index]
+    decoded_sentence = decode_sequence(input_seq)
+    print('-')
+    print('Input sentence:', test_input_texts[seq_index])
+    print('Decoded sentence:', decoded_sentence)
+    decoded_sentences.append(decoded_sentence)
+
+WER_spell_correction = calculate_WER(decoder_target_data, decoded_sentence)
 print('WER_spell_correction = ', WER_spell_correction)
