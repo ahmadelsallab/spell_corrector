@@ -49,13 +49,19 @@ http://www.manythings.org/anki/
     https://arxiv.org/abs/1406.1078
 '''
 from __future__ import print_function
-
+import tensorflow as tf
+from keras.backend.tensorflow_backend import set_session
 from keras.models import Model
 from keras.layers import Input, LSTM, Dense
 from keras.callbacks import ModelCheckpoint, TensorBoard
 import numpy as np
 import os
 from sklearn.model_selection import train_test_split
+
+
+config = tf.ConfigProto()
+config.gpu_options.allow_growth = True
+set_session(tf.Session(config=config))
 
 def calculate_WER_sent(gt, pred):
     '''
@@ -268,7 +274,7 @@ print('Max sequence length for inputs:', max_encoder_seq_length)
 print('Max sequence length for outputs:', max_decoder_seq_length)
 
 # Split the data into training and testing sentences
-input_texts, target_texts, test_input_texts, test_target_texts  = train_test_split(input_texts, target_texts, test_size = 0.15, random_state = 2)
+input_texts, test_input_texts, target_texts, test_target_texts  = train_test_split(input_texts, target_texts, test_size = 0.15, random_state = 42)
 
 
 batch_size = 64  # Batch size for training.
@@ -351,10 +357,10 @@ decoder_outputs = decoder_dense(decoder_outputs)
 model = Model([encoder_inputs, decoder_inputs], decoder_outputs)
 
 # Run training
-model.compile(optimizer='rmsprop', loss='categorical_crossentropy')
+model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['categorical_accuracy'])
 
-filepath="weights-improvement-{epoch:02d}-{val_acc:.2f}.hdf5"
-checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
+filepath="weights-improvement-{epoch:02d}-{val_categorical_accuracy:.2f}.hdf5"
+checkpoint = ModelCheckpoint(filepath, monitor='val_categorical_accuracy', verbose=1, save_best_only=True, mode='max')
 
 tbCallBack = TensorBoard(log_dir='./Graph', histogram_freq=0, write_graph=True, write_images=True)
 
@@ -370,7 +376,7 @@ model.fit([encoder_input_data, decoder_input_data], decoder_target_data,
           shuffle=True)
 
 # Save model
-model.save('s2s.h5')
+#model.save('s2s.h5')
 
 # Next: inference mode (sampling).
 # Here's the drill:
