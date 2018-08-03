@@ -1,0 +1,398 @@
+Input sentence: Me dieal Provider Roles: Treating 
+Decoded sentence: Medical Provider Specialty: EMS
+
+-
+Input sentence: Provider First Name: Christine 
+Decoded sentence: Provider Last Name: Nolen, MD
+
+-
+Input sentence: Provider Last Name: Nolen, MD 
+Decoded sentence: Provider Last Name: Nolen, MD
+
+-
+Input sentence: Address Line 1 : 7 25 American Avenue 
+Decoded sentence: Address Line 1 : 725 American Avenue
+
+-
+Input sentence: City. W’aukesha 
+Decoded sentence: City: Waukesha
+
+-
+Input sentence: StatefProvinee: ‘WI 
+Decoded sentence: State/Province:
+
+-
+Input sentence: Postal Code: 5 31 88 
+Decoded sentence: Postal Code: 55337
+
+-
+Input sentence: Country". US 
+Decoded sentence: Country:  US
+
+-
+Input sentence: Business Telephone: (2 62) 92 8- 1000 
+Decoded sentence: Business Telephone: (952) 512- 5625
+
+-
+Input sentence: Date ot‘Pirst Visit: 1 2/01f20 17 
+Decoded sentence: Date of First Visit: 12/01/2017
+
+-
+Input sentence: City. ‘Waukesha 
+Decoded sentence: City: Waukesha
+
+-
+Input sentence: StatefProﬁnoe: W'I 
+Decoded sentence: State/Province:
+
+-
+Input sentence: Postal Code: 5 31 88 
+Decoded sentence: Postal Code: 55337
+
+-
+Input sentence: Country. US 
+Decoded sentence: Country: US
+
+-
+Input sentence: First Name: 
+Decoded sentence: First Name:
+
+-
+Input sentence: Middle Narmflnitial: 
+Decoded sentence: Middle Name/Initial:
+
+-
+Input sentence: Last Name: 
+Decoded sentence: Last Name:
+
+-
+Input sentence: Social 8 ecurity Number: 
+Decoded sentence: Social Security Number:
+
+-
+Input sentence: Birth Date: 
+Decoded sentence: Birth Date:
+
+-
+Input sentence: Gender: 
+Decoded sentence: Gender:
+
+-
+Input sentence: Language Preference: 
+Decoded sentence: Language Preference:
+
+-
+Input sentence: Address Line 1: 
+Decoded sentence: Address Line 2:
+
+-
+Input sentence: CW- 
+Decoded sentence: City:
+
+-
+Input sentence: StatefProvince : 
+Decoded sentence: State/Province:
+
+-
+Input sentence: Postal Code: 
+Decoded sentence: Postal Code: 55337
+
+-
+Input sentence: Country 
+Decoded sentence: Country:
+
+-
+Input sentence: Email Address: 
+Decoded sentence: Email Address:
+
+-
+Input sentence: PROI—IEALTH CARE 
+Decoded sentence: PROHEALTH CARE
+
+-
+Input sentence: STATEMENT OF SERVICES 
+Decoded sentence: STATEMENT DATE 1/21/2018
+
+-
+Input sentence: GUARANTOR ID _ I 
+Decoded sentence: GUARANTOR NAME AND ADDRESS
+
+-
+Input sentence: STATEMENT DATE 1121/2018
+Decoded sentence: STATEMENT DATE 1/21/2018
+
+-
+Input sentence: PATIENT NAME 
+Decoded sentence: PATIENT # PATIENT NAME 
+
+-
+Input sentence: DATE 
+Decoded sentence: DATE
+
+-
+Input sentence: DESCRIPTION 
+Decoded sentence: DESCRIPTION
+
+-
+Input sentence: _AYMENTS 
+Decoded sentence: PAYMENTS
+
+-
+Input sentence: _DJUSTMENTS 
+Decoded sentence: ADJUSTMENTS
+
+-
+Input sentence: PAT'ENT BALANCE 
+Decoded sentence: PATIENT # PATIENT NAME 
+
+-
+Input sentence: INVOICE NUMBER. ' . 
+Decoded sentence: INVOICE NUMBER :
+
+-
+Input sentence: CURRENT TOTAL VISIT BALANCE 
+Decoded sentence: CURRENT TOTAL VISIT BALANCE 964.70
+
+-
+Input sentence: PLEASE PAY THIS 
+Decoded sentence: PLEASE PAY THIS
+
+-
+Input sentence: RETURN THIS PORTION WITH YOURIPAYMENIT 
+Decoded sentence: RETURN THIS PORTION WITH YOUR PAYMENT
+
+-
+Input sentence: - VIASTERCARD
+Decoded sentence: MASTERCARD
+
+-
+Input sentence: DISCOVER
+Decoded sentence: DISCOVER
+
+-
+Input sentence: VISA
+Decoded sentence: VISA
+
+-
+Input sentence: RATIENTIIAME
+Decoded sentence: PATIENT NAME
+
+-
+Input sentence: DUEDATE 
+Decoded sentence: DUE DATE
+
+-
+Input sentence: GUARANTORID
+Decoded sentence: GUARANTOR NAME AND ADDRESS
+
+-
+Input sentence: BALANCE DUE
+Decoded sentence: BALANCE DUE
+
+-
+Input sentence: Amount Enclosed 
+Decoded sentence: Amount Enclosed
+
+-
+Input sentence: EMERGENCY MEDICAL ASSOCIATES : 
+Decoded sentence: EMERGENCY MEDICAL ASSOCIATES
+
+-
+Input sentence: STATEMENT DATE 01/03/18 
+Decoded sentence: STATEMENT DATE 1/21/2018
+
+-
+Input sentence: —ue DATE _1/13/18 
+Decoded sentence: DUE DATE 01/13/18
+
+-
+Input sentence: snow AMOUNT$ PNDHEHE 
+Decoded sentence: SHOW AMOUNT PAID HERE $
+
+-
+Input sentence: PHONE: 414—423—4120 —ue 
+Decoded sentence: PHONE: 414-423-4120
+
+-
+Input sentence: PNDHEHE 
+Decoded sentence: OPERATIVE/PROCEDURE NaSE
+
+-
+Input sentence: - MAKE CHECKS PHASE “3' " 
+Decoded sentence: MAKE CHECKS PAYABLE TO:
+
+-
+Input sentence: EMERGENCY MEDICAL ASSOCIATES 
+Decoded sentence: EMERGENCY MEDICAL ASSOCIATES
+
+-
+Input sentence: 64-00 INDUSTRIAL LOOP 
+Decoded sentence: 6400 INDUSTRIAL LOOP
+
+-
+Input sentence: GREENDALE, WI 
+Decoded sentence: GREENDALE, WI
+
+-
+Input sentence: STATEMENT 
+Decoded sentence: STATEMENT DATE 1/21/2018
+
+-
+Input sentence: ACCOUNT# EMA297232
+Decoded sentence: ACCOUNT NO.:
+
+-
+Input sentence: PATIENT‘S NAME
+Decoded sentence: PATIENT # PATIENT NAME 
+
+-
+Input sentence: CPT CODE
+Decoded sentence: CPT CODE
+
+-
+Input sentence: SERVICE DESCRIPTION
+Decoded sentence: SURGEON: Jason Holm, M.D.
+
+-
+Input sentence: AMOUNT
+Decoded sentence: AMOUNT
+
+-
+Input sentence: UMR FISERV WI 
+Decoded sentence: UMR FISERV WI BILLED ON 12/12/17
+
+-
+Input sentence: CURRENT 
+Decoded sentence: CURRENT TOTAL VISIT BALANCE 964.70
+
+-
+Input sentence: IOVER 3D DAYSI 
+Decoded sentence: OVER 30 DAYS 
+
+-
+Input sentence: OVER 60 DAYS 
+Decoded sentence: OVER 60 DAYS 
+
+-
+Input sentence: OVER 30 DAYS 
+Decoded sentence: OVER 60 DAYS 
+
+-
+Input sentence: IOVER 120 DAYS 
+Decoded sentence: OVER 30 DAYS 
+
+-
+Input sentence: ILAST PAY DATEI 
+Decoded sentence: PHONE: 414-423-4120
+
+-
+Input sentence: STMT DATE 
+Decoded sentence: STMT DATE 
+
+-
+Input sentence: BALANCE DUE 
+Decoded sentence: BALANCE DUE
+
+-
+Input sentence: DOCTOR LEGEND 
+Decoded sentence: DOCTOR LEGEND
+
+-
+Input sentence: 1 NOLEN, CHRISTINE, M. D. 
+Decoded sentence: 1 NOLEN, CHRISTINE, M. D.
+
+-
+Input sentence: COMMENTS 
+Decoded sentence: COMMENTS
+
+-
+Input sentence: PRIMARY INSUR: UMR FISERV WI 
+Decoded sentence: PRIMARY INSUR: UMR FISERV WI
+
+-
+Input sentence: SECONDARY INSUR: 
+Decoded sentence: SECONDARY INSUR:
+
+-
+Input sentence: EMERGENCY MEDICAL ASSOCIATES 
+Decoded sentence: EMERGENCY MEDICAL ASSOCIATES
+
+-
+Input sentence: PHONE: 
+Decoded sentence: PHONE:
+
+-
+Input sentence: Web user notes: 
+Decoded sentence: Web user notes:
+
+-
+Input sentence: medical statements 
+Decoded sentence: medical statements
+
+-
+Input sentence: unum‘D 
+Decoded sentence: unum
+
+-
+Input sentence: . . O The Benefits Center 
+Decoded sentence: ATW Linghtite: Prtindention
+
+-
+Input sentence: (Not for FMLA Requests) 
+Decoded sentence: (Not for FMLA Requests)
+
+-
+Input sentence: 03/14/2018 Date Signed 
+Decoded sentence: 03/14/2018 Date Signed
+
+-
+Input sentence: Printed Name 
+Decoded sentence: Printed Name
+
+-
+Input sentence: Seeial Security Number 
+Decoded sentence: Social Security Number:
+
+-
+Input sentence: CL-1116 ( 
+Decoded sentence: CL-1116 (11/14)
+
+-
+Input sentence: Daytime Phone: 
+Decoded sentence: Daytime Phone:
+
+-
+Input sentence: Dependent Information 
+Decoded sentence: Dependent Information
+
+-
+Input sentence: First Name: 
+Decoded sentence: First Name:
+
+-
+Input sentence: Middle Nameﬂnitial: 
+Decoded sentence: Middle Name/Initial:
+
+-
+Input sentence: Last Name: 
+Decoded sentence: Last Name:
+
+-
+Input sentence: Social Security Number: 
+Decoded sentence: Social Security Number:
+
+-
+Input sentence: Birth Date: 
+Decoded sentence: Birth Date:
+
+-
+Input sentence: Gender: 
+Decoded sentence: Gender:
+
+-
+Input sentence: Claim Event Information 
+Decoded sentence: Claim Event Information
+
+-
+Input sentence: Accident Work Related: No
+Decoded sentence: Accident Work Related: No

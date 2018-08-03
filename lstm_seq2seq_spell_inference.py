@@ -101,10 +101,12 @@ def calculate_WER(gt, pred):
     both lists must have the same length
     :return: accumulated WER
     '''
-    assert len(gt) == len(pred)
+#    assert len(gt) == len(pred)
     WER = 0
     nb_w = 0
     for i in range(len(gt)):
+        #print(gt[i])
+        #print(pred[i])
         WER += calculate_WER_sent(gt[i], pred[i])
         nb_w += len(gt[i])
 
@@ -180,20 +182,28 @@ data_path = '/root/sharedfolder/media/ahmad/E42CE9A52CE9734A/Ubuntu/OCR/Friendly
 # Path to the data txt file on disk.
 #tess_correction_data = os.path.join(data_path, 'data_for_WER.txt')
 tess_correction_data = os.path.join(data_path, 'new_trained_data.txt')
+#tess_correction_data = os.path.join(data_path, 'fra.txt')
 input_texts = []
 #spell_corrected = []
 target_texts = []
 
+max_sent_len = 40
 
+num_samples = 10000
+cnt = 0
 for row in open(tess_correction_data):
-    sents = row.split("\t")
-    input_text = sents[0]
-    input_texts.append(input_text)
-    #print(input_text)
-    #spell_corrected.append(sents[1])
-    target_text = '\t' + sents[1] + '\n'
-    #print(target_text)
-    target_texts.append(target_text)
+    if cnt < num_samples :
+        sents = row.split("\t")
+        input_text = sents[0]
+        target_text = '\t' + sents[1] + '\n'
+        if len(input_text) < max_sent_len and len(target_text) < max_sent_len:
+            cnt += 1
+            #print(input_text)
+            input_texts.append(input_text)
+            #spell_corrected.append(sents[1])
+
+            #print(target_text)
+            target_texts.append(target_text)
 
 
 # 2. Noise making:
@@ -202,7 +212,7 @@ for row in open(tess_correction_data):
 
 # Check to ensure noise_maker is making mistakes correctly.
 big_data = os.path.join(data_path, 'big.txt')
-sents = open(big_data).read().split('\n')
+#sents = open(big_data).read().split('\n')
 '''
 count = 0
 vocab_to_int = {}
@@ -214,19 +224,17 @@ for sentence in sents:
 threshold = 0.9
 num_samples = 0
 cnt = 0
-for sentence in sents:
-	if cnt < num_samples:
-		cnt += 1
-		input_text = sentence
-		input_texts.append(sentence)
-		#print(input_text)
-		target_text = noise_maker(sentence, threshold)
-		#print(target_text)
-		target_text = '\t' + target_text + '\n'
-		target_texts.append(target_text)
+for sentence in open(big_data):
+    if cnt < num_samples:
+        target_text = '\t' + sentence + '\n'
+        input_text = noise_maker(sentence, threshold)
+        if len(input_text) < max_sent_len and len(target_text) < max_sent_len:
+            cnt += 1
+            #print(input_text)
+            #print(target_text)
+            input_texts.append(input_text)
+            target_texts.append(target_text)
 
-
-	
 '''
 input_characters = set()
 target_characters = set()
@@ -258,11 +266,12 @@ for code in codes:
 	if code not in vocab_to_int:
 		vocab_to_int[code] = count
 		count += 1
-
+#print(vocab_to_int)
 # Create another dictionary to convert integers to their respective characters
 int_to_vocab = {}
 for character, value in vocab_to_int.items():
     int_to_vocab[value] = character
+#print(int_to_vocab)
 
 input_characters = sorted(list(vocab_to_int))
 target_characters = sorted(list(vocab_to_int))
@@ -282,7 +291,7 @@ input_texts, test_input_texts, target_texts, test_target_texts  = train_test_spl
 
 
 batch_size = 64  # Batch size for training.
-epochs = 100  # Number of epochs to train for.
+epochs = 200  # Number of epochs to train for.
 latent_dim = 256  # Latent dimensionality of the encoding space.
 #num_samples = 10000  # Number of samples to train on.
 
@@ -363,6 +372,7 @@ print(model.summary())
 
 # Run training
 #model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['categorical_accuracy'])
+#model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['accuracy'])
 #model.compile(optimizer='rmsprop', loss='categorical_crossentropy')
 
 #filepath="weights-improvement-{epoch:02d}-{val_categorical_accuracy:.2f}.hdf5"
@@ -391,7 +401,6 @@ model.fit([encoder_input_data, decoder_input_data], decoder_target_data,
 # Save model
 #model.save('s2s.h5')
 
-model.load_weights('weights-improvement-59-0.05.hdf5')
 # Next: inference mode (sampling).
 # Here's the drill:
 # 1) encode input and retrieve initial decoder state
@@ -502,17 +511,50 @@ for seq_index in range(len(test_input_texts)):
     print('Decoded sentence:', decoded_sentence)
     decoded_sentences.append(decoded_sentence)
 '''
+print('******************TRAIN DATA *******************************')
+decoded_sentences = []
+for seq_index in range(len(input_texts)):
+    # Take one sequence (part of the training set)
+    # for trying out decoding.
+
+    #input_seq = np.expand_dims(test_encoder_input_data[seq_index], axis = 0)
+    #input_seq = test_encoder_input_data[seq_index]
+    input_seq = encoder_input_data[seq_index: seq_index + 1]
+    decoded_sentence = decode_sequence(input_seq)
+    print('-')
+    print('Input sentence:', input_texts[seq_index])
+    print('Decoded sentence:', decoded_sentence)
+    #print(len(decoded_sentence))
+    decoded_sentences.append(decoded_sentence)
+# Remove first and last chars (/t and /n) from the target_texts
+target_texts_ =  []
+
+for target_text in target_texts:
+    target_texts_.append(target_text[1:-1])
+
+WER_spell_correction = calculate_WER(target_texts_, decoded_sentences)
+print('WER_spell_correction |TRAIN= ', WER_spell_correction)
+
+print('******************TEST DATA *******************************')
 decoded_sentences = []
 for seq_index in range(len(test_input_texts)):
     # Take one sequence (part of the training set)
     # for trying out decoding.
 
-    input_seq = np.expand_dims(test_encoder_input_data[seq_index], axis = 0)
+    #input_seq = np.expand_dims(test_encoder_input_data[seq_index], axis = 0)
+    #input_seq = test_encoder_input_data[seq_index]
+    input_seq = test_encoder_input_data[seq_index: seq_index + 1]
     decoded_sentence = decode_sequence(input_seq)
     print('-')
     print('Input sentence:', test_input_texts[seq_index])
     print('Decoded sentence:', decoded_sentence)
+    #print(len(decoded_sentence))
     decoded_sentences.append(decoded_sentence)
+# Remove first and last chars (/t and /n) from the target_texts
+test_target_texts_ =  []
 
-WER_spell_correction = calculate_WER(test_decoder_target_data, decoded_sentence)
-print('WER_spell_correction = ', WER_spell_correction)
+for target_text in test_target_texts:
+    test_target_texts_.append(target_text[1:-1])
+
+WER_spell_correction = calculate_WER(test_target_texts_, decoded_sentences)
+print('WER_spell_correction |TEST= ', WER_spell_correction)
