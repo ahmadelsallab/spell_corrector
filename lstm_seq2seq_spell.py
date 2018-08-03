@@ -355,20 +355,26 @@ decoder_outputs = decoder_dense(decoder_outputs)
 # Define the model that will turn
 # `encoder_input_data` & `decoder_input_data` into `decoder_target_data`
 model = Model([encoder_inputs, decoder_inputs], decoder_outputs)
+print(model.summary())
 
 # Run training
 #model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['categorical_accuracy'])
 model.compile(optimizer='rmsprop', loss='categorical_crossentropy')
 
-filepath="weights-improvement-{epoch:02d}-{val_categorical_accuracy:.2f}.hdf5"
+#filepath="weights-improvement-{epoch:02d}-{val_categorical_accuracy:.2f}.hdf5"
+filepath="weights-improvement-{epoch:02d}-{val_loss:.2f}.hdf5"
 #checkpoint = ModelCheckpoint(filepath, monitor='val_categorical_accuracy', verbose=1, save_best_only=True, mode='max')
 checkpoint = ModelCheckpoint(filepath, monitor='val_loss', verbose=1, save_best_only=True, mode='min')
 
 tbCallBack = TensorBoard(log_dir='./Graph', histogram_freq=0, write_graph=True, write_images=True)
 
 callbacks_list = [checkpoint, tbCallBack]
-
-
+'''
+print(decoder_target_data.shape)
+print(decoder_target_data[0,:,:].index(1))
+print(decoder_target_data[10,:,:].index(1))
+print(decoder_target_data[100,:,:].index(1))
+'''
 model.fit([encoder_input_data, decoder_input_data], decoder_target_data,
           validation_data = ([test_encoder_input_data, test_decoder_input_data], test_decoder_target_data),
           batch_size=batch_size,
@@ -494,7 +500,8 @@ decoded_sentences = []
 for seq_index in range(len(test_input_texts)):
     # Take one sequence (part of the training set)
     # for trying out decoding.
-    input_seq = test_encoder_input_data[seq_index]
+
+    input_seq = np.expand_dims(test_encoder_input_data[seq_index], axis = 0)
     decoded_sentence = decode_sequence(input_seq)
     print('-')
     print('Input sentence:', test_input_texts[seq_index])
