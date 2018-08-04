@@ -1,0 +1,785 @@
+-
+Input sentence: Vitals 
+GT sentence: Vitals
+
+Decoded sentence: Vitals
+
+-
+Input sentence: Funding: Not Applicable 
+GT sentence: Funding: Not Applicable
+
+Decoded sentence: Full shift last day - no
+
+-
+Input sentence: Social Secun'ty Number: 
+GT sentence: Social Security Number:
+
+Decoded sentence: Social Security Number:
+
+-
+Input sentence: Address 
+GT sentence: Address
+
+Decoded sentence: Address
+
+-
+Input sentence: DESCRIPTION 
+GT sentence: DESCRIPTION
+
+Decoded sentence: OP Notes
+
+-
+Input sentence: Knee injury 
+GT sentence: Knee injury
+
+Decoded sentence: Lancuage
+
+-
+Input sentence: Scribe - Statements 
+GT sentence: Scribe - Statements
+
+Decoded sentence: Scribe - Statements
+
+-
+Input sentence: Policg'h old er: Owner Information 
+GT sentence: Policyholder/Owner Information
+
+Decoded sentence: Policyholder/Owner Information
+
+-
+Input sentence: Access
+GT sentence: Access
+
+Decoded sentence: Address
+
+-
+Input sentence: ATTENDING PHYSICIAN $TATEMENT 
+GT sentence: ATTENDING PHYSICIAN STATEMENT
+
+Decoded sentence: ATTENDING PHYSICIAN STATEMENT
+
+-
+Input sentence: TWIN CITIES 
+GT sentence: TWIN CITIES
+
+Decoded sentence: TWIN CITIES
+
+-
+Input sentence: MRN: Doe Sex:
+GT sentence: MRN: DOB Sex:
+
+Decoded sentence: MAKESTHESIS: G.LUS
+
+-
+Input sentence: PROCEDURES PERFORMED: 
+GT sentence: PROCEDURES PERFORMED:
+
+Decoded sentence: PROCEDURE NO./REVENUE CODE
+
+-
+Input sentence: Employment Details Comments - 
+GT sentence: Employment Details Comments -
+
+Decoded sentence: Employee Off-Job Acc January 1, 2017
+
+-
+Input sentence: Subjective: 
+GT sentence: Subjective:
+
+Decoded sentence: Subtotal:
+
+-
+Input sentence: Language Preference: 
+GT sentence: Language Preference:
+
+Decoded sentence: Language Preference:
+
+-
+Input sentence: Balance Forward 
+GT sentence: Balance Forward
+
+Decoded sentence: Buslees Telephone: (517) 783-1779
+
+-
+Input sentence: Date ofVisit/A d‘miss ion 03/09/2018 
+GT sentence: Date of Visit/Admission: 03/09/2018
+
+Decoded sentence: Date of Visit/Admission: 02/02/2018
+
+-
+Input sentence: Class Same Day Surgery 
+GT sentence: Class Same Day Surgery
+
+Decoded sentence: Confirmation of Coverage
+
+-
+Input sentence: 02/06/13 " étianﬁ 'K . 4 ~" “
+GT sentence: 02/06/18 PYPATN Patient Payment
+
+Decoded sentence: Services Description
+
+-
+Input sentence: Gender: FE 
+GT sentence: Gender: FE
+
+Decoded sentence: Group No:
+
+-
+Input sentence: Collected: 
+GT sentence: Collected:
+
+Decoded sentence: Country: US
+
+-
+Input sentence: Total Monthly Premium: 
+GT sentence: Total Monthly Premium: 
+
+Decoded sentence: Total Monthly Premium: $29.30
+
+-
+Input sentence: Earn1ng€ Mnda: Monthly
+GT sentence: Earnings Mode: Monthly
+
+Decoded sentence: Earnings Type: Hourly
+
+-
+Input sentence: PATIENT‘S NAME
+GT sentence: PATIENT'S NAME
+
+Decoded sentence: PATIENT N Arupe
+
+-
+Input sentence: City. 
+GT sentence: City:
+
+Decoded sentence: City:
+
+-
+Input sentence: 31199018 
+GT sentence: 3/19/2018
+
+Decoded sentence: 2/15/2018
+
+-
+Input sentence: SII l‘g er)’ Information 
+GT sentence: Surgery Information
+
+Decoded sentence: Surgery Information
+
+-
+Input sentence: Pﬁnreo Name _ ocia ecuri y um er 
+GT sentence: Printed Name Social Security Number
+
+Decoded sentence: PHOCEDIES OR PAYMENT TO SIAGESTOVE
+
+-
+Input sentence: dept phone: 
+GT sentence:  deparment phone:
+
+Decoded sentence:  dept phone: 
+
+-
+Input sentence: Date: 
+GT sentence: Date:
+
+Decoded sentence: Date:
+
+-
+Input sentence: snow AMOUNT$ PNDHEHE 
+GT sentence: SHOW AMOUNT PAID HERE $
+
+Decoded sentence: SEND PAYMENT TO: 
+
+-
+Input sentence: Confirmation of Coverage
+GT sentence: Confirmation of Coverage
+
+Decoded sentence: Confirmation of Coverage
+
+-
+Input sentence: C. Functional Capacity 
+GT sentence: C. Functional Capacity
+
+Decoded sentence: Claimant Addresses
+
+-
+Input sentence: DATE: 02/02/2018 
+GT sentence: DATE: 02/02/2018
+
+Decoded sentence: DATE: 03/07/2018
+
+-
+Input sentence: CL-1116 ( 
+GT sentence: CL-1116
+
+Decoded sentence: CL-1023 (06/13)
+
+-
+Input sentence: Narrative 
+GT sentence: Narrative
+
+Decoded sentence: Resulted:
+
+-
+Input sentence: Employee ID Type; Employcc ID
+GT sentence: Employee ID Type: Employee ID
+
+Decoded sentence: Employee Coverage: Yes
+
+-
+Input sentence: Social Security Number: 
+GT sentence: Social Security Number:
+
+Decoded sentence: Social Security Number:
+
+-
+Input sentence: Email 
+GT sentence: Email
+
+Decoded sentence: EDGEWOOD
+
+-
+Input sentence: ESTIMATED BLOOD LOSS: 5m! 
+GT sentence: ESTIMATED BLOOD LOSS: 5ml
+
+Decoded sentence: ESTIMATED BLOOD LOSS: 5 mL.
+
+-
+Input sentence: Social Security Number: 
+GT sentence: Social Security Number:
+
+Decoded sentence: Social Security Number:
+
+-
+Input sentence: Last Name: 
+GT sentence: Last Name:
+
+Decoded sentence: Last Name:
+
+-
+Input sentence: Paramount Paid: $ 101.22
+GT sentence: Paramount Paid: $ 101.22
+
+Decoded sentence: Provider First Name: Ryan
+
+-
+Input sentence: L-102 17) 4
+GT sentence: CL-1023 (02/17) 4
+
+Decoded sentence: Luncary:
+
+-
+Input sentence: Accident Date: 02/170018 
+GT sentence: Accident Date: 02/17/2018
+
+Decoded sentence: Accident Date: 03/09/2018
+
+-
+Input sentence: Transaction identiﬁer: 
+GT sentence: Transaction identifier: 
+
+Decoded sentence: Transaction identifier: 
+
+-
+Input sentence: Chief Complaint 
+GT sentence: Chief Complaint
+
+Decoded sentence: Chief Complaint
+
+-
+Input sentence: Telephone: 
+GT sentence: Telephone:
+
+Decoded sentence: Telephone: 
+
+-
+Input sentence: Data Surgery Parforrnad (mmi'ddlyy): 
+GT sentence: Date Surgery Performed (mm/dd/yy):
+
+Decoded sentence: Date Surgery Performed (mm/dd/yy):
+
+-
+Input sentence: Group Policy #: 
+GT sentence: Group Policy #:
+
+Decoded sentence: Group Policy #:
+
+-
+Input sentence: Signature:
+GT sentence: Signature:
+
+Decoded sentence: Signatures
+
+-
+Input sentence: Add another doctor — no 
+GT sentence: Add another doctor - no
+
+Decoded sentence: Admitted to hospital - no
+
+-
+Input sentence: POSTOPERATIVE DIAGNOSES: 
+GT sentence: POSTOPERATIVE DIAGNOSES:
+
+Decoded sentence: PIEDMONT HEALTHCARE
+
+-
+Input sentence: Total Monthly Premium: $33.88 
+GT sentence: Total Monthly Premium: $33.88
+
+Decoded sentence: Total Monthly Premium: $31.81
+
+-
+Input sentence: Dela otAccidont I! g / 7
+GT sentence: Date of Accident 
+
+Decoded sentence: Delivery Type: Vagine - no
+
+-
+Input sentence: Employer N arm: 
+GT sentence: Employer Name:
+
+Decoded sentence: Employer Name:
+
+-
+Input sentence: . Consumes alcohol (278.9) 
+GT sentence: • Consumes alcohol (278.9)
+
+Decoded sentence: Accident / Injury - no
+
+-
+Input sentence: Al 1TH}: 
+GT sentence: AUTH# 
+
+Decoded sentence: ADJUSTMENTS
+
+-
+Input sentence: DiVision: 
+GT sentence: Division:
+
+Decoded sentence: Division:
+
+-
+Input sentence: Business Telephone: (952) 512- 5625 
+GT sentence: Business Telephone: (952) 512- 5625
+
+Decoded sentence: Business Telephone: (419) 843-8100
+
+-
+Input sentence: Secondary ICD code — 
+GT sentence: Secondary ICD code -
+
+Decoded sentence: Secondary ICD Code:
+
+-
+Input sentence: When is your next visit? 
+GT sentence: When is your next visit?
+
+Decoded sentence: Work from home - no
+
+-
+Input sentence: unqu 
+GT sentence: unum
+
+Decoded sentence: Date
+
+-
+Input sentence: BLILh Batu:
+GT sentence: Birth Date:
+
+Decoded sentence: Birth Date:
+
+-
+Input sentence: ,Your insurance on file is: 
+GT sentence: Your insurance on file is:
+
+Decoded sentence: Business Telephone: (419) 843-8100
+
+-
+Input sentence: Business Telephone: 
+GT sentence: Business Telephone:
+
+Decoded sentence: Business Fax: (419) 474-3076
+
+-
+Input sentence: STATEMENT DATE 1121/2018
+GT sentence: STATEMENT DATE 1/21/2018
+
+Decoded sentence: STATEMENT DATE  01/03/18
+
+-
+Input sentence: unum‘t 
+GT sentence: unum
+
+Decoded sentence: unum
+
+-
+Input sentence: Absence reason — episode 
+GT sentence: Absence reason - episode
+
+Decoded sentence: Admitted to hospital - no
+
+-
+Input sentence: DATE 
+GT sentence: DATE
+
+Decoded sentence: DUE DOTE
+
+-
+Input sentence: Body mass index is 31.12 kgfmz. 
+GT sentence: Body mass index is 31.12 kg/m2.
+
+Decoded sentence: Product: Long Term Disability
+
+-
+Input sentence: S ocial Security Number: 
+GT sentence: Social Security Number:
+
+Decoded sentence: Sypecond rovical Promider: 
+
+-
+Input sentence: Hospital Service 
+GT sentence: Hospital Service Surgery
+
+Decoded sentence: Heart Rate of Bliter:
+
+-
+Input sentence: BALANCE DUE 
+GT sentence: BALANCE DUE
+
+Decoded sentence: First Name:
+
+-
+Input sentence: Postal Code: 
+GT sentence: Postal Code:
+
+Decoded sentence: Postal Code:
+
+-
+Input sentence: lREFnarks Description 
+GT sentence: Remarks Description
+
+Decoded sentence: Services Description
+
+-
+Input sentence: HEIGHTILENGTHZ 5 ft 5 in 
+GT sentence: HEIGHT/LENGTH: 5 ft 5 in
+
+Decoded sentence: Room/Bed EDGSCC/EDGSCC
+
+-
+Input sentence: ﬁnature ' Dot ' 
+GT sentence: Signature Date
+
+Decoded sentence: Account number:
+
+-
+Input sentence: Date ofDisehaJ'ge: 02/022018
+GT sentence: Date of Discharge: 02/02/2018
+
+Decoded sentence: Date of Discharge: 03/09/2018
+
+-
+Input sentence: Claim No: ' _" 
+GT sentence: Claim No:
+
+Decoded sentence: Claim Details
+
+-
+Input sentence: Slck ﬁay Hours; 0,00 
+GT sentence: Sick Pay Hours: 0.00
+
+Decoded sentence: Services Description
+
+-
+Input sentence: .0ia 'nosie' Co és; 
+GT sentence: Diagnosis Codes 
+
+Decoded sentence: Original Hire Date:
+
+-
+Input sentence: SERVICE LINE # 
+GT sentence: SERVICE LINE #
+
+Decoded sentence: SERVICE LINE #
+
+-
+Input sentence: Proc edure : Cleaning, may: bandage
+GT sentence: Procedure: Cleaning, xray, bandage
+
+Decoded sentence: Product: Long Term Disability
+
+-
+Input sentence: Fiied: 03l12i18 0017 
+GT sentence: Filed: 03/12/18 0017
+
+Decoded sentence: First name - Debra
+
+-
+Input sentence: ExPeoled Dei‘ ery _ate (mmlddiyy)
+GT sentence: Expected Delivery Date (mm/dd/yy) 
+
+Decoded sentence: Estimated return to work date -
+
+-
+Input sentence: 15 Surgery Required: No 
+GT sentence: Is Surgery Required: No
+
+Decoded sentence: Is Surgery Required: No
+
+-
+Input sentence: Trace number: 
+GT sentence: Trace number: 
+
+Decoded sentence: Trace number: 
+
+-
+Input sentence: Customer Policy #: 
+GT sentence: Customer Policy #:
+
+Decoded sentence: Customer Policy #:
+
+-
+Input sentence: O . O The Benefits Center 
+GT sentence: The Benefits Center
+
+Decoded sentence: The Benefits Center
+
+-
+Input sentence: Neck: Neck supple. No rigidity. 
+GT sentence: Neck: Neck supple. No rigidity.
+
+Decoded sentence: Hospital Name: MedExpress
+
+-
+Input sentence: CL-1116 (11/14) 
+GT sentence: CL-1116 (11/14)
+
+Decoded sentence: CL-1116 (11/14)
+
+-
+Input sentence: Electron [1: S u Innis sion 
+GT sentence: Electronic: Submission
+
+Decoded sentence: Electronic Service Requested
+
+-
+Input sentence: AUTHORIZATION NO. 
+GT sentence: AUTHORIZATION NO.
+
+Decoded sentence: AUTHORIZATION NO.
+
+-
+Input sentence: Gender! Male
+GT sentence: Gender: Male
+
+Decoded sentence: Group No:
+
+-
+Input sentence: Transaction reference number: 
+GT sentence: Transaction reference number: 
+
+Decoded sentence: Transaction reference number: 
+
+-
+Input sentence: Busineee address 
+GT sentence: Business address
+
+Decoded sentence: Business Fax: (419) 474-3076
+
+-
+Input sentence: Diagnosis Code (ICD)
+GT sentence: Diagnosis Code (ICD)
+
+Decoded sentence: Diagnosis Code: knee
+
+-
+Input sentence: 1. Muitl-V'rtamin TABS: 
+GT sentence: 1. Multi-Vitamin TABS;
+
+Decoded sentence: 1. Probiotic CAPS;
+
+-
+Input sentence: Date: 3515:9018 
+GT sentence: Date: 3/16/2018
+
+Decoded sentence: Date Last Name: Bruce
+
+-
+Input sentence: 4. 3.1 cm x 0.9 cm Baker's cyst. 
+GT sentence: 4. 3.1 cm x 0.9 cm Baker's cyst.
+
+Decoded sentence: Insured Social Security Number
+
+-
+Input sentence: “Fork State-Comm: 
+GT sentence: Work State/Country:
+
+Decoded sentence: Work State/Country:
+
+-
+Input sentence: Right knee injury 
+GT sentence: Right knee injury
+
+Decoded sentence: Right knee: MR
+
+-
+Input sentence: Name 
+GT sentence: Name
+
+Decoded sentence: Name
+
+-
+Input sentence: D.0EI'.'L;._...2...... 
+GT sentence: DOB
+
+Decoded sentence: DISCOVER
+
+-
+Input sentence: Treated in emergency room — no 
+GT sentence: Treated in emergency room - no
+
+Decoded sentence: Temp Agency and timeframe - n/a
+
+-
+Input sentence: Job Title: General Production 
+GT sentence: Job Title: General Production
+
+Decoded sentence: Room/Bed EDGSCC/EDISS: 5 mper
+
+-
+Input sentence: Total Monthly Premium: $24.40
+GT sentence: Total Monthly Premium: $24.40
+
+Decoded sentence: Total Monthly Premium: $29.30
+
+-
+Input sentence: unum“
+GT sentence: unum
+
+Decoded sentence: unum
+
+-
+Input sentence: 64-00 INDUSTRIAL LOOP 
+GT sentence: 6400 INDUSTRIAL LOOP
+
+Decoded sentence: EXPLAIN CODERY CENTER
+
+-
+Input sentence: no parapatellar tenderness 
+GT sentence: no parapatellar tenderness
+
+Decoded sentence: no extensor lag * for awing
+
+-
+Input sentence: Primary Dlﬁgnosis: 
+GT sentence: Primary Diagnosis:
+
+Decoded sentence: Procedure Description
+
+-
+Input sentence: STATEMENT 
+GT sentence: STATEMENT
+
+Decoded sentence: STMT DATE 
+
+-
+Input sentence: Provld-or: GEORGE STONE M0 
+GT sentence: Provider: GEORGE STONE MD
+
+Decoded sentence: Caty: Lackson
+
+-
+Input sentence: MONTANO 
+GT sentence: MONTANO
+
+Decoded sentence: MRN: DOB:
+
+-
+Input sentence: - Exercises regularly 
+GT sentence: • Exercises regularly
+
+Decoded sentence: • Exercises regularly
+
+-
+Input sentence: I’xod‘ac‘t Typo: Leave Hgmt Svnz
+GT sentence: Product Type: Leave Mgmt Svc
+
+Decoded sentence: Medical Provider Roles: Treating
+
+-
+Input sentence: Health insurance provider — bcbs 
+GT sentence: Health insurance provider - bcbs
+
+Decoded sentence: nonTTP along the lateral joint line
+
+-
+Input sentence: a Consumes alcohol (278.9) 
+GT sentence: • Consumes alcohol (Z78.9)
+
+Decoded sentence: 03/12/2018 Date Signed
+
+-
+Input sentence: Allergies 
+GT sentence: Allergies
+
+Decoded sentence: Allergies
+
+-
+Input sentence: Date ofFirst Visit: 03/09/2018 
+GT sentence: Date of First Visit: 03/09/2018
+
+Decoded sentence: Date of First Visit: 02/12/2018
+
+-
+Input sentence: Allergies 
+GT sentence: Allergies
+
+Decoded sentence: Allergies
+
+-
+Input sentence: Child Off—Job Acc June 18, 2012 
+GT sentence: Child Off-Job Acc June 18, 2012
+
+Decoded sentence: Business Telephone: (419) 843-8100
+
+-
+Input sentence: Break in employment — no 
+GT sentence: Break in employment - no
+
+Decoded sentence: Best time to call: morning
+
+-
+Input sentence: Supervnsor Work Phone:
+GT sentence: Supervisor Work Phone:
+
+Decoded sentence: • Lives with family
+
+-
+Input sentence: Approval code: 
+GT sentence: Approval code: 
+
+Decoded sentence: Approval code: 
+
+-
+Input sentence: Address line 1 - 
+GT sentence: Address line 1 -
+
+Decoded sentence: Address Line 1:
+
+-
+Input sentence: Dateltime: 
+GT sentence: Date/time:
+
+Decoded sentence: Date/of-07:
+
+-
+Input sentence: Date of Birth (mmfddlw)
+GT sentence: Date of Birth (mm/dd/yy)
+
+Decoded sentence: Date Last Verified 03/14/18
+
+-
+Input sentence: Claim Event Information 
+GT sentence: Claim Event Information
+
+Decoded sentence: Claim Event Information

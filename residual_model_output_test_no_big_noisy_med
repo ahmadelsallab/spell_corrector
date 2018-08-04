@@ -1,0 +1,166 @@
+Input sentence: tdepartemntd ojf sevice:
+GT sentence: department of service:
+
+Decoded sentence: Address line 1 -
+
+-
+Input sentence: Group Polic y#:
+GT sentence: Group Policy #:
+
+Decoded sentence: Group Policy #:
+
+-
+Input sentence: Therapy: 21aJn2018k to Recorded
+GT sentence: Therapy: 21Jan2018 to Recorded
+
+Decoded sentence: Therapy: 21Jan2018 to Recorded
+
+-
+Input sentence: Date of Birth (mm/dd/yyl)
+GT sentence: Date of Birth (mm/dd/yy)
+
+Decoded sentence: Date of Birth (mm/dd/yy) 
+
+-
+Input sentence: Country: UbS
+GT sentence: Country: US
+
+Decoded sentence: Country: US
+
+-
+Input sentence: TWIN CITSE ORjTHPOEDICS
+GT sentence: TWIN CITIES ORTHOPEDICS
+
+Decoded sentence: TWIN CITIES ORTHOPEDICS
+
+-
+Input sentence: Diagpnosi:s
+GT sentence: Diagnosis:
+
+Decoded sentence: Diagnosis: ICD Code:
+
+-
+Input sentence: Time ofAccident: 14:45 
+GT sentence: Time of Accident: 14:45
+
+Decoded sentence: Time of Accident: 16:00
+
+-
+Input sentence: Nose:y Nose normal.
+GT sentence: Nose: Nose normal.
+
+Decoded sentence: Nose: Nose normal.
+
+-
+Input sentence: If yes, eon whatc date (mm/ddh/yy)?
+GT sentence: If yes, on what date (mm/dd/yy)?
+
+Decoded sentence: If yes, on what date (mm/dd/yy)?
+
+-
+Input sentence: Email Address:
+GT sentence: Email Address:
+
+Decoded sentence: Email Address:
+
+-
+Input sentence: Hospital Service Squqrgery
+GT sentence: Hospital Service Surgery
+
+Decoded sentence: Hospital Service Surgery
+
+-
+Input sentence: Date:
+GT sentence: Date:
+
+Decoded sentence: Date: 3/16/2018
+
+-
+Input sentence: Lunch break -
+GT sentence: Lunch break -
+
+Decoded sentence: Lunch break -
+
+-
+Input sentence: Date of Birth (m/mdd/yy)
+GT sentence: Date of Birth (mm/dd/yy)
+
+Decoded sentence: Date of Birth (mm/dd/yy) 
+
+-
+Input sentence: Policy Number:
+GT sentence: Policy Number:
+
+Decoded sentence: Policy Number:
+
+-
+Input sentence: 02/20/81 PYNSU Insurane Paymet
+GT sentence: 02/20/18 PYINSU Insurance Payment
+
+Decoded sentence: 02/20/18 PYINSU Insurance Payment
+
+-
+Input sentence: Currentf Meds
+GT sentence: Current Meds
+
+Decoded sentence: Current Meds
+
+-
+Input sentence: Report Grou:p 26
+GT sentence: Report Group: 26
+
+Decoded sentence: Report Group: 26
+
+-
+Input sentence: Created Date:
+GT sentence: Created Date:
+
+Decoded sentence: Created Date:
+
+-
+Input sentence: yACCIDENT DETAIL
+GT sentence: ACCIDENT DETAILS
+
+Decoded sentence: ACCIDENT CLAIM FORM
+
+-
+Input sentence: Provvider First Name: Ryan
+GT sentence: Provider First Name: Ryan
+
+Decoded sentence: Provider First Name: Souha
+
+-
+Input sentence: Leadve esno -
+GT sentence: Leave Reason -
+
+Decoded sentence: Leave start date
+
+-
+Input sentence: Customer Poliyc #:
+GT sentence: Customer Policy #:
+
+Decoded sentence: Customer Policy #:
+
+-
+Input sentence: CMMENTS
+GT sentence: COMMENTS
+
+Decoded sentence: EDGuCCATEME
+
+-
+Input sentence: Claim Event cInormation
+GT sentence: Claim Event Information
+
+Decoded sentence: Claim Event Information
+
+-
+Input sentence: aPst Medizcalisetory
+GT sentence: Past Medical History
+
+Decoded sentence: Past Medical History
+
+-
+Input sentence: UMR FsISERV WI BILLED ONb 12/1w2/71
+GT sentence: UMR FISERV WI BILLED ON 12/12/17
+
+Decoded sentence: UMR FISERV WI BILLED ON 12/12/17

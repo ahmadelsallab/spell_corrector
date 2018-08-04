@@ -53,6 +53,7 @@ import tensorflow as tf
 from keras.backend.tensorflow_backend import set_session
 from keras.models import Model
 from keras.layers import Input, LSTM, Dense
+from keras import optimizers
 from keras.callbacks import ModelCheckpoint, TensorBoard
 import numpy as np
 import os
@@ -188,15 +189,18 @@ input_texts = []
 target_texts = []
 
 max_sent_len = 40
+min_sent_len = 4
 
 num_samples = 10000
 cnt = 0
+medical_gt = []
 for row in open(tess_correction_data):
     if cnt < num_samples :
         sents = row.split("\t")
         input_text = sents[0]
+        medical_gt.append(sents[1])
         target_text = '\t' + sents[1] + '\n'
-        if len(input_text) < max_sent_len and len(target_text) < max_sent_len:
+        if len(input_text) > min_sent_len and len(input_text) < max_sent_len and len(target_text) > min_sent_len and len(target_text) < max_sent_len:
             cnt += 1
             #print(input_text)
             input_texts.append(input_text)
@@ -206,8 +210,8 @@ for row in open(tess_correction_data):
             target_texts.append(target_text)
 
 
-# 2. Noise making:
-#__________________________
+# 2. Noise making from public generic data:
+#_________________________________________
 
 
 # Check to ensure noise_maker is making mistakes correctly.
@@ -222,18 +226,42 @@ for sentence in sents:
         count += 1
 '''
 threshold = 0.9
-num_samples = 10000
+num_samples = 0
 cnt = 0
+f = open(os.path.join(data_path, 'big_noisy.txt'), 'w')
 for sentence in open(big_data):
     if cnt < num_samples:
         target_text = '\t' + sentence + '\n'
         input_text = noise_maker(sentence, threshold)
-        if len(input_text) < max_sent_len and len(target_text) < max_sent_len:
+        input_text = input_text[:-1]
+        if len(input_text) > min_sent_len and len(input_text) < max_sent_len and len(target_text) > min_sent_len and len(target_text) < max_sent_len:
             cnt += 1
             #print(input_text)
             #print(target_text)
             input_texts.append(input_text)
             target_texts.append(target_text)
+            f.write(input_text + '\t' + target_text)
+f.close()
+
+# 3. Noise making from ground truth (medical):
+#_________________________________________
+threshold = 0.9
+num_samples = 10000
+cnt = 0
+f = open(os.path.join(data_path, 'med_noisy.txt'), 'w')
+while cnt < num_samples:
+    for sentence in medical_gt:
+        target_text = '\t' + sentence + '\n'
+        input_text = noise_maker(sentence, threshold)
+        input_text = input_text[:-1]
+        if len(input_text) > min_sent_len and len(input_text) < max_sent_len and len(target_text) > min_sent_len and len(target_text) < max_sent_len:
+            cnt += 1
+            #print(input_text)
+            #print(target_text)
+            input_texts.append(input_text)
+            target_texts.append(target_text)
+            f.write(input_text + '\t' + target_text)
+f.close()
 
 '''
 input_characters = set()
@@ -291,8 +319,9 @@ input_texts, test_input_texts, target_texts, test_target_texts  = train_test_spl
 
 
 batch_size = 64  # Batch size for training.
-epochs = 50  # Number of epochs to train for.
+epochs = 100  # Number of epochs to train for.
 latent_dim = 256  # Latent dimensionality of the encoding space.
+lr = 0.01
 #num_samples = 10000  # Number of samples to train on.
 
 # Prepare seq2seq input data and targets
@@ -336,7 +365,7 @@ test_decoder_target_data = np.zeros(
 for i, (test_input_text, test_target_text) in enumerate(zip(test_input_texts, test_target_texts)):
     for t, char in enumerate(test_input_text):
         # c0..cn
-        encoder_input_data[i, t, vocab_to_int[char]] = 1.
+        test_encoder_input_data[i, t, vocab_to_int[char]] = 1.
     for t, char in enumerate(test_target_text):
         # c0'..cm'
         # decoder_target_data is ahead of decoder_input_data by one timestep
@@ -372,13 +401,13 @@ print(model.summary())
 
 # Run training
 #model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['categorical_accuracy'])
-model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['accuracy'])
+model.compile(optimizer=optimizers.Adam(lr=lr), loss='categorical_crossentropy', metrics=['categorical_accuracy'])
 #model.compile(optimizer='rmsprop', loss='categorical_crossentropy')
 
 #filepath="weights-improvement-{epoch:02d}-{val_categorical_accuracy:.2f}.hdf5"
-filepath="weights-improvement-{epoch:02d}-{val_loss:.2f}.hdf5"
+filepath="weights-improvement-{epoch:02d}-{val_categorical_accuracy:.2f}.hdf5"
 #checkpoint = ModelCheckpoint(filepath, monitor='val_categorical_accuracy', verbose=1, save_best_only=True, mode='max')
-checkpoint = ModelCheckpoint(filepath, monitor='val_loss', verbose=1, save_best_only=True, mode='min')
+checkpoint = ModelCheckpoint(filepath, monitor='val_categorical_accuracy', verbose=1, save_best_only=True, mode='max')
 
 tbCallBack = TensorBoard(log_dir='./Graph', histogram_freq=0, write_graph=True, write_images=True)
 
@@ -512,7 +541,9 @@ for seq_index in range(len(test_input_texts)):
 '''
 print('******************TRAIN DATA *******************************')
 decoded_sentences = []
-for seq_index in range(len(input_texts)):
+target_texts_ =  []
+#for seq_index in range(len(input_texts)):
+for seq_index in range(100):
     # Take one sequence (part of the training set)
     # for trying out decoding.
 
@@ -520,23 +551,25 @@ for seq_index in range(len(input_texts)):
     #input_seq = test_encoder_input_data[seq_index]
     input_seq = encoder_input_data[seq_index: seq_index + 1]
     decoded_sentence = decode_sequence(input_seq)
+    target_text = target_texts[seq_index][1:-1]
     print('-')
     print('Input sentence:', input_texts[seq_index])
+    print('GT sentence:', )
     print('Decoded sentence:', decoded_sentence)
     #print(len(decoded_sentence))
     decoded_sentences.append(decoded_sentence)
-# Remove first and last chars (/t and /n) from the target_texts
-target_texts_ =  []
+    target_texts_.append(target_text)
 
-for target_text in target_texts:
-    target_texts_.append(target_text[1:-1])
 
-WER_spell_correction = calculate_WER(target_texts_, decoded_sentences)
-print('WER_spell_correction |TRAIN= ', WER_spell_correction)
+
+#WER_spell_correction = calculate_WER(target_texts_, decoded_sentences)
+#print('WER_spell_correction |TRAIN= ', WER_spell_correction)
 
 print('******************TEST DATA *******************************')
 decoded_sentences = []
+test_target_texts_ =  []
 for seq_index in range(len(test_input_texts)):
+#for seq_index in range(1000):
     # Take one sequence (part of the training set)
     # for trying out decoding.
 
@@ -544,16 +577,16 @@ for seq_index in range(len(test_input_texts)):
     #input_seq = test_encoder_input_data[seq_index]
     input_seq = test_encoder_input_data[seq_index: seq_index + 1]
     decoded_sentence = decode_sequence(input_seq)
+    test_target_text = test_target_texts[seq_index][1:-1]
     print('-')
     print('Input sentence:', test_input_texts[seq_index])
+    print('GT sentence:', test_target_text)
     print('Decoded sentence:', decoded_sentence)
     #print(len(decoded_sentence))
     decoded_sentences.append(decoded_sentence)
-# Remove first and last chars (/t and /n) from the target_texts
-test_target_texts_ =  []
+    test_target_texts_.append(test_target_text)
 
-for target_text in test_target_texts:
-    test_target_texts_.append(target_text[1:-1])
+
 
 WER_spell_correction = calculate_WER(test_target_texts_, decoded_sentences)
 print('WER_spell_correction |TEST= ', WER_spell_correction)
