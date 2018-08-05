@@ -419,6 +419,7 @@ print(decoder_target_data[0,:,:].index(1))
 print(decoder_target_data[10,:,:].index(1))
 print(decoder_target_data[100,:,:].index(1))
 '''
+'''
 model.fit([encoder_input_data, decoder_input_data], decoder_target_data,
           validation_data = ([test_encoder_input_data, test_decoder_input_data], test_decoder_target_data),
           batch_size=batch_size,
@@ -426,9 +427,10 @@ model.fit([encoder_input_data, decoder_input_data], decoder_target_data,
           callbacks=callbacks_list,
           #validation_split=0.2,
           shuffle=True)
-
+'''
 # Save model
 #model.save('s2s.h5')
+model.load_weights('best_model.h5')
 
 # Next: inference mode (sampling).
 # Here's the drill:
