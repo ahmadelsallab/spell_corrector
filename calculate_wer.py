@@ -51,7 +51,7 @@ def calculate_WER(gt, pred):
 tesseract_output = []
 spell_corrected = []
 gt = []
-for row in open('..\..\..\..\Data\LangModel\data_for_WER.txt'):
+for row in open('..\data_for_WER.txt'):
     sents = row.split("\t")
     tesseract_output.append(sents[0])
     spell_corrected.append(sents[1])

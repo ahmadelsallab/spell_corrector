@@ -176,7 +176,7 @@ for line in lines[: min(num_samples, len(lines) - 1)]:
         if char not in target_characters:
             target_characters.add(char)
 '''
-data_path = '/root/sharedfolder/media/ahmad/E42CE9A52CE9734A/Ubuntu/OCR/Friendly/LangModel'
+data_path = '../'
 # 1. Tesseract corrections:
 #__________________________
 
@@ -246,7 +246,7 @@ f.close()
 # 3. Noise making from ground truth (medical):
 #_________________________________________
 threshold = 0.9
-num_samples = 10000
+num_samples = 0
 cnt = 0
 f = open(os.path.join(data_path, 'med_noisy.txt'), 'w')
 while cnt < num_samples:
@@ -405,7 +405,8 @@ model.compile(optimizer=optimizers.Adam(lr=lr), loss='categorical_crossentropy',
 #model.compile(optimizer='rmsprop', loss='categorical_crossentropy')
 
 #filepath="weights-improvement-{epoch:02d}-{val_categorical_accuracy:.2f}.hdf5"
-filepath="weights-improvement-{epoch:02d}-{val_categorical_accuracy:.2f}.hdf5"
+#filepath="weights-improvement-{epoch:02d}-{val_categorical_accuracy:.2f}.hdf5"
+filepath="best_model.hdf5"
 #checkpoint = ModelCheckpoint(filepath, monitor='val_categorical_accuracy', verbose=1, save_best_only=True, mode='max')
 checkpoint = ModelCheckpoint(filepath, monitor='val_categorical_accuracy', verbose=1, save_best_only=True, mode='max')
 
@@ -543,7 +544,7 @@ print('******************TRAIN DATA *******************************')
 decoded_sentences = []
 target_texts_ =  []
 #for seq_index in range(len(input_texts)):
-for seq_index in range(100):
+for seq_index in range(10):
     # Take one sequence (part of the training set)
     # for trying out decoding.
 
@@ -562,8 +563,8 @@ for seq_index in range(100):
 
 
 
-#WER_spell_correction = calculate_WER(target_texts_, decoded_sentences)
-#print('WER_spell_correction |TRAIN= ', WER_spell_correction)
+WER_spell_correction = calculate_WER(target_texts_, decoded_sentences)
+print('WER_spell_correction |TRAIN= ', WER_spell_correction)
 
 print('******************TEST DATA *******************************')
 decoded_sentences = []
