@@ -21,6 +21,9 @@ We first use seq2seq vanilla Keras implementation, adapted from the lstm_seq2seq
 - Limit the padding per batch (TODO)
 - Learning rate schedule (TODO)
 
+# Usage and description
+Spell corrector.ipynb
+
 # Results
 ## Sample results:
 
