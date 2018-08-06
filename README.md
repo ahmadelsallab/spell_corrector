@@ -39,7 +39,9 @@ Spell corrector.ipynb
 The results is on unseen test data, which included tesseract output + corrections, in addition to noisy synthetic data from the GT.
 
 Main modifications:
+
 •	Fine tune a residual, to correct the mistakes of tesseract, instead of training on generic data (books like in big.txt)
+
 •	Limit the input and output sequence lengths (4:40 chars)
 
 # Next steps
