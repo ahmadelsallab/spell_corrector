@@ -1,5 +1,8 @@
 *.h5
 *.hdf5
-.log
-.txt
+*.log
+*.txt
+*.csv
+*.json
+*.pyc
 events.*
