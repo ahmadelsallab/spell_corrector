@@ -14,7 +14,7 @@ from utils.examples import run_examples
 
 cp = ModelCheckpoint("./weights/NMT.{epoch:02d}-{val_loss:.2f}.hdf5",
                      monitor='val_loss',
-                     verbose=0,
+                     verbose=1,
                      save_best_only=True,
                      save_weights_only=True,
                      mode='auto')

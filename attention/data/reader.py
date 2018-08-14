@@ -36,7 +36,8 @@ class Vocabulary(object):
         '''Build vocab dictionary to victorize chars into ints'''
         vocab_to_int = {}
         count = 0
-        chars = open(text_file, encoding='utf8').read()
+        #chars = open(text_file, encoding='utf8').read()
+	chars = open(text_file).read()
     
         for char in chars:
             if char not in vocab_to_int:
