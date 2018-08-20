@@ -59,7 +59,7 @@ class AttentionDecoder(Recurrent):
           See Appendix 2 of Bahdanau 2014, arXiv:1409.0473
           for model details that correspond to the matrices here.
         """
-        #print(input_shape)
+        print(input_shape)
         self.batch_size, self.timesteps, self.input_dim = input_shape
         #self.batch_size, self.timesteps, self.input_dim_2 = input_shape[1]
         #print(input_shape)
@@ -203,12 +203,12 @@ class AttentionDecoder(Recurrent):
         self.built = True
 
     #def call(self, x, y, teacher_force=False):
-    def call(self, x, y):
-    #def call(self, x):
+    #def call(self, x, y):
+    def call(self, x):
         # store the whole sequence so we can "attend" to it at each timestep
         self.x_seq = x
-        self.y_seq = y
-        self.cnt = 0
+        #self.y_seq = y
+        #self.cnt = 0
         #self.teacher_force = teacher_force
         
 
@@ -224,7 +224,7 @@ class AttentionDecoder(Recurrent):
 
     def get_initial_state(self, inputs):
         #inputs = inputs[0]
-        print('inputs shape:', inputs.get_shape())
+        #print('inputs shape:', inputs.get_shape())
 
         # apply the matrix on the first time step to get the initial s0.
         s0 = activations.tanh(K.dot(inputs[:, 0], self.W_s))
@@ -242,10 +242,11 @@ class AttentionDecoder(Recurrent):
     #def step(self, x, states, y):
     def step(self, x, states):
         
-        print(self.cnt)
+        #print(self.cnt)
         
-        #ytm, stm = states
+        ytm, stm = states
         
+        '''
         # If x[1] != None, then use this input as teacher forcing
         if(self.y_seq == None):
         #if(self.teacher_force == False):
@@ -256,6 +257,7 @@ class AttentionDecoder(Recurrent):
         self.cnt += 1
         if(self.cnt >= self.timesteps):
             self.cnt = 0
+        '''
         # repeat the hidden state to the length of the sequence
         _stm = K.repeat(stm, self.timesteps)
 
