@@ -59,8 +59,10 @@ class AttentionDecoder(Recurrent):
           See Appendix 2 of Bahdanau 2014, arXiv:1409.0473
           for model details that correspond to the matrices here.
         """
-
+        #print(input_shape)
         self.batch_size, self.timesteps, self.input_dim = input_shape
+        #self.batch_size, self.timesteps, self.input_dim_2 = input_shape[1]
+        #print(input_shape)
 
         if self.stateful:
             super(AttentionDecoder, self).reset_states()
@@ -191,14 +193,24 @@ class AttentionDecoder(Recurrent):
                                    initializer=self.recurrent_initializer,
                                    regularizer=self.recurrent_regularizer,
                                    constraint=self.recurrent_constraint)
-
+        '''
+        self.input_spec = [
+            InputSpec(shape=(self.batch_size, self.timesteps, self.input_dim)), InputSpec(shape=(self.batch_size, self.timesteps, self.input_dim_2))]
+        '''
         self.input_spec = [
             InputSpec(shape=(self.batch_size, self.timesteps, self.input_dim))]
+
         self.built = True
 
-    def call(self, x):
+    #def call(self, x, y, teacher_force=False):
+    def call(self, x, y):
+    #def call(self, x):
         # store the whole sequence so we can "attend" to it at each timestep
         self.x_seq = x
+        self.y_seq = y
+        self.cnt = 0
+        #self.teacher_force = teacher_force
+        
 
         # apply the a dense layer over the time dimension of the sequence
         # do it here because it doesn't depend on any previous steps
@@ -211,6 +223,7 @@ class AttentionDecoder(Recurrent):
         return super(AttentionDecoder, self).call(x)
 
     def get_initial_state(self, inputs):
+        #inputs = inputs[0]
         print('inputs shape:', inputs.get_shape())
 
         # apply the matrix on the first time step to get the initial s0.
@@ -225,10 +238,24 @@ class AttentionDecoder(Recurrent):
 
         return [y0, s0]
 
+    #def step(self, x, y, states):
+    #def step(self, x, states, y):
     def step(self, x, states):
-
-        ytm, stm = states
-
+        
+        print(self.cnt)
+        
+        #ytm, stm = states
+        
+        # If x[1] != None, then use this input as teacher forcing
+        if(self.y_seq == None):
+        #if(self.teacher_force == False):
+            ytm, stm = states
+        else:
+            _, stm = states
+            ytm = self.y_seq[:,self.cnt,:]
+        self.cnt += 1
+        if(self.cnt >= self.timesteps):
+            self.cnt = 0
         # repeat the hidden state to the length of the sequence
         _stm = K.repeat(stm, self.timesteps)
 
@@ -237,8 +264,7 @@ class AttentionDecoder(Recurrent):
 
         # calculate the attention probabilities
         # this relates how much other timesteps contributed to this one.
-        et = K.dot(activations.tanh(_Wxstm + self._uxpb),
-                   K.expand_dims(self.V_a))
+        et = K.dot(activations.tanh(_Wxstm + self._uxpb), K.expand_dims(self.V_a))
         at = K.exp(et)
         at_sum = K.sum(at, axis=1)
         at_sum_repeated = K.repeat(at_sum, self.timesteps)
