@@ -1,1453 +1,321 @@
 |OCR sentence|GT sentence|Char decoded sentence|Word decoded sentence|Sentence length (chars)|
 ---------------|-----------|----------------|----------------|----------------|
- | Me dieal Provider Roles: Treating  | Medical Provider Roles: Treating | Medical Provider Roles:Treating  | Medical Provider Roles:Treating a  | 
- | Provider First Name: Christine  | Provider First Name: Christine | Provider First Name: Christine  | Provider First Name Christine a  | 
- | Provider Last Name: Nolen, MD  | Provider Last Name: Nolen, MD | Provider Last Name: Nolen, MD  | Provider Last Name Dolens MD a  | 
- | Address Line 1 : 7 25 American Avenue  | Address Line 1 : 725 American Avenue | Address Line 1 : 725 Americal Avenuer | Address Line 1 : 725 American Avenue  | 
- | City. W’aukesha  | City: Waukesha | City.Stakes Wesk | City.Stakes Week  | 
- | StatefProvinee: ‘WI  | State/Province: WI | StateProvinee: WI I N S | StateProvinee: WI I N S  | 
- | Postal Code: 5 31 88  | Postal Code: 53188 | Postal Code: 5 3188 ? | Postal Codes 5 3188 a  | 
- | Country". US  | Country:  US | Country".US  | Country".US a  | 
- | Business Telephone: (2 62) 92 8- 1000  | Business Telephone: (262) 928- 1000 | Business Telephone: (2 62) 928-100 | Business Telephone (2 62) 928-100  | 
- | Date ot‘Pirst Visit: 1 2/01f20 17  | Date of First Visit: 12/01/2017 | Date of First Visit: 12/012017 | Date of First Visit 12/012017  | 
- | Medical Protitler Information — Hospitalization  | Medical Provider Information - Hospitalization | Medical Provider Information —Hospitalization | Medical Provider Information Hospitalization  | 
- | Hospital Name: W'aukesha Memorial Hospital  | Hospital Name: Waukesha Memorial Hospital | Hospital Name: Waukesha Memorial Hospital  | Hospital Name Waukesha Memorial Hospital a  | 
- | Address Line 1 : 7" 25 Arnerie an Drive  | Address Line 1 : 725 American Drive | Address Line 1 : 7" 25  Address | Address Line 1 : 7" 25 a Address  | 
- | City. ‘Waukesha  | City: Waukesha | City.Stakes Lesha | City.Stakes Desha  | 
- | StatefProﬁnoe: W'I  | State/Province: WI | StateProvine: Re | StateProvine: Re  | 
- | Postal Code: 5 31 88  | Postal Code: 53188 | Postal Code: 5 3188 ? | Postal Codes 5 3188 a  | 
- | Country. US  | Country: US | Country. US | Country US  | 
- | Claim Type: VB Accident - Accidental Injury  | Claim Type: VB Accident - Accidental Injury | Claim Type: VB Accident - Accidental Injury | Claim Type VB Accident - Accidental Injury  | 
- | Policyhold El':"0“1l€l' In form ariorl  | Policyholder/Owner Information | PolicyholderO:"0r1Information artor  | PolicyholderO:"0r1Information actor a  | 
- | First Name:  | First Name: | First Name:  | First Name a  | 
- | Middle Narmflnitial:  | Middle Name/Initial: | Middle NameInitial:  | Middle NameInitial: a  | 
- | Last Name:  | Last Name: | Last Name:  | Last Name a  | 
- | Social 8 ecurity Number:  | Social Security Number: | Social 8ecurity Number: | Social 8ecurity Number  | 
- | Birth Date:  | Birth Date: | Birth Date:  | Birth Date a  | 
- | Gender:  | Gender: | Gender:  | Gender a  | 
- | Language Preference:  | Language Preference: | Language Preference: | Language Preference  | 
- | Address Line 1:  | Address Line 1: | Address Line 1:  | Address Line 1: a  | 
- | StatefProvince :  | State/Province: | StateProvince: | StateProvince:  | 
- | Postal Code:  | Postal Code: | Postal Code:  | Postal Codes a  | 
- | Country  | Country: | Country Country Country | Country Country Country  | 
- | Best Phone Number to be Reached Dming the Day  | Best Phone Number to be Reached During the Day | Best Phone Number to be Reached Duming the Day  | Best Phone Number to be Reached During the Day a  | 
- | Email Address:  | Email Address: | Email Address:  | Email Address a  | 
- | PROI—IEALTH CARE  | PROHEALTH CARE | PROC—DINALTH CARE | PROC—DINALTH CARE  | 
- | STATEMENT OF SERVICES  | STATEMENT OF SERVICES | STATEMENT OF SERVICES | STATEMENT OF SERVICES  | 
- | GUARANTOR ID _ I  | GUARANTOR ID | GUARANTOR ID | GUARANTOR ID  | 
- | STATEMENT DATE 1121/2018 | STATEMENT DATE 1/21/2018 | STATEMENT DATE 1121/2 | STATEMENT DATE 1121/2  | 
- | PATIENT NAME  | PATIENT NAME | PATIENT NAME | PATIENT NAME  | 
- | DATE  | DATE | DATE  | DATE a  | 
- | DESCRIPTION  | DESCRIPTION | DESCRIPTION L | DESCRIPTION L  | 
- | _AYMENTS  | PAYMENTS | PAYMENTS | PAYMENTS  | 
- | _DJUSTMENTS  | ADJUSTMENTS | DESTMENTS | VESTMENTS  | 
- | PAT'ENT BALANCE  | PATIENTS BALANCE | PATIENT BALANCE  | PATIENT BALANCE a  | 
- | INVOICE NUMBER. ' .  | INVOICE NUMBER : | INVOICE NUMBER. | INVOICE NUMBER  | 
- | _ Previous Visit Balance - Visit # — . | Previous Visit Balance- Visit # | Previous Visit Balance  -isit #  | Previous Visit Balance a visit # a  | 
- | CURRENT TOTAL VISIT BALANCE  | CURRENT TOTAL VISIT BALANCE 964.70 | CURRENT TOTAL VISIT BALANCE | CURRENT TOTAL VISIT BALANCE  | 
- | PLEASE PAY THIS  | PLEASE PAY THIS | PLEASE PAY THIS | PLEASE PAY THIS  | 
- | RETURN THIS PORTION WITH YOURIPAYMENIT  | RETURN THIS PORTION WITH YOUR PAYMENT | RETURN THIS PORTION WITH YOUR PAYMENT  | RETURN THIS PORTION WITH YOUR PAYMENT a  | 
- | - VIASTERCARD | MASTERCARD | -ASTERCARD | MASTERCARD  | 
- | DISCOVER | DISCOVER | DISCOVER | DISCOVER  | 
- | RATIENTIIAME | PATIENT NAME | PATIENT'S IAME | PATIENTS SAME  | 
- | DUEDATE  | DUE DATE | DUE DATE | DUE DATE  | 
- | GUARANTORID | GUARANTOR ID | GUARANTOR ID | GUARANTOR ID  | 
- | BALANCE DUE | BALANCE DUE | BALANCE DUE | BALANCE DUE  | 
- | Amount Enclosed  | Amount Enclosed | Amount Enclosed | Amount Enclosed  | 
- | MAKE CHECK PAYABLE TO PROHEALTH CARE 5535““ (PC  | MAKE CHECK PAYABLE TO PROHEALTH CARE | MAKE CHECK PAYABLE TO PROHEALTH CARE 5535& C(RE | MAKE CHECK PAYABLE TO PROHEALTH CARE 5535& CARE  | 
- | EMERGENCY MEDICAL ASSOCIATES :  | EMERGENCY MEDICAL ASSOCIATES | EMERGENCY MEDICAL ASSOCIATIS | EMERGENCY MEDICAL ASSOCIATES  | 
- | STATEMENT DATE 01/03/18  | STATEMENT DATE  01/03/18 | STATEMENT DATE 01/03/18 | STATEMENT DATE 01/03/18  | 
- | —ue DATE _1/13/18  | DUE DATE 01/13/18 | —ut DATE I1/13/18e | but DATE I1/13/18e  | 
- | snow AMOUNT$ PNDHEHE  | SHOW AMOUNT PAID HERE $ | SuOW AMOUNT$PAID HERE  | show AMOUNT$PAID HERE a  | 
- | PHONE: 414—423—4120 —ue  | PHONE: 414-423-4120 | PHONE: 414—423—4120 —n | PHONE 414—423—4120 in  | 
- | PNDHEHE  | ADDRESSEE: | ADDHESS  | ADDRESS a  | 
- | - MAKE CHECKS PHASE “3' "  | MAKE CHECKS PAYABLE TO: | -AKE CHECKS PAYSETUME3 | TAKE CHECKS PAYSETUME3  | 
- | EMERGENCY MEDICAL ASSOCIATES  | EMERGENCY MEDICAL ASSOCIATES | EMERGENCY MEDICAL ASSOCIATES | EMERGENCY MEDICAL ASSOCIATES  | 
- | 64-00 INDUSTRIAL LOOP  | 6400 INDUSTRIAL LOOP | 64-00INDUSTRIAL LOOP LOOP  | 64-00INDUSTRIAL LOOP LOOP a  | 
- | GREENDALE, WI  | GREENDALE, WI | GRENDIND,WIE WI D | GRENDIND,WIE WI D  | 
- | STATEMENT  | STATEMENT | STATEMENT D | STATEMENT D  | 
- | ACCOUNT# EMA297232 | ACCOUNT# EMA297232 | ACCOUNT# EMA297232 | ACCOUNT EMA297232  | 
- | PATIENT‘S NAME | PATIENT'S NAME | PATIENT'S NAME | PATIENTS NAME  | 
- | CPT CODE | CPT CODE | CPT CODE | CPT CODE  | 
- | SERVICE DESCRIPTION | SERVICE DESCRIPTION | SERVICE DESCRIPTION | SERVICE DESCRIPTION  | 
- | AMOUNT | AMOUNT | AMOUNT | AMOUNT  | 
- | UMR FISERV WI  | UMR FISERV WI BILLED ON 12/12/17 | UMR FISERV WI ID | MR MISERY WI ID  | 
- | CURRENT  | CURRENT | CURRENT # | CURRENT #  | 
- | IOVER 3D DAYSI  | OVER 30 DAYS | OVER 3DAYS DAYS | OVER 3DAYS DAYS  | 
- | OVER 60 DAYS  | OVER 60 DAYS | OVER 60 DAYS | OVER 60 DAYS  | 
- | OVER 30 DAYS  | OVER 90 DAYS | OVER 30 DAYS | OVER 30 DAYS  | 
- | IOVER 120 DAYS  | OVER 120 DAYS | OVER 120DAYS | OVER 120DAYS  | 
- | ILAST PAY DATEI  | LAST PAY DATE | LAST PAY DATE | LAST PAY DATE  | 
- | STMT DATE  | STMT DATE | STMT DATE | STET DATE  | 
- | BALANCE DUE  | BALANCE DUE | BALANCE DUE  | BALANCE DUE a  | 
- | DOCTOR LEGEND  | DOCTOR LEGEND | DOCTOR LEGEND REGED  | DOCTOR LEGEND REED a  | 
- | 1 NOLEN, CHRISTINE, M. D.  | 1 NOLEN, CHRISTINE, M. D. | 1 NOLEN, CHRISTINE, M. D. | 1 DOLENS CHRISTINE My Do  | 
- | COMMENTS  | COMMENTS | COMMENTS | COMMENTS  | 
- | PRIMARY INSUR: UMR FISERV WI  | PRIMARY INSUR: UMR FISERV WI | PRIMARY INSUR: UMR FISERV WI | PRIMARY INSURE MR MISERY WI  | 
- | SECONDARY INSUR:  | SECONDARY INSUR: | SECONDARY INSUR:  | SECONDARY INSURE a  | 
- | EMERGENCY MEDICAL ASSOCIATES  | EMERGENCY MEDICAL ASSOCIATES | EMERGENCY MEDICAL ASSOCIATES | EMERGENCY MEDICAL ASSOCIATES  | 
- | PHONE:  | PHONE: | PHONE:  | PHONE a  | 
- | Web user notes:  | Web user notes: | Web user notes:  | Web user notes a  | 
- | medical statements  | medical statements | medical statements  | medical statements a  | 
- | unum‘D  | unum | unum | unum  | 
- | . . O The Benefits Center  | The Benefits Center | .h. Benefits Center  | the Benefits Center a  | 
- | (Not for FMLA Requests)  | (Not for FMLA Requests) | (Not for FMLA Requests) | Not for FPLA Requests  | 
- | Electronically Signed Insured 5 Signature  | Electronically Signed Insured's Signature | Electronically Signed Insured 5ignature  | Electronically Signed Insured 5ignature a  | 
- | 03/14/2018 Date Signed  | 03/14/2018 Date Signed | 03/14/2018 Date Signed Insured  | 03/14/2018 Date Signed Insured a  | 
- | Printed Name  | Printed Name | Printed Name  | Printed Name a  | 
- | Seeial Security Number  | Social Security Number | Social Security Number  | Social Security Number a  | 
- | CL-1116 (  | CL-1116 | CL-1116 (d | CL-1116 d  | 
- | Daytime Phone:  | Daytime Phone: | Daytime Phone:  | Daytime Phone a  | 
- | Dependent Information  | Dependent Information | Dependent Information | Dependent Information  | 
- | First Name:  | First Name: | First Name:  | First Name a  | 
- | Middle Nameﬂnitial:  | Middle Name/Initial: | Middle NameInitia:  | Middle NameInitia: a  | 
- | Last Name:  | Last Name: | Last Name:  | Last Name a  | 
- | Social Security Number:  | Social Security Number: | Social Security Number:  | Social Security Number a  | 
- | Birth Date:  | Birth Date: | Birth Date:  | Birth Date a  | 
- | Gender:  | Gender: | Gender:  | Gender a  | 
- | Claim Event Information  | Claim Event Information | Claim Event Information | Claim Event Information  | 
- | Accident Work Related: No | Accident Work Related: No | Accident Work Related: No | Accident Work Related No  | 
- | Time ofAccident: 8:00 PM | Time of Accident: 8:00 PM | Time of Acciden:8:00 P | Time of Acciden:8:00 P  | 
- | Accident Date:  | Accident Date: 12/01/2018 | Accident Date:  | Accident Date a  | 
- | 5 n rg erji' Inform ari on  | Surgery Information | 5urgery Information arton  | 5urgery Information arson a  | 
- | 15 Surgery Required: No  | Is Surgery Required: No | 15 Surgery Required: No  | 15 Surgery Required No a  | 
- | Medical Provider Information - Physician  | Medical Provider Information - Physician | Medical Provider Information - Physician | Medical Provider Information - Physician  | 
- | Medical Provider Specialty: ElVIS  | Medical Provider Specialty: EMS | Medical Provider Specialty: Elait | Medical Provider Specialty Plait  | 
- | UﬂUﬁT  | unum | unum | unum  | 
- | August 23, 2017  | August 28, 2017 | Aujust 23,2017 | August 23,2017  | 
- | Confirmation of Coverage  | Confirmation of Coverage | Confirmation of Coverage | Confirmation of Coverage  | 
- | Employer:  | Employer: | Employer: | Employers  | 
- | Group Policy #:  | Group Policy #: | Group Policy #: | Group Policy of  | 
- | Customer Policy #:  | Customer Policy #: | Customer Policy #: | Customer Policy of  | 
- | EE Name:  | EE Name: | EE Name:  | EE Name a  | 
- | MONTANO  | MONTANO | MONTANO | MONTANO  | 
- | Total Employee Benefit Amount: $20,000.00  | Total Employee Benefit Amount: $20,000.00 | Total Employee Benefit Amount: $20,000. | Total Employee Benefit Amount $20,000.  | 
- | Total Monthly Premium: $40.40  | Total Monthly Premium: $40.40 | Total Monthly Premium: $40.40 ? | Total Monthly Premium $40.40 a  | 
- | Date ofVisithdmission  | Date of Visit/Admission: 12/01/2017 | Date of VisitAdmission  | Date of VisitAdmission a  | 
- | Date ot’DischaIge: 1210112017  | Date of Discharge: 12/01/2017 | Date of Discharge: 1210112017 | Date of Discharge 1210112017  | 
- | Proc edure : Cleaning, may: bandage | Procedure: Cleaning, xray, bandage | Procedure :leaning ,and :andage | Procedure leaning and bandage  | 
- | E11113] arm en t In formation  | Employment Information | E11113] arment Information | E11113] ardent Information  | 
- | Employer Name:  | Employer Name: | Employer Name:  | Employer Name a  | 
- | Electronic Submission  | Electronic Submission | Electronic Submission | Electronic Submission  | 
- | Claim Event Identiﬁer:  | Claim Event Identifier: | Claim Event Identifie:  | Claim Event Identified a  | 
- | Submission Date: 03411419018 | Submission Date: 03/14/2018 | Submission Date: 0341141901 | Submission Date 0341141901  | 
- | Electronically Signed Indicator: Yes | Electronically Signed Indicator:  Yes | Electronically Signed Indicator: Yes | Electronically Signed Indicator Yes  | 
- | TWIN CITIES  | TWIN CITIES | TWIN CITIES ORTIOS  | TWIN CITIES ORTHOS a  | 
- | ORTHOPEDICS  | ORTHOPEDICS | ORTHOPEDICS | ORTHOPEDICS  | 
- | Twin Cities Orthopedics-Burnsville  | Twin Cities Orthopedics-Burnsville | Twin Cities Orthopedics-Burnsville | Twin Cities Orthopedics-Burnsville  | 
- | MRN: . Date of Service: 02/ 15/201 8 9:30AM  | MRN: Date of Service: 02/15/2018 9:30AM | MRN: .ate Date of Serv:c02/15/20189:30 | MRNA late Date of Serv:c02/15/20189:30  | 
- | Provider: Jamie Birkelo PA  | Provider: Jamie Birkelo PA | Provider: Jamie Birkelo PA | Provider Jamie Birkelo PA  | 
- | Chief Complaint  | Chief Complaint | Chief Complaint  | Chief Complaint a  | 
- | Post-Op  | Post-Op | Post-Op | Postop  | 
- | Active Problems  | Active Problems | Active Problems  | Active Problems a  | 
- | 1. Knee injury  | 1. Knee injury | 1. Knee injury | 1. Knee injury  | 
- | Social History  | Social History | Social History | Social History  | 
- | 0 Age reporting  | • Age reporting | 0 Age reporting Corting Sporite | 0 Age reporting Carting Sprite  | 
- | 0 Consumes alcohol  | • Consumes alcohol | 0 Consumes alcohol  | 0 Consumes alcohol a  | 
- | I Exercises regularly  | • Exercises regularly | I Exercises regularly  | I Exercises regularly a  | 
- | - Identifies as female gender  | • Identifies as female gender | - Identifies as female gender | - Identifies as female gender  | 
- | 0 Lives with family  | • Lives with family | 0 Lives with family | 0 Lives with family  | 
- | 0 Married  | • Married | 0 Married  | 0 Married a  | 
- | 0 Tobacco quit date established (287.891)  | • Tobacco quit date established (287.891) | 0 Tobacco quit date established (287.891) | 0 Tobacco quit date established (287.891)  | 
- | 0 : 10 years  | • : 10 years | 0 : 10 years | 0 : 10 years  | 
- | Current Made  | Current Made | Current Meds | Current Meds  | 
- | 3. Multi-Vitamin TABS;  | 3. Multi-Vitamin TABS; | 3. Multi-Vitamin TABS; | 3. Multivitamin TABS  | 
- | Therapy: (Recordedz24Jan2018) to Recorded  | Therapy: (Recorded:24Jan2018) to Recorded | Therapy: (Recorded24Jan2018) to Recorded | Therapy (Recorded24Jan2018) to Recorded  | 
- | 4. Probiotic CAPS;  | 4. Probiotic CAPS; | 4. Probiotic CAPS; | 4. Probiotic CAPS  | 
- | Therapy: 21Jan2018 to Recorded  | Therapy: 21Jan2018 to Recorded | Therapy: 21Jan2018 to Recorded | Therapy 21Jan2018 to Recorded  | 
- | -- McMurray’s  | -- McMurray’s | -- McMurray’s | of McMurray’s  | 
- | symmetric dial at 0 and 90 degrees  | symmetric dial at 0 and 90 degrees | symmetric dial at 0 and 90 degrees  | symmetric dial at 0 and 90 degrees a  | 
- | ResultsIData  | Results/Data | ResultsDate | ResultsDate  | 
- | Right knee MRI IMPRESSION:  | Right knee MRI IMPRESSION: | Right knee MRI IMPRESSION: | Right knee MRI IMPRESSION  | 
- | 1. ACL tear.  | 1. ACL tear. | 1. ACL tear. | 1. ACL tears  | 
- | 5. Patellar apical grade 1-2 chondromalacia.  | 5. Patellar apical grade 1-2 chondromalacia. | 5. Patellar apical grade 1-2 chondromacia | 5. Patellar apical grade 1-2 chondromata  | 
- | Diagnosis  | Diagnosis | Diagnosis | Diagnosis  | 
- | Right knee ACL rupture and high grade MCL tear  | Right knee ACL rupture and high grade MCL tear |  Right knee ACL rupture and hight rader MAL tear  | a Right knee ACL rupture and hight rider MAL tear a  | 
- | Plan  | Plan | Plan Cand | Plan Cand  | 
- | Health Maintenance  | Health Maintenance | Health Maintenance  | Health Maintenance a  | 
- | DiscussionlSumrnary  | Discussion/Sumrnary | DiscussionSumrnary  | DiscussionSumrnary a  | 
- | Scribe - Statements  | Scribe - Statements | Scribe - Statements  | Scribe - Statements a  | 
- | Signatures  | Signatures | Signatures | Signatures  | 
- | TWIN CITIES  | TWIN CITIES | TWIN CITIES ORTIOS  | TWIN CITIES ORTHOS a  | 
- | ORTHOPEDICS  | ORTHOPEDICS | ORTHOPEDICS | ORTHOPEDICS  | 
- | Twin Cities Orthopedics-Burnsville  | Twin Cities Orthopedics-Burnsville | Twin Cities Orthopedics-Burnsville | Twin Cities Orthopedics-Burnsville  | 
- | MRN: Date of Service: 01/24/2018 9:10AM  | MRN: Date of Service: 01/24/2018 9:10AM | MRN: Date of Service: 01/24/2018 9:10AM | MRNA Date of Service 01/24/2018 9:10AM  | 
- | Provider: Jason Holm MD.  | Provider: Jason Holm M.D. | Provider: Jason Holm M.  | Provider Jason Holm My a  | 
- | Chief Complaint  | Chief Complaint | Chief Complaint  | Chief Complaint a  | 
- | right knee (DOE 1l21f18)  | right knee (DOI 1/21/18) | Bight knee (DOB 12118 | Bight knee DOB 12118  | 
- | History of Present illness  | History of Present Illness | History of Present Illness | History of Present Illness  | 
- | Review of Systems  | Review of Systems | Review of Systems  | Review of Systems a  | 
- | General: no constitutional symptoms.  | General: no constitutional symptoms. | General: no constitutional symptoms. | General no constitutional symptoms  | 
- | Cardiovascular: no cardiovascular symptoms.  | Cardiovascular: no cardiovascular symptoms. | Cardiovascular: no cardiovascular symptoms. | Cardiovascular no cardiovascular symptoms  | 
- | Skin no skin symptoms.  | Skin no skin symptoms. | Skin no skin symptoms. | Skin no skin symptoms  | 
- | ENT: no ears, nose or throat symptoms.  | ENT: no ears, nose or throat symptoms. | ENT: no eare, nose throat symptoms | ENTR no eared nose throat symptoms  | 
- | Endocrine: no endocrine symptoms.  | Endocrine: no endocrine symptoms. | Endocrine: no endocrine symptoms. | Endocrine no endocrine symptoms  | 
- | Eyes: glasseslcontact.  | Eyes: glasses/contact. | Eyes: glassescontact. | Eyes glassescontact.  | 
- | Genitourinary: no genitourinary symptoms.  | Genitourinary: no genitourinary symptoms. | Genitourinary: no genitourinary symptoms. | Genitourinary no genitourinary symptoms  | 
- | HematologicILymphatlc no hematologic symptoms.  | Hematologic/Lymphatlc no hematologic symptoms. | HematologicLymphatlc no hematologic symptoms. | HematologicLymphatlc no hematologic symptoms  | 
- | Neurological: no neurological symptoms.  | Neurological: no neurological symptoms. | Neurological: no neurological symptoms. | Neurological no neurological symptoms  | 
- | Psychiatric: no psychiatric symptoms.  | Psychiatric: no psychiatric symptoms. | Psychiatric: no psychiatric symptoms. | Psychiatric no psychiatric symptoms  | 
- | Respiratory: no respiratory symptoms.  | Respiratory: no respiratory symptoms. | Respiratory: no respiratory symptoms. | Respiratory no respiratory symptoms  | 
- | Active Problems  | Active Problems | Active Problems  | Active Problems a  | 
- | 1. Knee injury (889.90XA)  | 1. Knee injury (S89.90XA) | 1. Knee injury (889.90XA) | 1. Knee injury (889.90XA)  | 
- | Past Medical History  | Past Medical History | Past Medical History | Past Medical History  | 
- | 0 No signiﬁcant past medical history  | • No significant past medical history | 0 No significant past medical history | 0 No significant past medical history  | 
- | Surgical History  | Surgical History | Surgical History | Surgical History  | 
- | 0 History of Ankle Surgery  | • History of Ankle Surgery | 0 History of Ankle Surgery  | 0 History of Ankle Surgery a  | 
- | Family History  | Family History | Family History | Family History  | 
- | TWIN CITIES  | TWIN CITIES | TWIN CITIES ORTIOS  | TWIN CITIES ORTHOS a  | 
- | ORTHOPEDICS  | ORTHOPEDICS | ORTHOPEDICS | ORTHOPEDICS  | 
- | Twin Cities Orthopedics-Burnsville  | Twin Cities Orthopedics-Burnsville | Twin Cities Orthopedics-Burnsville | Twin Cities Orthopedics-Burnsville  | 
- | Date of Service: 01/21/2018 7:30PM  | Date of Service: 01/21/2018 7:30PM | Date of Service: 01/21/2018 7:30 | Date of Service 01/21/2018 7:30  | 
- | Provider: David Feivor PA-C  | Provider: David Feivor PA-C | Provider: David Feivor PA-C AT | Provider David Fervor PAC AT  | 
- | Chief Complaint  | Chief Complaint | Chief Complaint  | Chief Complaint a  | 
- | Right knee injury  | Right knee injury | Right knee injury | Right knee injury  | 
- | DOI 112112018  | DOI 1/21/2018 | DO 112112018 | DO 112112018  | 
- | History of Present Illness -  | History of Present Illness | History of Present Illness | History of Present Illness  | 
- | Review of Systems  | Review of Systems | Review of Systems  | Review of Systems a  | 
- | General: no constitutional symptoms.  | General: no constitutional symptoms. | General: no constitutional symptoms. | General no constitutional symptoms  | 
- | Cardlovascular: no cardiovascular symptoms.  | Cardiovascular: no cardiovascular symptoms. | Cardiovascular: no cardiovascular symptoms. | Cardiovascular no cardiovascular symptoms  | 
- | Skin no skin symptoms.  | Skin no skin symptoms. | Skin no skin symptoms. | Skin no skin symptoms  | 
- | ENT: no ears. nose or throat symptoms.  | ENT: no ears, nose or throat symptoms. | ENT: no eare. nose throat symptoms | ENTR no eared nose throat symptoms  | 
- | Endocrine: no endocrine symptoms.  | Endocrine: no endocrine symptoms. | Endocrine: no endocrine symptoms. | Endocrine no endocrine symptoms  | 
- | Eyes: glassesicontact.  | Eyes: glasses/contact. | Eyes: glassessiconta.t | Eyes glassessiconta.t  | 
- | Genitourinary: no genitourinary symptoms.  | Genitourinary: no genitourinary symptoms. | Genitourinary: no genitourinary symptoms. | Genitourinary no genitourinary symptoms  | 
- | HematologiciLymphatic no hematologic symptoms.  | Hematologic/Lymphatic no hematologic symptoms. | HematologicLymphatic no hematologic symptoms. | HematologicLymphatic no hematologic symptoms  | 
- | Neurological: no neurological symptoms.  | Neurological: no neurological symptoms. | Neurological: no neurological symptoms. | Neurological no neurological symptoms  | 
- | Psychiatric: no psychiatric symptoms.  | Psychiatric: no psychiatric symptoms. | Psychiatric: no psychiatric symptoms. | Psychiatric no psychiatric symptoms  | 
- | Respiratory: no respiratory symptoms.  | Respiratory: no respiratory symptoms. | Respiratory: no respiratory symptoms. | Respiratory no respiratory symptoms  | 
- | Active Problems  | Active Problems | Active Problems  | Active Problems a  | 
- | 1. Knee injury  | 1. Knee injury | 1. Knee injury | 1. Knee injury  | 
- | Past Medical History  | Past Medical History | Past Medical History | Past Medical History  | 
- | I No signiﬁcant past medical history  | • No significant past medical history | • No significant past medical history | a No significant past medical history  | 
- | Surgical History  | Surgical History | Surgical History | Surgical History  | 
- | 0 History of Ankle Surgery  | • History of Ankle Surgery | 0 History of Ankle Surgery  | 0 History of Ankle Surgery a  | 
- | oinvi'inoggiiis  | TWIN CITIES ORTHOPEDICS | Binviding Signed | Invading Signed  | 
- | MINNESOTA VALLEY SURGERY CENTER  | MINNESOTA VALLEY SURGERY CENTER | MINNESOTA VALLEY SURGERY CENTER | MINNESOTA VALLEY SURGERY CENTER  | 
- | OPERATIVE REPORT  | OPERATIVE REPORT | OPERATIVE REPORT  | OPERATIVE REPORT a  | 
- | MR #:  | MR #: | MR #: | MR of  | 
- | SURGEON: JASON HOLM, M.D.  | SURGEON: JASON HOLM, M.D. | SURGEON: JASON HOLM, M.D.  | SURGEON JASON HOLM Made a  | 
- | DATE: 02/02/2018  | DATE: 02/02/2018 | DATE: 02/02/2018  | DATE 02/02/2018 a  | 
- | 05/09/1980  | 05/09/1980 | 05/09/1980 ? | 05/09/1980 a  | 
- | PREOPERATIVE DIAGNOSES:  | PREOPERATIVE DIAGNOSES: | PREOPERATIVE DIAGNOSES:  | PREOPERATIVE DIAGNOSES a  | 
- | 1. Right knee anterior cruciate ligament tear.  | 1. Right knee anterior cruciate ligament tear. | 1. Right knee anterior cruciate ligament tear. | 1. Right knee anterior cruciate ligament tears  | 
- | 2. Me dial collateral ligament tear.  | 2. Medial collateral ligament tear. | 2. Medial collateral ligament tear. | 2. Medial collateral ligament tears  | 
- | POSTOPERATIVE DIAGNOSES:  | POSTOPERATIVE DIAGNOSES: | POTOTERATIVE DIAGNOSES: | POTOTERATIVE DIAGNOSES  | 
- | Right knee anterior cruciate ligament tear.  | 1. Right knee anterior cruciate ligament tear. | i ght knee anterior cruciate ligament tea. | i get knee anterior cruciate ligament tea  | 
- | 2. Medial collateral ligament tear.  | 2. Medial collateral ligament tear. | 2. Medial collateral ligament tear. | 2. Medial collateral ligament tears  | 
- | PROCEDURES PERFORMED:  | PROCEDURES PERFORMED: | PROCEDURES PERFORMED:  | PROCEDURES PERFORMED a  | 
- | SURGEON: Jason Helm, MD.  | SURGEON: Jason Holm, M.D. | SURGEON: Jason Holm, M.  | SURGEON Jason Holm My a  | 
- | ASSISTANT: Jamie Birkelo, PA-C.  | ASSISTANT: Jamie Birkelo, PA-C. | ASSISTANT: Jamie Birkelo, PA-C. | ASSISTANT Jamie Birkelo, PACE  | 
- | ANESTI-IESIA: General.  | ANESTHESIA: General. | ANESTI-IAS I: Genera. | ANESTI-IAS In General  | 
- | ANESTHESIOLOGIST:  | ANESTHESIOLOGIST: | ANESTHESIOLOGIST:  | ANESTHESIOLOGISTS a  | 
- | ESTIMATED BLOOD LOSS: 5 mL.  | ESTIMATED BLOOD LOSS: 5 mL. | ESTIMATED BLOOD LOSS: 5 mL.  | ESTIMATED BLOOD LOSS 5 Mli a  | 
- | INTRAOPERATIVE COMPLICATIONS: None apparent.  | INTRAOPERATIVE COMPLICATIONS: None apparent. | INTRAOPERATIVE COMPLICATIONS: None apparent.  | INTRAOPERATIVE COMPLICATIONS None apparent a  | 
- | OPERATIVE REPORT - PAGE 1 of 2  | OPERATIVE REPORT - PAGE 1 of 2 | OPERATIVE REPORT - PAGE 1 of 2 | OPERATIVE REPORT - PAGE 1 of 2  | 
- | Family History  | Family History | Family History | Family History  | 
- | 9 Family history of Cancer (C801)  | • Family history of Cancer (C80.1) | 9 Family history of Cancer (C801) | 9 Family history of Cancer (C801)  | 
- | 0 Family history of other condition (284.89)  | • Family history of other condition (Z84.89) | 0 Family history of other condition (284.89) | 0 Family history of other condition (284.89)  | 
- | 0 Family history of other condition (284.89)  | • Family history of other condition (Z84.89) | 0 Family history of other condition (284.89) | 0 Family history of other condition (284.89)  | 
- | Social History  | Social History | Social History | Social History  | 
- | 0 Age reporting  | • Age reporting | 0 Age reporting Corting Sporite | 0 Age reporting Carting Sprite  | 
- | a Consumes alcohol (278.9)  | • Consumes alcohol (Z78.9) | • Consumes alcohol (278.9)  | a Consumes alcohol (278.9) a  | 
- | - Exercises regularly  | • Exercises regularly | - Exercises regularly  | - Exercises regularly a  | 
- | o Identiﬁes as female gender  | • Identifies as female gender | • Identifies as female gender | a Identifies as female gender  | 
- | 0 Lives with family  | • Lives with family | 0 Lives with family | 0 Lives with family  | 
- | t Married  | • Married | CoMArried  | carried a  | 
- | 0 Tobacco quit date established (287.891)  | • Tobacco quit date established (Z87.891) | 0 Tobacco quit date established (287.891) | 0 Tobacco quit date established (287.891)  | 
- | 0 : 10 years  | • : 10 years | 0 : 10 years | 0 : 10 years  | 
- | Current Mods  | Current Meds | Current Meds | Current Meds  | 
- | 1. Probiotio CAPS;  | 1. Probiotic CAPS; | 1. Probiotio CAPS; | 1. Probiotic CAPS  | 
- | Therapy: 21 Jan2018 to Recorded  | Therapy: 21Jan2018 to Recorded | Therapy: 21Jan2018to Recorded | Therapy 21Jan2018to Recorded  | 
- | Allergies  | Allergies | Allergies | Allergies  | 
- | 1. No Known Allergies  | 1. No Known Allergies | 1. No Known Allergies P | 1. No Known Allergies P  | 
- | Vitals  | Vitals | Vitals  | Vitals a  | 
- | TCO Vitals Signs Panel  | TCO Vitals Signs Panel | TCO Vitals Signs Panel  | TO Vitals Signs Panel a  | 
- | Height: 5 ft 8 in  | Height: 5 ft 8 in | Height: 5 ft 8 in  | Height 5 ft 8 in a  | 
- | Weight: 270 lb  | Weight: 270 lb | Weight: 270 lb | Weight 270 lb  | 
- | BMl Calculated: 41.05  | BMI Calculated: 41.05 | BMICl Clated :41.05 | Bill Elated :41.05  | 
- | BSA Calculated: 2.33  | BSA Calculated: 2.33 | BSA Calculated: 2.33  | BSA Calculated 2.33 a  | 
- | Physical Exam  | Physical Exam | Physical Exam | Physical Exam  | 
- | Skin -. Skin shows no rashes or lesions.  | Skin -. Skin shows no rashes or lesions. | Skin -.  Skin shows no rashes or less. | Skin of a Skin shows no rashes or less  | 
- | Neurologic -. DTR normal. Sensation intact. -  | Neurologic -. DTR normal. Sensation intact. | Neurologic -. DTR normal. Sensation intact. | Neurologic of DTR normal Sensation intact  | 
- | ENT-. Hearing Intact to the spoken word.  | ENT -. Hearing intact to the spoken word. | ENT-. Hearing intact to the spoken wor. | ENTER Hearing intact to the spoken work  | 
- | Musculoskeletal -  | Musculoskeletal - | Musculosed  Nal-  Zid | Musculosed a Nala a Did  | 
- | Right Knee:  | Right Knee: | Right Knee:  | Right Knee a  | 
- | Resultleata  | Results/Data | Resultleat  | Resultleat a  | 
- | Diagnosis  | Diagnosis | Diagnosis | Diagnosis  | 
- | Allergies  | Allergies | Allergies | Allergies  | 
- | 1._No Known Aliergies  | 1. No Known Allergies | 1. No Known Alliteries  | 1. No Known Alliteries a  | 
- | Physical Exam  | Physical Exam | Physical Exam | Physical Exam  | 
- | Diagnosis  | Diagnosis | Diagnosis | Diagnosis  | 
- | Plan  | Plan | Plan Cand | Plan Cand  | 
- | DiscussionlSummary  | Discussion/Summary | DiscussionSummary  | DiscussionSummary a  | 
- | Signatures  | Signatures | Signatures | Signatures  | 
- | Electronicaliy signed by : Jamie Birkelo, PA;  | Electronically signed by : Jamie Birkelo, PA; | Electronicaliy signed by:Jamielt Birke,o ;A | Electronically signed by:Jamielt Birke,o A  | 
- | altiltliigélés  | TWIN CITIES ORTHOPEDICS | Plintilling? | Plintilling?  | 
- | Plan  | Plan | Plan Cand | Plan Cand  | 
- | Knee injury  | Knee injury | Knee injury | Knee injury  | 
- | Last Updated ByzKim, Daniel;Ordered;  | Last Updated By:Kim, Daniel;Ordered; | Last Updated By | Last Updated By  | 
- | For:Knee injury; Ordered By:Felvor. David;  | For:Knee injury; Ordered By:Feivor, David; | For:Knee injury; Ordered By: Brvav.r Dav;d | Foreknee injury Ordered By braver david  | 
- | DiscussionlSummary  | Discussion/Summary | DiscussionSummary  | DiscussionSummary a  | 
- | Scribe - Statements  | Scribe - Statements | Scribe - Statements  | Scribe - Statements a  | 
- | Signatures  | Signatures | Signatures | Signatures  | 
- | Electronically signed by : David Felvor, PA~C: | Electronically signed by : David Feivor, PA~C: | Electronically signed by:Davide Felvic,PAC~ | Electronically signed by:Davide Felvic,PAC~  | 
- | oTé'iLNog'aiiiés  | TWIN CITIES ORTHOPEDICS | TWIN CITIES ORTHOPEDICS | TWIN CITIES ORTHOPEDICS  | 
- | MINNESOTA VALLEY SURGERY CENTER  | MINNESOTA VALLEY SURGERY CENTER | MINNESOTA VALLEY SURGERY CENTER | MINNESOTA VALLEY SURGERY CENTER  | 
- | OPERATIVE REPORT '  | OPERATIVE REPORT | OPERATIVE REPORT | OPERATIVE REPORT  | 
- | SURGEON: JASON HOLM, MD.  | SURGEON: JASON HOLM, M.D. | SURGEON: JASON HOLM, M.  | SURGEON JASON HOLM My a  | 
- | Jason Holm, M.D.  | Jason Holm, M.D. | Jason Holm, M.D.  | Jason Holm Made a  | 
- | OPERATIVE REPORT - PAGE 2. of 2 ‘  | OPERATIVE REPORT - PAGE 2 of 2 | OPERATIVE REPORT - PAGE 2. 2 | OPERATIVE REPORT - PAGE 2. 2  | 
- | I Family history of Cancer (080.1)  | • Family history of Cancer (C80.1) | • Family history of Cancer (080.1) | a Family history of Cancer (080.1)  | 
- | a Family history of other condition (284.89)  | • Family history of other condition (Z84.89) | • Family history of other condition (284.89) | a Family history of other condition (284.89)  | 
- | a Family history of other condition (284.89)  | • Family history of other condition (Z84.89) | • Family history of other condition (284.89) | a Family history of other condition (284.89)  | 
- | Social History  | Social History | Social History | Social History  | 
- | 0 Age reporting  | • Age reporting | 0 Age reporting Corting Sporite | 0 Age reporting Carting Sprite  | 
- | . Consumes alcohol (278.9)  | • Consumes alcohol (278.9) | . Consumes alcohol (278.9)  | . Consumes alcohol (278.9) a  | 
- | 0 Exercises regularly _  | • Exercises regularly | 0 Exercises regularmy | 0 Exercises regularly  | 
- | - Identiﬁes as female gender  | • Identifies as female gender | - Identifies as female gender | - Identifies as female gender  | 
- | 0 Lives with family  | • Lives with family | 0 Lives with family | 0 Lives with family  | 
- | 0 Married  | • Married | 0 Married  | 0 Married a  | 
- | 0 Tobacco quit date established (287.891)  | • Tobacco quit date established (287.891) | 0 Tobacco quit date established (287.891) | 0 Tobacco quit date established (287.891)  | 
- | - : ‘10 years  | • : 10 years | - : 10years  | - : 10years a  | 
- | Current Made  | Current Meds | Current Meds | Current Meds  | 
- | 1. Muitl-V'rtamin TABS:  | 1. Multi-Vitamin TABS; | 1. Multe-Vitamin TABS: | 1. Multe-Vitamin TABS  | 
- | Therapy: (Recorded:24dan2018) to Recorded  | Therapy: (Recorded:24Jan2018) to Recorded | Therapy: (Recorded:24 2018)corded Perdection | Therapy (Recorded:24 2018)corded Perfection  | 
- | 2. Probiotic CAPS;  | 2. Probiotic CAPS; | 2. Probiotic CAPS; | 2. Probiotic CAPS  | 
- | Therapy: 21Jan2018 to Recorded  | Therapy: 21Jan2018 to Recorded | Therapy: 21Jan2018 to Recorded | Therapy 21Jan2018 to Recorded  | 
- | Allergies  | Allergies | Allergies | Allergies  | 
- | 1. No Known Allergies  | 1. No Known Allergies | 1. No Known Allergies P | 1. No Known Allergies P  | 
- | Vitals  | Vitals | Vitals  | Vitals a  | 
- | TCO Vitals Signs Panel  | TCO Vitals Signs Panel | TCO Vitals Signs Panel  | TO Vitals Signs Panel a  | 
- | Heart Rate: 64  | Heart Rate: 64 | Heart Rate: 64 | Heart Rate 64  | 
- | Systolic: 134, LUE, Sitting  | Systolic: 134, LUE, Sitting | Systolic: 134, LUE, Sitting | Systolic 134, LUES Sitting  | 
- | Diastolic: 83. LUE, Sitting  | Diastolic: 83, LUE, Sitting | Diastolic: 83. LUE, Sitting | Diastolic 83. LUES Sitting  | 
- | Physical Exam  | Physical Exam | Physical Exam | Physical Exam  | 
- | Skin -. Skin shows no rashes or lesions.  | Skin -. Skin shows no rashes or lesions. | Skin -.  Skin shows no rashes or less. | Skin of a Skin shows no rashes or less  | 
- | Neurologic -. Sensation intact.  | Neurologic -. Sensation intact. | Neurologic -. Sensation intact. | Neurologic of Sensation intact  | 
- | Right knee:  | Right knee: | Right knee:  | Right knee a  | 
- | 2+ effusion  | 2+ effusion | 2+ effusion | 2+ effusion  | 
- | nonTTP along the medial joint line.  | nonTTP along the medial joint line. | nonTTP along the medial joint line. | nonTTP along the medial joint line  | 
- | nonTTP along the lateral joint line  | nonTTP along the lateral joint line | nonTTP along the lateral joint line  | nonTTP along the lateral joint line a  | 
- | no parapatellar tenderness  | no parapatellar tenderness | no parapatellar tenderness  | no prepatellar tenderness a  | 
- | Full extension  | Full extension | Full extension | Full extension  | 
- | Fiexion to 120  | Flexion to 120 | Fixaxion to120  | Fixation to120 a  | 
- | no pain at end fiexion  | no pain at end flexion | no pain at end fiexion  | no pain at end flexion a  | 
- | no extensor lag  | no extensor lag | no extensor lang | no extensor lang  | 
- | Grade 2b Lachman's  | Grade 2b Lachman's | Grade 2b Lachman's | Grade 2b Lachman's  | 
- | -- posterior drawer  | -- posterior drawer | -- posterior drawer | of posterior drawer  | 
- | +anterior drawer  | +anterior drawer | anterior drawer  | anterior drawer a  | 
- | opening to valgus stress at 0 degrees.  | opening to valgus stress at 0 degrees. | opening to valgus stress at 0 degrees. | opening to valgus stress at 0 degrees  | 
- | grade 3 opening to valgus at 30 degrees  | grade 3 opening to valgus at 30 degrees | grade 3 opening to valgus  30grees  | grade 3 opening to valgus a 30grees a  | 
- | stable to varus stress at 0 and 30 degrees.  | stable to varus stress at 0 and 30 degrees. | stable to varus stress at 0 and 30 degrees. | stable to varus stress at 0 and 30 degrees  | 
- | o‘é’iiiéi'gﬁés  | TWIN CITIES ORTHOPEDICS | Right Tillers  | Right Tillers a  | 
- | "shortTermDisability"]  | "shortTermDisability"] | "shortTermDisability"] | "shortTermDisability"]  | 
- | Custom Question 1 —  | Custom Question 1 - | Custom Question 1 —  | Custom Question 1 — a  | 
- | Primary ICD code - Z01.31  | Primary ICD code - Z01.31 | Primary ICD code - Z01. | Primary ICD code - Z01.  | 
- | Secondary ICD code —  | Secondary ICD code - | Secondary ICD code — | Secondary ICD code —  | 
- | Acoldent / Injury — no  | Accident / Injury - no | Accodent / Injury — no | Accident / Injury — no  | 
- | Is your accident/illness work related — yes  | Is your accident/illness work related - yes | Is your accident/illness work  yelate—  yes | Is your accident/illness work a related a yes  | 
- | Claim filed — yes  | Claim filed - yes | Claim filed — yes  | Claim filed — yes a  | 
- | Employee Health Medical Category [FML] — blood  | Employee Health Medical Category [FML] - blood | Employee Health Medical Category [FML] — blood | Employee Health Medical Category [FML] — blood  | 
- | Surgery — no  | Surgery - no | Surgery — no | Surgery — no  | 
- | Show work schedule - []  | Show work schedule - [] | Show work schedule - [] | Show work schedule - of  | 
- | Average hours per week — 40  | Average hours per week - 40 | Average hours per week — 40  | Average hours per week — 40 a  | 
- | First treatment date  | First treatment date | First treatment date  | First treatment date a  | 
- | Date doctor indicated you were unable to work  | Date doctor indicated you were unable to work | Date doctr Indicated you were to work tork  | Date doctor Indicated you were to work took a  | 
- | When is your next visit?  | When is your next visit? | When is your next visit?  | When is your next visit a  | 
- | Treated in emergency room — no  | Treated in emergency room - no | Treated in emergency room — no | Treated in emergency room — no  | 
- | Admitted to hospital — no  | Admitted to hospital - no | Admitted to hospital — no | Admitted to hospital — no  | 
- | Add doctors details — yes  | Add doctors details - yes | Add doctors details — yes | Add doctors details — yes  | 
- | First name — Debra  | First name - Debra | First name — Debra | First name — Debra  | 
- | Last name — Stokley  | Last name - Stokley | Last name — Stokley  | Last name — Stokely a  | 
- | Organization/Facility —  | Organization/Facility - | Organization/Facility —  | Organization/Facility — a  | 
- | Address line 1 -  | Address line 1 - | Address line 1 -  | Address line 1 - a  | 
- | Address line 2 —  | Address line 2 - | Address line 2 —  | Address line 2 — a  | 
- | City -  | City - | City -    | City - a a a  | 
- | State - NC  | State - NC | State - NC | State - NC  | 
- | Speciality — PCP  | Speciality - PCP | Speciality — PC | Speciality — PC  | 
- | Add another doctor — no  | Add another doctor - no | Add another doctor — no | Add another doctor — no  | 
- | Physician authorization - mail  | Physician authorization - mail | Physician authorization - mail | Physician authorization - mail  | 
- | Home Email —  | Home Email - | Home Email — | Home Email —  | 
- | Register for Claim Self Service — no  | Register for Claim Self Service - no | Register for Claim Self Service — no | Register for Claim Self Service — no  | 
- | Health insurance through employer - yes  | Health insurance through employer - yes | Health insurance thart the employe-  yes | Health insurance that the employed a yes  | 
- | Health insurance provider — bcbs  | Health insurance provider - bcbs | Health insurance provider — bcbs | Health insurance provider — BCBS  | 
- | Fax paperwork - yes  | Fax paperwork - yes | Fax paperwork - yes No | Fax paperwork - yes No  | 
- | Attention of - Tellie  | Attention of - Tellie | Attention of - Tellie  | Attention of - Tallie a  | 
- | Fax number  | Fax number | Fax number  | Fax number a  | 
- | Refax paperwork — yes  | Refax paperwork - yes | Refax paperwork — yes | Relax paperwork — yes  | 
- | Notes #  | Notes # | Notes # | Notes #  | 
- | Event dates: unknown rtw  | Event dates: unknown rtw | Event dates: unknown rt?  | Event dates unknown rtw a  | 
- | Final Details: EE does not have email.  | Final Details: EE does not have email. | Final Details: EE dode ave tove email. | Final Details EE Dode ave Tove email  | 
- | Submission Method: — phone  | Submission Method: - phone | Submission Method: — phone  | Submission Method — phone a  | 
- | Caller Person Covered — yes  | Caller Person Covered - yes | Caller Person Covered — yes | Caller Person Covered — yes  | 
- | Claimant Details Panel  | Claimant Details Panel | Claimant Details Panell  | Claimant Details Panel a  | 
- | Title: ms  | Title: ms | Title: ms | Title ms  | 
- | First Name: Irish  | First Name: Irish | First Name: Irish | First Name Irish  | 
- | Middle Name: F  | Middle Name: F | Middle Name: F | Middle Name F  | 
- | Last Name: Bazemore  | Last Name: Bazemore | Last Name: Bazemore  | Last Name Bazemore a  | 
- | UNUM” | unum | unum | unum  | 
- | December 27, 2016 | December 27, 2016 | December 27, 2016 | December 27, 2016  | 
- | Confirmation of Coverage | Confirmation of Coverage | Confirmation of Coverage | Confirmation of Coverage  | 
- | Employer: ‘ | Employer: | Employer: | Employers  | 
- | Group Policy #:  | Group Policy #: | Group Policy #: | Group Policy of  | 
- | Customer Policy #:  | Customer Policy #: | Customer Policy #: | Customer Policy of  | 
- | EE Name:  | EE Name: | EE Name:  | EE Name a  | 
- | In r v r T We Coverage  | Insured Coverage Type Coverage Effective Date | Insured Coverage Type Coverage Effective Date | Insured Coverage Type Coverage Effective Date  | 
- | Employee On & Off-Job Acc January 1, 2017  | Employee On & Off-Job Acc January 1, 2017 | Employee On & Off-Job Acc January 1, 2017 | Employee On a Off-Job Acc January 1, 2017  | 
- | Spouse On 8!. Off-Job Acc January 1, 2017  | Spouse On & Off-Job Acc January 1, 2017 | Spouse On 8 .ffJ-b Acc January 1,201 | Spouse On 8 .ffJ-b Acc January 1,201  | 
- | Employee Wellness Benefit January 1, 2017  | Employee Wellness Benefit January 1, 2017 | Employee Wellness Benefit January 1, 2017 | Employee Wellness Benefit January 1, 2017  | 
- | Spouse Wellness Benefit January 1, 2017  | Spouse Wellness Benefit January 1, 2017 | Spouse Wellness Benefit January 1, 2017 | Spouse Wellness Benefit January 1, 2017  | 
- | Total Monthly Premium: $33.88  | Total Monthly Premium: $33.88 | Total Monthly Premium: $33.88 | Total Monthly Premium $33.88  | 
- | Total Employee Weekly Payroll Deduction: $7.82  | Total Employee Weekly Payroll Deduction: $7.82 | Total Employee Weekly Payroll  ? | Total Employee Weekly Payroll a a  | 
- | Claim Document  | Claim Document | Claim Document  | Claim Document a  | 
- | Checked/Unchecked Indicator: No  | Checked/Unchecked Indicator: No | Checked/Unchecked Indicator: No | Checked/Unchecked Indicator No  | 
- | Type: Note To File  | Type: Note To File | Type: Note To File  | Type Note To File a  | 
- | Subject: Notes  | Subject: Notes | Subject: Notes | Subject Notes  | 
- | Priority: No  | Priority: No | Priority: No | Priority No  | 
- | Status: Completed  | Status: Completed | Status: Completed  | Status Completed a  | 
- | Notes: 03/22/2018 13:03  | Notes: 03/22/2018 13:03 | Notes: 03/22/2018 13:03 | Notes 03/22/2018 13:03  | 
- | Selected Coverages: — LMS STD  | Selected Coverages: - LMS STD | Selected Coverages: — LMS STD | Selected Coverages — LES STD  | 
- | Work schedule updated : Yes  | Work schedule updated : Yes | Work schedule updated : Yes | Work schedule updated : Yes  | 
- | Hours worked updated : Yes  | Hours worked updated : Yes | Hours worked updated : Yes | Hours worked updated : Yes  | 
- | Event — employeeHealth  | Event - employeeHealth | Event — employeeHealth | Event — employeeHealth  | 
- | Leave Reason —  | Leave Reason - | Leave Reason — N | Leave Reason — N  | 
- | Leave type — full  | Leave type - full | Leave type — full mmld | Leave type — full mild  | 
- | Last day worked  | Last day worked | Last day worked  | Last day worked a  | 
- | Resident State on LDW — NC  | Resident State on LDW - NC | Resident State on LDW — NC | Resident State on LAW — NC  | 
- | Full shift last day - no  | Full shift last day - no | Full shift last day - no | Full shift last day - no  | 
- | Absence start time   | Absence start time | Absence start time  | Absence start time a  | 
- | Absence end time   | Absence end time | Absence end time  | Absence end time a  | 
- | Any overtime? - no  | Any overtime? - no | Any Coverame? - no | Any Coverage - no  | 
- | Lunch break —  | Lunch break - | Lunch break — | Lunch break —  | 
- | Total time absent —  | Total time absent - | Total time absent — | Total time absent —  | 
- | Absence reason — episode  | Absence reason - episode | Absence reason — episode | Absence reason — episode  | 
- | Leave start date  | Leave start date | Leave start date Zip | Leave start date Zip  | 
- | Event Dates Comments —  | Event Dates Comments - | Event Dates Comments — | Event Dates Comments —  | 
- | Returned to work — no  | Returned to work - no | Returned to work — no | Returned to work — no  | 
- | Estimated return to work date —  | Estimated return to work date - | Estimated return to work date —  | Estimated return to work date — a  | 
- | Time missed 7 no  | Time missed - no | Time missed 7 no  | Time missed 7 no a  | 
- | Break in employment — no  | Break in employment - no | Break in employment — no | Break in employment — no  | 
- | Served military last 12 mths — no  | Served military last 12 mths - no | Served alizary last 12mthe —no | Served lizary last 12mthe no  | 
- | Hired as temp - no  | Hired as temp - no | Hired as temp - no  | Hired as temp - no a  | 
- | Work and live same state — yes  | Work and live same state - yes | Work and live same state — yes | Work and live same state — yes  | 
- | Work from home — no  | Work from home - no | Work from home — no | Work from home — no  | 
- | Does schedule vary? - yes  | Does schedule vary? - yes | Does schedule vary? - yes | Does schedule vary - yes  | 
- | How does it vary — hours and days vary  | How does it vary - hours and days vary | How does it vary — hours and days vary  | How does it vary — hours and days vary a  | 
- | Verified hrs worked per week avg — 100.00  | Verified hrs worked per week avg - 100.00 | Verified hrs worked per week avg — 100. | Verified hrs worked per week avg — 100.  | 
- | Employment Details Comments -  | Employment Details Comments - | Employment Details Comments - | Employment Details Comments -  | 
- | Employer aware of absence? — yes  | Employer aware of absence? - yes | Employer aware of absence? — yes | Employer aware of absence — yes  | 
- | Temp Agency and timeframe — n/a  | Temp Agency and timeframe - n/a | Temp Agency and timeframe — n/f | Temp Agency and timeframe — NTF  | 
- | Location Temp Time completed at - n/a  | Location Temp Time completed at - n/a | Location Temp Time come complete-  | Location Temp Time come complete a  | 
- | Second employer 7 no  | Second employer - no | Second employer 7 no | Second employer 7 no  | 
- | Employee ID:  | Employee ID: | Employee ID:  | Employee ID a  | 
- | Date of Birth _  | Date of Birth | Date of Birth | Date of Birth  | 
- | SSN:  | SSN: | SSN: | SSN  | 
- | Gender: FE  | Gender: FE | Gender: FE | Gender FE  | 
- | Preferred Language: English  | Preferred Language: English | Preferred Language: English  | Preferred Language English a  | 
- | Best time to call: morning  | Best time to call: morning | Best time to call: morning Corning Sporing | Best time to call morning Corning Sporing  | 
- | Job Title: General Production  | Job Title: General Production | Job Title: General Production | Job Title General Production  | 
- | Work Phone:  | Work Phone: | Work Phone:  | Work Phone a  | 
- | Primary Phon  | Primary Phone: | Primary Phone | Primary Phone  | 
- | Other Phone:  | Other Phone: | Other Phone:  | Other Phone a  | 
- | Claimant Addresses  | Claimant Addresses | Claimant Addresses | Claimant Addresses  | 
- | Primary Address:  | Primary Address: | Primary Address:  | Primary Address a  | 
- | Address Line 1: E  | Address Line 1: | Address Line 1: E | Address Line 1: E  | 
- | Address Line 2:  | Address Line 2: | Address Line 2:  | Address Line 2: a  | 
- | City: Lewiston  | City: Lewiston | City: Lewiston | City Lewiston  | 
- | State:  | State: | State:  | State a  | 
- | Country: US  | Country: US | Country: US | Country US  | 
- | Primary address changed: Yes  | Primary address changed: Yes | Primary address changed: Yes | Primary address changed Yes  | 
- | Physical Address:  | Physical Address: | Physical Address:  | Physical Address a  | 
- | Address Line 1:  | Address Line 1: | Address Line 1:  | Address Line 1: a  | 
- | Address Line 2:  | Address Line 2: | Address Line 2:  | Address Line 2: a  | 
- | City:  | City: | City:  | City a  | 
- | State:  | State: | State:  | State a  | 
- | Country:  | Country: | Country:  | Country a  | 
- | ZIP:  | ZIP: | ZIP:  | ZIP a  | 
- | Temporary Address:  | Temporary Address: | Tempory Address : | Temporo Address :  | 
- | Address Line 1:  | Address Line 1: | Address Line 1:  | Address Line 1: a  | 
- | Address Line 2:  | Address Line 2: | Address Line 2:  | Address Line 2: a  | 
- | City:  | City: | City:  | City a  | 
- | State:  | State: | State:  | State a  | 
- | Country:  | Country: | Country:  | Country a  | 
- | ZIP:  | ZIP: | ZIP:  | ZIP a  | 
- | Effective From Date:  | Effective From Date: | Effective From Date:  | Effective From Date a  | 
- | Effective To Date:   | Effective To Date: | Effective To Date:  | Effective To Date a  | 
- | Created By: Hughes, Brittany  | Created By: Hughes, Brittany | Created By: Hughes, Brittany | Created By Hughes Brittany  | 
- | Created Date:  | Created Date: | Created Date:  | Created Date a  | 
- | Create Site: Chattanooga  | Create Site: Chattanooga | Create Site: Chattanooga | Create Site Chattanooga  | 
- | Completed By: Hughes, Brittany  | Completed By: Hughes, Brittany | Completed By: Hughes, Brittany | Completed By Hughes Brittany  | 
- | Completed Date:   | Completed Date: | Completed Date:  | Completed Date a  | 
- | Complete Site: Chattanooga  | Complete Site: Chattanooga | Complete Site: Chattanooga | Complete Site Chattanooga  | 
- | unum° | unum | unum | unum  | 
- | . i . ACCIDENT CLAIM FORM | ACCIDENT CLAIM FORM | .CCI.ENT CLAIM FORM | ACCIDENT CLAIM FORM  | 
- | The Benefits Center | The Benefits Center | The Benefits Center | The Benefits Center  | 
- | INSUREDIPATIENT STATEMENT (PLEASE PRINT) | INSURED/PATIENT STATEMENT (PLEASE PRINT) | INSURED PATIENT STATEMENT (PLEASE PRINT) | INSURED PATIENT STATEMENT PLEASE PRINT  | 
- | A. Woo of Claim  | A. Type of Claim | A. Type of Claim  | A Type of Claim a  | 
- | Please check the type of claim you are filing: | Please check the type of claim you are filing: | Please check the type of claim you are filing: | Please check the type of claim you are filing  | 
- | 8. information About the Inauroleollcyholdor | B. Information About the Insured/Policyholder | 8. Information About the InsuredPolicyholder | 8. Information About the InsuredPolicyholder  | 
- | Last Name Suffix First Name MI | Last Name Suffix First Name  MI | Last Name Suffix First Name MI | Last Name Suffix First Name MI  | 
- | Language l-Ireloronce Ll hngllsh El Spanish | Language Preference English Spanish | Language -Pleferedice Phovider Ellithainish | Language -Pleferedice Provider Ellithainish  | 
- | Last Name Suffix Flrst Name Ml | Last Name Suffix First Name MI | Last Name Suffix First Name MI | Last Name Suffix First Name MI  | 
- | Date at Birth tmrnlddr’yy) | Date of Birth (mm/dd/yy) | Date at Birth mmddyy | Date at Birth muddy  | 
- | Social Security Member | Social Security Number | Social Security Number | Social Security Number  | 
- | El Spouse El Domestic Partner El Dependent Child | Spouse/Domestic Partner Dependent Child | Spouse Destrictic Patient Childent Child | Spouse Destrictic Patient Children Child  | 
- | D. Information About Your Condition | D. Information About Your Condition | D. Information About Your Condition | Do Information About Your Condition  | 
- | Dela otAccidont I! g / 7 | Date of Accident | Date of Accident  /7 | Date of Accident a /7  | 
- | Time of Accident | Time of Accident a.m. p.m | Time of Accident | Time of Accident  | 
- | L-102 17) 4 | CL-1023 (02/17) 4 | C-10217)4  | C-10217)4 a  | 
- | unum“ | unum | unum | unum  | 
- | . Q . ACCIDENT CLAIM FORM | ACCIDENT CLAIM FORM | .CCI.ENT CLAIM FORM | ACCIDENT CLAIM FORM  | 
- | The Beneﬁts Center | The Benefits Center | The Benefits Center | The Benefits Center  | 
- | ATTENDING PHYSICIAN STATEMENT | ATTENDING PHYSICIAN STATEMENT | ATTENDING PHYSICIAN STATEMENT | ATTENDING PHYSICIAN STATEMENT  | 
- | Date of Birth (mmfddlw) | Date of Birth (mm/dd/yy) | Date of Birth (mmddy) | Date of Birth (mmddy)  | 
- | ACCIDENT DETAILS | ACCIDENT DETAILS | ACCIDENT DETAILS | ACCIDENT DETAILS  | 
- | Ifyee‘ date of accident (mmlddiyy) Ell—I | If yes, date of accident (mm/dd/yy) | Iffyes date of accident (mmddyy) | Iffyes date of accident (mmddyy)  | 
- | Detee orService (including | Dates  of Service (including Confinement) | Detee WorkServic( including | Deter WorkServic( including  | 
- | Diagnosis Code (ICD) | Diagnosis Code (ICD) | Diagnosis Code (ICD) | Diagnosis Code (ICD)  | 
- | UIBQnOSIS Description | Diagnosis Description | UIB LOS St Description | RIB LOS St Description  | 
- | Prooodure Code | Procedure Code | Procedure Code | Procedure Code  | 
- | Procedure Description | Procedure Description | Procedure Description | Procedure Description  | 
- | It yes, please provide the following: | If yes, please provide the following: | If yes, please provide the following: | If yes please provide the following  | 
- | DIEQHDSIEI “m— | Diagnosis: | Diagnosis  | Diagnosis a  | 
- | Treatment Dates: . ‘ l I) | Treatment Dates: | Treatment Dates: | Treatment Dates  | 
- | Did you advise the patient to stop working? | Did you advise the patient to stop working? | Did you advise the patient to stop working? | Did you advise the patient to stop working  | 
- | lfyee. as of what date”? (mrna'ddiyy) | If yes, as of what date”? (mm/dd/yy) | fffye. as of what date”? (mmddyy | fffye. as of what date (mmddyy  | 
- | ExPeoled Dei‘ ery _ate (mmlddiyy) | Expected Delivery Date (mm/dd/yy) | ExPloled Dedite fry Cat(lly | explored Edite fry fatally  | 
- | Actual Delivgry Date ( | Actual Delivery Date (mm/dd/yy) | Actual Delivery Date (mmddyy | Actual Delivery Date (mmddyy  | 
- | Physician In rmatia | Physician Information | Physician Information | Physician Information  | 
- | C. Signatura oft-mending Physician | C. Signature of Attending Physician | C. Signature oft-rnding Physician | C Signature oft-rnding Physician  | 
- | '9 .1 , r“ i J i —Q‘ ._ | Medical Specialty Degree | D9t.1,  Job S | D9t.1, a Job S  | 
- | Address | Address | Address | Address  | 
- | City ﬂyettavlli9_ GA 30214 State Zip ' | City Sate Zip | City State Zipl9fie S30214Zip | City State Zipl9fie S30214Zip  | 
- | Physician Signature I Date | Physician Signature Date | Physician Signature Date | Physician Signature Date  | 
- | ORTHOATLANTA LLC FAY ETTEVI LLE  | ORTHOATLANTA LLC FAYETTEVILLE | ORTHOATLANTA LLC FAYETTEVILLE LE LE LE VIALE | ORTHOATLANTA LLC FAYETTEVILLE LE LE LE VILE  | 
- | Merchant ID:  | Merchant ID: | Merchant ID:  | Merchant ID a  | 
- | Transaction type:  | Transaction type: | Transaction type:  | Transaction type a  | 
- | Approval code:  | Approval code: | Approval code:  | Approval codes a  | 
- | Date/time:  | Date/time: | Date/time:  | Date/time: a  | 
- | Record number:  | Record number: | Record number:  | Record number a  | 
- | Type:  | Type: | Type:  | Type a  | 
- | Trace number:  | Trace number: | Trace number:  | Trace number a  | 
- | A Account number:  | Account number: | A count number : | A count number :  | 
- | Transaction reference number:  | Transaction reference number: | Transaction reference number:  | Transaction reference number a  | 
- | ‘ Cardholder name:  | Cardholder name: | Cardholder name : | Cardholder name :  | 
- | Transaction identiﬁer:  | Transaction identifier: | Transaction identifie:  | Transaction identified a  | 
- | Patient identiﬁer:  | Patient identifier: | Patient identifie:  | Patient identified a  | 
- | Subtotal:  | Subtotal: | Subtotal:  | Subtotals a  | 
- | Sales Tax:  | Sales Tax: | Sales Tax:  | Sales Tax a  | 
- | Total:  | Total: | Total: | Total  | 
- | [customer copy)  | (customer copy) | [customer copy)  | customer copy a  | 
- | ORTHOA?LANTA, L.L.C.  | ORTHOATLANTA, L.L.C. | ORTHOATLANTA, L.L.C. | ORTHOATLANTA, L.L.C.  | 
- | please send payments to:  | please send payments to: | please send payments to:  | please send payments to a  | 
- | ORTHOATLANTA, LLC  | ORTHOATLANTA, L.L.C. | ORTHOATLANTA, LiC  | ORTHOATLANTA, lie a  | 
- | billin hone:  | billing phone: | billing pho:e  | billing phone a  | 
- | department of service:  | department of service: | department of service:  | department of service a  | 
- | FAYETI'EVILLE . printed | FAYETTEVILLE printed | FAYETTEVILLE I.s Oprinted | FAYETTEVILLE Is Printed  | 
- | dept phone:  | dept phone: | dept phone:  | dept phone a  | 
- | GUARAN100marshal-000m0055300? | GUARANTOR NAME AND ADDRESS | GUARAN100Amars C-000 0055300 | GUARAN100Amars C-000 0055300  | 
- | ﬁATE 12/07/2017  | DATE 03/01/2018 | DATE 12/07/2017 | DATE 12/07/2017  | 
- | enonsu0W00001500: INSURANCE 3  | CURRENT INSURANCE | Clensu0e00001500:RANCE RANCE3 | Clensu0e00001500:RANCE RANCE3  | 
- | AUTHl:  | AUTH# | AUTH#:of | AUTH#:of  | 
- | Piedmont Healihcn r1.-  | Piedmont Healthcare | Piedmont Healthcare1. | Piedmont Healthcare1.  | 
- | Piscamway, NJ   | Piscataway, NJ | Piscamary, No | Piscamary, No  | 
- | Electronic. Survicr. Reqester  | Electronic Service Requested | Electronic. Survice.Requester | Electronic Survice.Requester  | 
- | MyHealthBéO" 5-080“  | MyHealth360° PHC & Me | MyHealth" 5-08 | MyHealth" 5-08  | 
- | PIEDMONT HEALTHCARE  | PIEDMONT HEALTHCARE | PIEDMONT HEALTHCARE  | PIEDMONT HEALTHCARE a  | 
- | Group No:  | Group No: | Group No: | Group Not  | 
- | Date:  | Date: | Date:  | Date a  | 
- | lREFnarks Description  | Services Description | Remarks Description  | Remarks Description a  | 
- | lREFnarks Description  | Remarks Description | Remarks Description  | Remarks Description a  | 
- | 1 Processed at [he Tier 1 Contracted Rate  | 1 Processed at the Tier 1 Contracted Rate | 1 Processed at [he Tier 1 Contrate Rate  | 1 Processed at the Tier 1 Contrate Rate a  | 
- | TERWamny nmctmle __""'"‘"‘”"“ "  | TIER 1 Family Deductible8 | TIER Faminy Fimble ""d" | TIER Family Fimble ""d"  | 
- | TIER 1 Family MOOF’  | TIER 1 Family MOOP Max | TIER 1 Family MOOP LE | TIER 1 Family MOOP LE  | 
- | TIER 1 Individual Deductible  | TIER 1 Individual Deductible | TIER 1 Individual Deductible | TIER 1 Individual Deductible  | 
- | TIER 1 10011110001 MDOP Max  | TIER 1 Individual MOOP Max | TIER 1 10011110001 Max Max  | TIER 1 10011110001 Max Max a  | 
- | TIER 2 Family   | TIER 2 Family Deductible | TIER 2 Family @ | TIER 2 Family a  | 
- | TIER 2 Family MOO? Max  | TIER 2 Family MOOP Max | TIER 2 Family MOOP Max | TIER 2 Family MOOP Max  | 
- | TIER 2 100111.109I   | TIER 2 Individual Deductible | TIER 2 100111.109 | TIER 2 100111.109  | 
- | TIER 2 lndlvidual MOOP Max  | TIER 2 Individual MOOP Max | TIER 2 Individual MOOP Max | TIER 2 Individual MOOP Max  | 
- | TIER 3 Fan1Ily  | TIER 3 Family Deductible | TIER 3 Fam1ly Date | TIER 3 Fam1ly Date  | 
- | TIER 3 Family MOOP Max | TIER 3 Family MOOP Max | TIER 3 Family MOOP Max | TIER 3 Family MOOP Max  | 
- | TIER 9 1110111101101-  | TIER 3 Individual Deductible | TIER 9 111011110110 | TIER 9 111011110110  | 
- | TIER 3 11101111111101 MOOP Max | TIER 3 Individual MOOP Max | TIER 3 11101111111101P Max | TIER 3 11101111111101P Max  | 
- | URTHDATLANTA LLC FAYETI'EVI LLE  | ORTHOATLANTA LLC FAYETTEVILLE | URTHOATLANTA LLC FAYETTEVILLE LE LE LEAT | URTHOATLANTA LLC FAYETTEVILLE LE LE LEAT  | 
- | Merchant I0:  | Merchant ID: | Merchant I0:  | Merchant I0: a  | 
- | Transaction typo:  | Transaction type: | Transaction type:  | Transaction type a  | 
- | Approval code:  | Approval code: | Approval code:  | Approval codes a  | 
- | Dateltime:  | Date/time: | Datetime:  | Datetime: a  | 
- | Record number:  | Record number: | Record number:  | Record number a  | 
- | Type:  | Type: | Type:  | Type a  | 
- | Trace number:  | Trace number: | Trace number:  | Trace number a  | 
- | Account number:  | Account number: | Account number:  | Account number a  | 
- | Transaction reference number:  | Transaction reference number: | Transaction reference number:  | Transaction reference number a  | 
- | Cardholder name:  | Cardholder name: | Cardholder name:  | Cardholder name a  | 
- | Transaction identiﬁer:  | Transaction identifier: | Transaction identifie:  | Transaction identified a  | 
- | Patient identiﬁer:  | Patient identifier: | Patient identifie:  | Patient identified a  | 
- | Subtotal:  | Subtotal: | Subtotal:  | Subtotals a  | 
- | Sales Tax:  | Sales Tax: | Sales Tax:  | Sales Tax a  | 
- | Toto I:  | Total: | Total : | Total :  | 
- | [customer copy)  | (customer copy) | [customer copy)  | customer copy a  | 
- | ORTHOATLANTA, L.L.C.  | ORTHOATLANTA, L.L.C. | ORTHOATLANTA, L.L.C. | ORTHOATLANTA, L.L.C.  | 
- | piease send pa ments to:  | please send payments to: | please send payments to:  | please send payments to a  | 
- | ORTHDATLA A. Lu:  | ORTHOATLANTA, L.L.C. | ORTHOATLANT. L:LC | ORTHOATLANT. LLC  | 
- | billm -hone:  | billing phone: | bille - Pho:e  | Bille - phone a  | 
- | do artment of service:  | department of service: | deartment of service: | department of service  | 
- | FA ETI'EVILLE  | FAYETTEVILLE printed | FALETT VILLE Date | FALETTI VILLE Date  | 
- | dept phone:  | deparment phone: | dept phone:  | dept phone a  | 
- | GUARANT'UH NAME AND. ADDRESS  | GUARANTOR NAME AND ADDRESS | GUARANTOR NAME AND .DDRESS  | GUARANTOR NAME AND ADDRESS a  | 
- | PATIENT iii. PATIENT NAME  | PATIENT # PATIENT NAME | PATIENT Vis.t PATIENT NAME | PATIENT visit PATIENT NAME  | 
- | ' ﬁgEMY 0. STATTON. | PROVIDER JEREMY O. STATTION, MD | STRTEMY 0.ATTON | STRATEGY 0.ATTON  | 
- | ﬁATE  | DATE | DATE  | DATE a  | 
- | DEPARTMENT- FAYETTEVILLE | DEPARTMENT FAYETTEVILLE | DEPARTMENT-FAYETTEVILLE | DEPARTMENT-FAYETTEVILLE  | 
- | D.0EI'.'L;._...2......  | DOB | D.0T .L;....2...... | D.0T .L;....2......  | 
- | TE'LEPHO'NE' ." ' .  | TELEPHONE | TILALLATIONTL. | TILALLATIONTL.  | 
- | CURRENTLi'NsuRANﬁEr .i . ".  | CURRENT INSURANCE | CURRENT INSURANCE | CURRENT INSURANCE  | 
- | CERTIF'I'CATEﬂ  | CERTIFICATE# | CERTIFICATE# | CERTIFICATES  | 
- | Al 1TH}:  | AUTH# | ATT1# }: | ATT1# of  | 
- | PAYMENTS ON 12/07/2017  | PAYMENTS ON 12/07/2017 | PAYMENTS ON 12/07/2017 | PAYMENTS ON 12/07/2017  | 
- | Post Date 12/07/201?  | Post Date 12/07/2017 | Post Date 12/07/2 | Post Date 12/07/2  | 
- | 'Da'te o'f '.:Servi'oe  | Date of Service | Date of Birt.:Dedic | Date of Birt.:Dedic  | 
- | .0ia 'nosie' Co és;  | Diagnosis Codes | .0agnosis Codes  | .0agnosis Codes a  | 
- | Procedure 1CIodeg.‘  | Procedure Code | Procedure 1ode I.D | Procedure 1ode Id  | 
- | ongi'h'al Insurance P'ian' ‘SELF PAY“ [o]  | Original Insurance Plan *SELF PAY* [0] | Surgional Insurance Plance PAY*  PAY*[] | Surgical Insurance Place PAY a PAY*[]  | 
- | Superwslng :Eroyider  | Supervising Provider | Superving P:ovider  | Supering Provider a  | 
- | Ease? For  Copay | Reason For Payment Copay | Raso For Foopay | Rash For Floppy  | 
- | Method o'f Payment | Method of Payment | Method of Payment | Method of Payment  | 
- | Ar'nount | Amount | Arount | Around  | 
- | Total Payment Amount  | Total Payment Amount | Total Payment Amount  | Total Payment Amount a  | 
- | unum"  | unum | unum" | unum  | 
- | . O I ACCIDENT CLAIM FORM  | ACCIDENT CLAIM FORM | .CCIDENT CLAIM FORM  | ACCIDENT CLAIM FORM a  | 
- | The Beneﬁts Center  | The Benefits Center | The Benefits Center | The Benefits Center  | 
- | My Spouse: f"—  | My Spouse: | My Spouse: "—o | My Spouse to  | 
- | (Name) ._ (Telephone Number)  | (Name)  (Telephone Number) | (Name) .Te(ephone Number  | Name Telephone Number a  | 
- | Other Family Member:  | Other Family Member: | Other Family Member:  | Other Family Members a  | 
- | (Name/ Relationship) (Telephone Number)  | (Name/ Relationship) (Telephone Number) | (Name/ Relationship) (Telephone Number) | Name Relationship Telephone Number  | 
- | Other person:  | Other person: | Other person:  | Other person a  | 
- | (Name / Relationship) (Telephone Number)  | (Name / Relationship) (Telephone Number) | (Name / Relationship) (Telephone Number) | Name / Relationship Telephone Number  | 
- | as No  | Yes No | Ys No  | Ys No a  | 
- | Insured/Patient Sionature ' nah:  | Insured/Patient Signature Date | Insured/Patient Signature Date | Insured/Patient Signature Date  | 
- | Printed Name Social Security Number  | Printed Name Social Security Number | Printed Name Social Security Number  | Printed Name Social Security Number a  | 
- | unum'i | Unum | Unum | Unum  | 
- | Confirmation of Coverage | Confirmation of Coverage | Confirmation of Coverage | Confirmation of Coverage  | 
- | Customer #: | Customer #: | Customer #: | Customer of  | 
- | EE Name: | EE Name: | EE Name: | EE Name  | 
- | Covera ge In r WV r T W  | Insured Coverage Type Coverage Effective Date | Insured Coverage Zive Ty W  | Insured Coverage Give Ty W a  | 
- | Employee Off-Job Acc | Employee Off-Job Acc April | Employee Off-Job Acc | Employee Off-Job Acc  | 
- | mployee Sickness Hospital Confinement  | Employee Sickness Hospital Confinement | Employee Sickness Hospital Confinement  | Employee Sickness Hospital Confinement a  | 
- | Total Monthly Premium:  | Total Monthly Premium: | Total Monthly Premium:  | Total Monthly Premium a  | 
- | Total Employee Bi—Weekly Payroll Deduction:  | Total Employee Bi-Weekly Payroll Deduction: | Total Employee Bi—Weekly Payroll Deduction: | Total Employee Biweekly Payroll Deduction  | 
- | MRI KNEE LEFT W0 CONTRAST — Details  | MRI KNEE LEFT WO CONTRAST - Details | MRI KNEE LEFT W0 CONTRAST — Details | MRI KNEE LEFT W0 CONTRAST — Details  | 
- | Studly Result  | Study Result | Study Result | Study Result  | 
- | impression  | Impression | Impression | Impression  | 
- | 4. 3.1 cm x 0.9 cm Baker's cyst.  | 4. 3.1 cm x 0.9 cm Baker's cyst. | 4. 3.1 cm x 0.9 cm Baker's cyst. | 4. 3.1 cm x 0.9 cm bakers cyst  | 
- | Approved By: CROFT STONE M D 2/15/2018 9:41 AM  | Approved By: CROFT STONE MD 2/15/2018 9:41 AM | Approved By: CROFT STONE STON2/15/20189:41 | Approved By CROFT STONE STON2/15/20189:41  | 
- | Narrative  | Narrative | Narrative  | Narrative a  | 
- | M Fil left knee without contrast  | MRI left knee without contrast | MRI left knee with contrast contrast | MRI left knee with contrast contrast  | 
- | INDICATION: Posterior and lateral pain  | INDICATION: Posterior and lateral pain | INDICATION: Posterior and lateral pain | INDICATION Posterior and lateral pain  | 
- | COMPARISON: None  | COMPARISON: None | COMPARISON: None | COMPARISON None  | 
- | FINDINGS:  | FINDINGS: | FINDINGS: | FINDINGS  | 
- | 3.1 cm x 0.9 cm Baker's Cyst.  | 3.1 cm x 0.9 cm Baker's cyst. | 3.1 cm x 0.9 cm Baker's cyst. | 3.1 cm x 0.9 cm bakers cyst  | 
- | Component Results  | Component Results | Component Results | Component Results  | 
- | General Information  | General Information | General Information | General Information  | 
- | Collected:  | Collected: | Collected:  | Collected a  | 
- | 002/15/2018 9:44 AM  | 2/15/2018 9:44 AM | 002/15/20189:44  | 002/15/20189:44 a  | 
- | Resulted:  | Resulted: | Resulted:  | Resulted a  | 
- | 02/192013 9:41 AM  | 02/15/2018 9:41 AM | 02/1920139:41AMM  | 02/1920139:41AMM a  | 
- | Ordered By:  | Ordered By: | Ordered By: | Ordered By  | 
- | Jeremy C Statton, MD  | Jeremy O Statton, MD | Jeremy C Statton, MD  | Jeremy C Station MD a  | 
- | Result Status:  | Result Status: | Result Status:  | Result Status a  | 
- | Final result  | Final result | Final result | Final result  | 
- | Piedmont Healllleare  | Piedmont Healthcare | Piedmont Health are | Piedmont Health are  | 
- | PO Box I000  | PO Box 1000 | OP Box 000 | OP Box 000  | 
- | Piscataway, NJ 03855-1000  | Piscataway, NJ 08855-1000 | Piscataway, NJ 03855-100 | Piscataway NJ 03855-100  | 
- | Electronic Service Requested 1—377-601-3835  | Electronic Service Requested | Electronic Service Requested 1—377-601-383 | Electronic Service Requested 1—377-601-383  | 
- | MyHeaIthBéO" Iggy";  | MyHealth360° PHC % Me | MyHeal Bhov"der " | heal Bhov"der "  | 
- | p—IEDMONT HEALTHéARé“  | PIEDMONT HEALTHCARE | S—IEDUNT HEALTHCARTHARE | S—IEDUNT HEALTHCARTHARE  | 
- | Group No:  | Group No: | Group No: | Group Not  | 
- | Date:  | Date: | Date:  | Date a  | 
- | Explanation of Benefits  | Explanation of Benefits | Explanation of Benefits  | Explanation of Benefits a  | 
- | Page I 012 (continued on back)  | Page 1 of 2 (continued on back) | Page In012R(nting on back | Page In012R(nting on back  | 
- | Provld-or: GEORGE STONE M0  | Provider: GEORGE STONE MD | Provid-r:GEORGE STONE MD0 | Provid-r:GEORGE STONE MD0  | 
- | En'lployee:  | Employee: | Employee : | Employee :  | 
- | PaiTiEMWWTM“ | Patient: | STATEMENT | STATEMENT  | 
- | Claim No: ' _"  | Claim No: | Claim No: | Claim Not  | 
- | Provider Me:   | Provider No: | Provider Me: | Provider Me  | 
- | Member Ne:  | Member No: | Member Na:e  | Member name a  | 
- | Pat Acct No:  | Pat Acct No: | Pat Acct No: | Pat Acct Not  | 
- | Service Date of Charged I MRI  | Services Description MRI | Service Date of Charged | Service Date of Charged  | 
- | Description Service Ameung , Porgy} . 02:15:18  | Date of Service 02/15/18 | Description Service Amount , Port } .02:15:1 | Description Service Amount , Port } .02:15:1  | 
- | Claim Totals _  | Claim Totals | Claim Totals | Claim Totals  | 
- | 1 Processed at the Tier 1 Contracted Hale  | 1 Processed at the Tier 1 Contracted Rato | 1 Processed at the Tier 1 Contraine Hale tees | 1 Processed at the Tier 1 Contraire Hale tees  | 
- | I”— Annual Amount moanrsaiimW—m ~-—-j  | Annual Amount Amount Satisfied Benefits Period | An—ual Amount mount mmddyy—  | annual Amount mount mmddyy— a  | 
- | TIER 2 Family MOOP Max  0110112018 - 1213112013  | TIER 2 Family MOOP Max 01/01/2018 - 12/31/2018 | TIER 2 Family MOOP Max 0110112018 -1213112013 | TIER 2 Family MOOP Max 0110112018 -1213112013  | 
- | unum“  | unum | unum | unum  | 
- | j . j The Beneﬁts Center  | The Benefits Center | Th. Benefits Center  | The Benefits Center a  | 
- | (Not for FMLA Requests)  | (Not for FMLA Requests) | (Not for FMLA Requests) | Not for FPLA Requests  | 
- | Pﬁnreo Name _ ocia ecuri y um er  | Printed Name Social Security Number | Printed Name Sicial Security Country  | Printed Name Social Security Country a  | 
- | unum"  | unum | unum" | unum  | 
- | O C . ACCIDENT CLAIM FORM  | ACCIDENT CLAIM FORM | ACCI.ENT CLAIM FORM  | ACCIDENT CLAIM FORM a  | 
- | The Benefits Center  | The Benefits Center | The Benefits Center | The Benefits Center  | 
- | E. Information About Physician  | E. Information About Physician | E. Information About Physician | E Information About Physician  | 
- | JEREMY STATTON 770-460-1900  | JEREMY STATTON 770-460-1900 | JEREMY STATTON 770-460-1900 | JEREMY STATION 770-460-1900  | 
- | F. Additional Medical Information Required  | F. Additional Medical Information Required | F. Additional Medical Information Required  | Ff Additional Medical Information Required a  | 
- | G. Tex Considerations  | G. Tax Considerations | G. Tax Considerations  | Go Tax Considerations a  | 
- | H. Signature of insuredfPolicyholder  | H. Signature of Insured/Policyholder | H. Signature of Insured Policyholder | He Signature of Insured Policyholder  | 
- | ﬁnature ' Dot '  | Signature Date | Signature Date | Signature Date  | 
- | llctlica] Pl'mitlcl' Information Physician  | Medical Provider Information Physician | Medical ]rovider Information Physician | Medical provider Information Physician  | 
- | Medical Provider Specialty. Orthopedic Surgeon  | Medical Provider Specialty: Orthopedic Surgeon | Medical Provider Specialty. Orthopedic Surgeon  | Medical Provider Specialty Orthopedic Surgeon a  | 
- | Proxider First Name: Jason  | Provider First Name: Jason | Provider First Name: Jason | Provider First Name Jason  | 
- | Prowider Last Name: Holm  | Provider Last Name: Holm | Provider Last Name: Holm  | Provider Last Name Holm a  | 
- | Address Line 1: 1000 “7 140th St #301  | Address Line 1: 1000 W 140th St #201 | Address Line 1: 10007 140 ? | Address Line 1: 10007 140 a  | 
- | City. BmlsViJle  | City: Burnsville | City. Bals Vile  | City Bals Vile a  | 
- | State/Province: MN  | State/Province: MN | State/Province: MN  | State/Province: MN a  | 
- | Postal Code: 5533  | Postal Code: 55337 | Postal Code: 55 | Postal Codes 55  | 
- | C Dually. US  | Country: US | Country.US  | Country.US a  | 
- | Business Telephone: (952) 512- 5625  | Business Telephone: (952) 512- 5625 | Business Telephone: (952) 512- 5625 | Business Telephone (952) 512- 5625  | 
- | Date ofl-‘irst Visit: 01/212018  | Date of First Visit: 01/21/2018 | Date of -irth Visit:01/212018 | Date of birth Visit:01/212018  | 
- | Date ofNeXt Visit: 03/132018  | Date of Next Visit: 03/13/2018 | Date of Next Visi:03/132018 | Date of Next Visi:03/132018  | 
- | Medical Pl'oxitler Information — Hospitalization  | Medical Provider Information - Hospitalization | Medical Provider Information  —ospitalization  Hos | Medical Provider Information a hospitalization a Hos  | 
- | Hospital Name. Minnesota Valley Surgery Center  | Hospital Name: Minnesota Valley Surgery Center | Hospital Name. Minnesota Valley Surgery Center | Hospital Name Minnesota Valley Surgery Center  | 
- | Address Line 1: 1000 W 140th St #102  | Address Line 1: 1000 W 140th St #102 | Address Line 1: 1000140^d 102  | Address Line 1: 1000140^d 102 a  | 
- | City. Bm‘nsville  | City: Burnsville | City. Brovider  | City Provider a  | 
- | Claim Tji'pe: VB Accident - Accidental Injury  | Claim Type: VB Accident - Accidental Injury | Claim Type :B Accident  -ccidental Injury | Claim Type B Accident a accidental Injury  | 
- | Policg'h old 91': Owner Information  | Policyholder/Owner Information | Policyholder91n:r Information  | Policyholder91n:r Information a  | 
- | First Name:  | First Name: | First Name:  | First Name a  | 
- | Last Name:  | Last Name: | Last Name:  | Last Name a  | 
- | Social Secun'ty Number:  | Social Security Number: | Social Security Number:  | Social Security Number a  | 
- | Birth Date:  | Birth Date: | Birth Date:  | Birth Date a  | 
- | Gender:  | Gender: | Gender:  | Gender a  | 
- | Language Preference:  | Language Preference: | Language Preference: | Language Preference  | 
- | Address Line 1:  | Address Line 1: | Address Line 1:  | Address Line 1: a  | 
- | Address Line 2:  | Address Line 2: | Address Line 2:  | Address Line 2: a  | 
- | City.  | City: | City.  | City a  | 
- | Slate/PrOVirlce:  | State/Province: | State/Province: | State/Province:  | 
- | Postal Code  | Postal Code: | Postal Code  | Postal Code a  | 
- | Country.  | Country: | Country.  | Country a  | 
- | Best Phone Number to be Reached During the Da)  | Best Phone Number to be Reached During the Day | Best Phone Number to be Reached During the Da)  | Best Phone Number to be Reached During the Day a  | 
- | Email Address:  | Email Address: | Email Address:  | Email Address a  | 
- | UﬂUﬂT  | unum | unum | unum  | 
- | December 6, 2017  | December 6, 2017 | December 6, 2017 | December 6, 2017  | 
- | Conﬁrmation of Coverage  | Confirmation of Coverage | Confirmation of Coverage | Confirmation of Coverage  | 
- | Employer:  | Employer: | Employer: | Employers  | 
- | Group Policy #:  | Group Policy #: | Group Policy #: | Group Policy of  | 
- | Customer Policy #:  | Customer Policy #: | Customer Policy #: | Customer Policy of  | 
- | EE Name:  | EE Name: | EE Name:  | EE Name a  | 
- | Insured Coverme TIE W Coverage  | Insured Coverage Type Coverage Effective Date | Insured Coverage Type Coverage Effective Date | Insured Coverage Type Coverage Effective Date  | 
- | Employee Off—Job Acc January 1, 2018  | Employee Off-Job Acc January 1, 2018 | Employee Off—Job Acc January 1, 2018 | Employee Off—Job Acc January 1, 2018  | 
- | Spouse Off-Job Acc January 1, 2018  | Spouse Off-Job Acc January 1, 2018 | Spouse Off-Job Acc January 1, 2018 | Spouse Off-Job Acc January 1, 2018  | 
- | Total Monthly Premium:  | Total Monthly Premium: | Total Monthly Premium:  | Total Monthly Premium a  | 
- | Total Employee Bi—Weekly Payroll Deduction:  | Total Employee Bi-Weekly Payroll Deduction: | Total Employee Bi—Weekly Payroll Deduction: | Total Employee Biweekly Payroll Deduction  | 
- | unum‘t  | unum | unum | unum  | 
- | . O . ACCIDENT CLAIM FORM  | ACCIDENT CLAIM FORM | .CCI.ENT CLAIM FORM  | ACCIDENT CLAIM FORM a  | 
- | The Beneﬁts Center  | The Benefits Center | The Benefits Center | The Benefits Center  | 
- | ATTENDING PHYSICIAN STATEMENT (PLEASE PRINT)  | ATTENDING PHYSICIAN STATEMENT (PLEASE PRINT) | ATTENDING PHYSICIAN STATEMENT (PLEASE PRINT) | ATTENDING PHYSICIAN STATEMENT PLEASE PRINT  | 
- | PART I: To BE COMPLETED BY INSUREDIPATIENT  | PART I: TO BE COMPLETED BY INSURED/PATIENT | PART I: TO BE COMPLETED BY INSUREDPATIENT  | PART In TO BE COMPLETED BY INSUREDPATIENT a  | 
- | Insured Social Security Number  | Insured Social Security Number | Insured Surgeocial Security Number  | Insured Surgeocial Security Number a  | 
- | Patient Social Security Number  | Patient Social Security Number | Patient Social Security Number  | Patient Social Security Number a  | 
- | Patient Date ofBlrth (mmlddlyy)  | Patient Date of Birth (mm/dd/yy) | Patient Date of Birth(mmddy)  | Patient Date of Birth(mmddy) a  | 
- | Patient Gender: El Male PSI Female  | Patient Gender: Male Female | Patient Gender: Male Patient Female | Patient Gender Male Patient Female  | 
- | Diagnosis  | Diagnosis | Diagnosis | Diagnosis  | 
- | to!) Code  | ICD Code | ICD)Code | ICD)Code  | 
- | Date ﬁrst unable to work (mmlddlyy) | Date first unable to work (mm/dd/yy) | Date first unable to work(mmddy) | Date first unable to work(mmddy)  | 
- | MRI Yes El No Date: (mmlddlyy) I 11?,  | MRI Yes No Date: (mm/dd/yy) | MRI Yes No Date D:t( mmdd)yy11 | MRI Yes No Date Duty mmdd)yy11  | 
- | Expected Delivery Date: (mmlddlyy)  | Expected Delivery Date: (mm/dd/yy) | Expected Delivery Date: (mmddyy)  | Expected Delivery Date (mmddyy) a  | 
- | Actual Delivery Date: (mmlddlyy) | Actual Delivery Date: (mm/dd/yy) | Actual Delivery Date: (mmddyy) | Actual Delivery Date (mmddyy)  | 
- | Date First Unable to Work (mmlddlyy)  | Date First Unable to Work (mm/dd/yy) | Date First Unable to Work (mmddyy)  | Date First Unable to Work (mmddyy) a  | 
- | Delivery Type: El Vaginal El C—Section  | Delivery Type: Vaginal C-Section | Delivery Type: Vaginal CSecti—n  | Delivery Type Vaginal Section a  | 
- | (mmldd/yy) (mmlddiyy) (mmlddlyy)  | (mm/dd/yy) (mm/dd/yy) (mm/dd/yy) | (mmdd/yy) (mmddyy) (mmddyy)  | (mmdd/yy) (mmddyy) (mmddyy) a  | 
- | {ded/yy) (mmi’ddiyy) (mmlddfyy)  | (mm/dd/yy) (mm/dd/yy) (mm/dd/yy) | {edd/yy) (mmddyy)(mddyy) | {edd/yy) (mmddyy)(mddyy)  | 
- | El Full Time El Part TIme '  | Full Time Part Time | Full Time Part Time | Full Time Part Time  | 
- | CL-i 023 (06/13) 1  | CL-1023 (06/13) | CL- 023(06/13) | CLI 023(06/13)  | 
- | ﬂit TWIN (:5 raga; OR'E'HOPEDICS  | TWIN CITIES ORTHOPEDICS | TWIN TINS(:5CRT T;RATEDICS CoP RICS | TWIN TINS(:5CRT T;RATEDICS cop RICS  | 
- | TWIN CITIES ORTHOPEDICS PA  | TWIN CITIES ORTHOPEDICS, PA | TWIN CITIES ORTHOPEDICS PA | TWIN CITIES ORTHOPEDICS PA  | 
- | Temp—Return Service Requested  | Temp-Return Service Requested | Temp—Return Service Requested | Temp—Return Service Requested  | 
- | Guarantor Account Information  | Guarantor Account Information | Guarantor Account Information | Guarantor Account Information  | 
- | Summary of Charges  | Summary of Charges | Summary of Charges | Summary of Charges  | 
- | Amount Insurance Amount Patient  | Amount Insurance Amount Patient | Amount Insurance Amount Patient  | Amount Insurance Amount Patient a  | 
- | Date Description Charged Paid Adjusted Balanc-  | Date Description Charged Paid Adjusted Balance | Date Description Charged Paid Bald Bald Balan-e | Date Description Charged Paid Bald Bald balance  | 
- | 01 {221201 8 MRI, LWR EX? JOINT W/O  | 01/22/2018 MRI, LWR EXT JOINT W/O | 01{221201 8RI ,WR F T ORT WO N/  | 01{221201 8RI WR F T ORT WO No a  | 
- | SUMMARY FOR !  | SUMMARY FOR: | SUMMARY FOR | SUMMARY FOR  | 
- | Send Inquiries To:  | Send Inquiries To: | Send Inquiries To:  | Send Inquiries To a  | 
- | TWIN CITIES ORTHOPEDICS PA   | TWIN CITIES ORTHOPEDICS PA | TWIN CITIES ORTHOPEDICS PA | TWIN CITIES ORTHOPEDICS PA  | 
- | unumL  | unum | unum | unum  | 
- | C . O The Benefits Center  | The Benefits Center | Th. Benefits Center  | The Benefits Center a  | 
- | (Not for FMLA Requests)  | (Not for FMLA Requests) | (Not for FMLA Requests) | Not for FPLA Requests  | 
- | Electronically Signed Insured’s Signature   | Electronically Signed Insured’s Signature | Electronically Signed Insured’s Signature  | Electronically Signed insureds Signature a  | 
- | Printed Name  | Printed Name | Printed Name  | Printed Name a  | 
- | Spoial Security Number  | Social Security Number | Social Security Number  | Social Security Number a  | 
- | CL-1116 (11/14)  | CL-1116 (11/14) | CL-1116 (11/14) | CL-1116 (11/14)  | 
- | Spou s 0 Information  | Spouse Information | Spouse 0nformation | Spouse 0nformation  | 
- | First Name:  | First Name: | First Name:  | First Name a  | 
- | Middle Name/Initial:  | Middle Name/Initial: | Middle Name/Initial:  | Middle Name/Initial: a  | 
- | Last Name:  | Last Name: | Last Name:  | Last Name a  | 
- | S ocial Security Number:  | Social Security Number: | Social Security Number: | Social Security Number  | 
- | Binh Date:  | Birth Date: | Birth Dat:  | Birth Date a  | 
- | Gender:  | Gender: | Gender:  | Gender a  | 
- | Claim Event Information  | Claim Event Information | Claim Event Information | Claim Event Information  | 
- | Accident Work Related: No  | Accident Work Related: No | Accident Work Related: No  | Accident Work Related No a  | 
- | Time ofAccident: 16:00  | Time of Accident: 16:00 | Time of Acciden:16:00 | Time of Acciden:16:00  | 
- | Accident Date: 01/2 1 =20 1 8  | Accident Date: 01/21/2018 | Accident Date: 01/2120 18 | Accident Date 01/2120 18  | 
- | SII l‘g er)’ Information  | Surgery Information | Surgery In)ormation  | Surgery information a  | 
- | Is Surgery Required: Yes | Is Surgery Required: Yes | Is Surgery Required: Yes | Is Surgery Required Yes  | 
- | Surgery Date: 0210252018 | Surgery Date: 02/02/2018 | Surgery Date: 0210252018 | Surgery Date 0210252018  | 
- | Irmatienthwpatient Indicator: Outpatient | Inpatient/Outpatient Indicator: Outpatient | InpatientOutpatient Indicat:r Outpatient | InpatientOutpatient indicator Outpatient  | 
- | U n U m‘  | unum | unum | unum  | 
- | O C . ACCIDENT CLAIM FORM  | ACCIDENT CLAIM FORM | ACCI.ENT CLAIM FORM  | ACCIDENT CLAIM FORM a  | 
- | The Benefits Center  | The Benefits Center | The Benefits Center | The Benefits Center  | 
- | ATTENDING PHYSICIAN STATEMENT (Contlnued)  | ATTENDING PHYSICIAN STATEMENT (Continued) | ATTENDING PHYSICIAN STATEMENT (Continued) | ATTENDING PHYSICIAN STATEMENT Continued  | 
- | Facility Name  | Facility Name | Facility Name  | Facility Name a  | 
- | Address  | Address | Address | Address  | 
- | City State Zip  | City State Zip | City State Zip | City State Zip  | 
- | Date Surge Performed (mmlddlyy):  | Date Surgery Performed (mm/dd/yy): | Date Surger Performed(mmddy):  | Date Surger Performed(mmddy): a  | 
- | Diagnosis: .. lCD Code:  | Diagnosis: ICD Code: | Diagnosis: ..D Code  | Diagnosis And Code a  | 
- | Hospital Name Telephone Number  | Hospital Name Telephone Number | Hospital Name Telephone Number  | Hospital Name Telephone Number a  | 
- | Hospital Address  | Hospital Address | Hospital Address  | Hospital Address a  | 
- | Surgical rocedure CPT Code:  | Surgical Procedure CPT Code: | Surgical Procedure CPT Cod:  | Surgical Procedure CPT Code a  | 
- | C. Signature of Attending Physician  | C. Signature of Attending Physician | C. Signature of Attending Physician | C Signature of Attending Physician  | 
- | Medical Specialty Degree  | Medical Specialty Degree | Medical Specialty Degree | Medical Specialty Degree  | 
- | Address  | Address | Address | Address  | 
- | City 2 I Slate Zip 3/]  | City State Zip | City 2tate Zip | City 2tate Zip  | 
- | Physician Signature i Date  | Physician Signature Date | Physician Signature Date | Physician Signature Date  | 
- | CL-1023 (0611 3) 2  | CL-1023 (06/13) 2 | CL-1023 (06113) | CL-1023 (06113)  | 
- | DATE: 03/07/2018  | DATE: 03/07/2018 | DATE: 03/07/2018  | DATE 03/07/2018 a  | 
- | ACCOUNT No .  | ACCOUNT NO.: | ACCOUNT NO. | ACCOUNT NOT  | 
- | SEND PAYMENT TO:  | SEND PAYMENT TO: | SEND PAYMENT TO: | SEND PAYMENT TO  | 
- | mo UN'I' PAID :  | AMOUNT PAID: $ | AMOUNT PAID : | AMOUNT PAID :  | 
- | TOTAL DUE jzgffa  | TOTAL DUE : 345.15 | TOTAL DUE   | TOTAL DUE a a  | 
- | Payment by Visa[ or MasterCard[ ] | Payment by Visa [ ] or Mastercard [ ] | Payment by by [or Mastercard [ ] | Payment by by for Mastercard [ ]  | 
- | Amount $ | Amount $ | Amount $ | Amount $  | 
- | Signature: | Signature: | Signature: | Signature  | 
- | Balance Forward  | Balance Forward | Balance Forward | Balance Forward  | 
- | 02/06/13 " étianﬁ 'K . 4 ~" “ | 02/06/18 PYPATN Patient Payment | 02/06/13 "YCSICIAN ST. | 02/06/13 "YCSICIAN ST  | 
- | 02/20/13 Insurance Payment ;J | 02/20/18 PYINSU Insurance Payment | 02/20/13 Insurance Payment | 02/20/13 Insurance Payment  | 
- | TOTAL ACCOURw BALANCE:  | TOTAL ACCOUNT BALANCE: | TOTAL ACCOURANCE CEAL:  | TOTAL ACCORDANCE CALL a  | 
- | TOTAL PATIENT BALANCE:  | TOTAL PATIENT BALANCE: | TOTAL PATIENT BALANCE: | TOTAL PATIENT BALANCE  | 
- | QUEETIONS?? Please call  | QUESTIONS?? Please call (952) 232-1110 | QUESTIONS?? Please call Pllea | QUESTIONS Please call Plea  | 
- | LAST ‘PAYMENT DATE'  | LAST PAYMENT DATE | LAST PAYMENT DATE | LAST PAYMENT DATE  | 
- | ,Your insurance on file is:  | Your insurance on file is: | ,our insurance on on is | your insurance on on is  | 
- | UNITED HEALTHCARE  | UNITED HEALTHCARE | UNITED HEALTHCARE  | UNITED HEALTHCARE a  | 
- | THAFK 200  | THANK YOU | THANK 200 | THANK 200  | 
- | TOTAL DUE | TOTAL DUE | TOTAL DUE | TOTAL DUE  | 
- | Fatient Name  | Patient Name: | Fatient Name | Patient Name  | 
- | Account Number  | Account Number: | Account Number  | Account Number a  | 
- | State ”Produce: DIN | State/Province: MN | StateProducte: DIN | StateProducte: DIN  | 
- | Postal Code: 5 53 3 7 | Postal Code: 55337 | Postal Code: 5 53 | Postal Codes 5 53  | 
- | Ciotmtry. US | Country: US | Country.US | Country.US  | 
- | Date ot'Visit’AdmissiorL 02102520 1 8 | Date of Visit/Admission: 02/02/2018 | Date of VisitAdmission 02102520 | Date of VisitAdmission 02102520  | 
- | Date ofDisehaJ'ge: 02/022018 | Date of Discharge: 02/02/2018 | Date of Discharge: 02/022 | Date of Discharge 02/022  | 
- | Eulpl (3)1“ am In formation  | Employment Information | Employ(3)1 Information  | Employ(3)1 Information a  | 
- | Employer Name:  | Employer Name: | Employer Name:  | Employer Name a  | 
- | Policy Number:  | Policy Number: | Policy Number:  | Policy Number a  | 
- | E] artl'onie Su hmission  | Electronic Submission | E]ectronic Submission  | Electronic Submission a  | 
- | Claim Event Identiﬁer: 2667996  | Claim Event Identifier: 2667996 | Claim Event Identifie:2667996 | Claim Event Identifie:2667996  | 
- | Submission Date: 03/ 12/2018 | Submission Date: 03/12/2018 | Submission Date: 03/12/2018 | Submission Date 03/12/2018  | 
- | Electronically Signed Indicator: Yes | Electronically Signed Indicator: Yes | Electronically Signed Indicator: Yes | Electronically Signed Indicator Yes  | 
- | (1 ° ‘  | unum | (1um | (1um  | 
- | November 30, 2016  | November 30, 2016 | November 30,2016 | November 30,2016  | 
- | Confirmation of Coverage  | Confirmation of Coverage | Confirmation of Coverage | Confirmation of Coverage  | 
- | Employer:  | Employer: | Employer: | Employers  | 
- | Group Policy #:  | Group Policy #: | Group Policy #: | Group Policy of  | 
- | Customer Policy #:  | Customer Policy #: | Customer Policy #: | Customer Policy of  | 
- | EE Name:  | EE Name: | EE Name:  | EE Name a  | 
- | 1“ r W Coverage Etteotutenate | Insured Coverage Type Coverage Effective Date | 1nsured Coverage Eferage Eate | 1nsured Coverage Average Late  | 
- | Employee Off-Job Acc January 1, 2017 | Employee Off-Job Acc January 1, 2017 | Employee Off-Job Acc January 1, 2017 | Employee Off-Job Acc January 1, 2017  | 
- | Child Off-Job Acc January 1, 2017 | Child Off-Job Acc January 1, 2017 | Child Off-Job Acc January 1, 2017 | Child Off-Job Acc January 1, 2017  | 
- | Total Monthly Premium: $24.40 | Total Monthly Premium: $24.40 | Total Monthly Premium:$24.40 | Total Monthly Premium:$24.40  | 
- | Employee: | Employee: | Employee: | Employees  | 
- | BLILh Batu: | Birth Date: | Birth Date: | Birth Date  | 
- | TA}: [1} | Tax ID: | Ta}:I[1} | Ta}:I[1}  | 
- | Employee ID Type; Employcc ID | Employee ID Type: Employee ID | Employee ID Type; Employee ID | Employee ID Type Employee ID  | 
- | T‘mfﬂnynn TD: | Employee ID: | Complenn T | Complete T  | 
- | Employer Nana; | Employer Name: | Employer Name; | Employer Name  | 
- | Gender! Male | Gender: Male | Gender Male | Gender Male  | 
- | Marital Status; Single | Marital Status: Single | Marital Status; Single | Marital Status Single  | 
- | 0c: Title: Rasanﬂxxe:  | Occ Title: ResinMixer | 0c: Title: ResinMixe: | 0c: Title ResinMixe:  | 
- | Original Hire Date: | Original Hire Date: | Original Hire Date: | Original Hire Date  | 
- | Kira ”ate: ‘ , | Hire Date: | Hirat Dat: | Herat Date  | 
- | Insured Terminatznn Date; | Insured Termination Date: | Insured Dater Telating ;ate | Insured Dater Relating late  | 
- | hTW Limitaticng Permitted: Yes | ATW Limitations Permitted: Yes | ATW Limitations Permitted: Yes | AT Limitations Permitted Yes  | 
- | Hours WDIKéd 11'! Last 12 Months: 1250.00 | Hours Worked in Last 12 Months: 1250.00 | Hours Worked 11 Last 12onths | Hours Worked 11 Last 12onths  | 
- | Office. Crane Campaszte: - Florence | Office: Crane Composites - Florence | Office. Crane Composite:-Florence | Officer Crane Composite:-Florence  | 
- | Last Earn Change: Ill/2010 | Last Earn Change: 1/1/2010 | Last Earn Change: Zil/20 | Last Earn Changes Zil/20  | 
- | Employment. Status: Leave: of: Absence | Employment Status: Leave: of: Absence | Employment.Status:Lever:Lea:e Absence | Employment.Status:Lever:Lea:e Absence  | 
- | Euuoxd Lvddud, SIHIEOIB i2.00.05 ?M | Record Loaded, 3/8/2018 12.00.00 PM | Eucox Loved ,IGHTIBS Bi2.00.05e | Eusol Loved EIGHTIES Bi2.00.05e  | 
- | Address | Address | Address | Address  | 
- | ?r4maly ﬁcﬁxdcacc: | Primary Residence: | Pr4mary Resdeccic: | Pr4mary Resdeccic:  | 
- | Businsss Physica}: | Business Physical: | Business Physica}: | Business Physical  | 
- | Access | Access | Access | Access  | 
- | Hone Telephone: | Home Telephone: | Hone Telephone: | Hone Telephone  | 
- | SugarVJaor affmqa Email: | Supervisor Office Email: | Supervice Afoutal Email: | Supervise Foetal Email  | 
- | Supervnsor Work Phone: | Supervisor Work Phone: | Supervisor Work Phone: | Supervisor Work Phone  | 
- | Covezaqes | Coverages | Coverages | Coverages  | 
- | PruducL: Long Team Disability | Product: Long Term Disability | Product: Long Term Disability | Products Long Term Disability  | 
- | Pruduct Type: Flex | Product Type: Flex | Product Type: Flex | Product Type Flex  | 
- | funding: Fully lnsurcd | Funding: Fully Insured | Funding: Fully Insured | Funding Fully Insured  | 
- | State Plan: No | State Plan: No | State Plan: No | State Plan No  | 
- | Employee Coverage: Yes | Employee Coverage: Yes | Employee Coverage: Yes | Employee Coverage Yes  | 
- | Emplayc: Covcxagc: Yes | Employer Coverage: Yes | Employe: Coverage: Yes | Employed Coverage Yes  | 
- | Policy N0, | Policy No. | Policy N0, | Policy N0,  | 
- | DiviSLon: | Division: | Division: | Division  | 
- | Chainn. | Choice. | Choice. | Choice  | 
- | Eff Date: | Eff Date: | Eff Date: | Eff Date  | 
- | Tuzm DaLe: | Term Date: | Time Dat: | Time Date  | 
- | Plan Earnings:  | Plan Earnings: | Plan Earnings:  | Plan Earnings a  | 
- | EALHJ' 11.93 Type , [‘UlAI Ry | Earnings Type: Hourly | Earning11.93e Med,c[ PAIN R | Earning11.93e medico PAIN R  | 
- | Earn1ng€ Mnda: Monthly | Earnings Mode: Monthly | Earn1ng Midan:ationshly | Earn1ng Midan:ationshly  | 
- | ﬁftsr Tax: 0.069 | After Tax: 0.000 | After Tax: 0.069 | After Tax 0.069  | 
- | Repart Group' ?6 | Report Group: 26 | Repart Group 6 | Repart Group 6  | 
- | Product: Short Term Blsab111ty | Product: Short Term Disability | Product: Short Term Bisab111y | Products Short Term Bisab111y  | 
- | Product Type: £53 | Product Type: ASO | Product Type: A53 | Product Type A53  | 
- | Funding: Self insured | Funding: Self Insured | Funding: Self Insured | Funding Self Insured  | 
- | Staff: Flhh. ND | State Plan: No | State:Plain.ND | State:Plain.ND  | 
- | Employee Coverage: res | Employee Coverage: Yes | Employee Coverage: res | Employee Coverage res  | 
- | meloyer Coverage: :33 | Employer Coverage: Yes | Employer Coverag::33s | Employer Coverag::33s  | 
- | Policy N5.: | Policy No.: | Policy N5.: | Policy N5.:  | 
- | DiVLsLun: | Division: | Division: | Division  | 
- | Choicc: | Choice: | Choice: | Choice  | 
- | Eff Date: | Eff Date: | Eff Date: | Eff Date  | 
- | 'T'Prm Darn: | Term Date: | TT Mam Darg: | TT Mam Dargs  | 
- | Plan Larnlngs: | Plan Earnings: | Plan Lareding: | Plan Lareding:  | 
- | r , = _ E-Tl ELIZABETH  | ST. ELIZABETH | ST, ELIZA-ETH STH ABTH  | ST ELIZABETH STH BATH a  | 
- | EUGEWOOD  | EDGEWOOD | EDGEWOOD  | EDGEWOOD a  | 
- | OP Notes  | OP Notes | OP Notes  | OP Notes a  | 
- | MFIN: DOB:  | MRN: DOB: | MRIN: DOB: | MIND DOB  | 
- | Acct #:  | Acct #: | Acct# : | Accts :  | 
- | Adm: 3."16I2CI‘18! DIG: 3a‘1 £62013  | Adm: 3/16/18, D/C: 3/16/18 | Adm:3."16218 DI:B3 162 | Adm:3."16218 DI:B3 162  | 
- | Operative 5t Procedure Notes [ccntinued]  | Operative & Procedure Notes (continued) | Operative 5 Procedure Notes a[tinued | Operative 5 Procedure Notes a[tinued  | 
- | I‘lljtrtia’; Larkin. John J: MD  | Author: Larkin, John J MD | Author Lar;in Joh. J MD : | Author Larkin John J MD :  | 
- | bilr'nazn: Orthopedic  | Service: Orthopedic | Service :rthopedic  | Service orthopedic a  | 
- | fatitiﬁ!’ type: Physician  | Author Type: Physician | Ratitait?  Ph:sician | Ratitait? a physician  | 
- | F lei. 3516:2018 5:02 PM  | Filed: 3/16/2018 5:02 PM | Filef.3516:20185:02  | Filef.3516:20185:02 a  | 
- | Die Lzl' Cele 3H 632018 5302 PM  | Date of Service: 3/16/2018 5:02 PM | Dite Lise Cele3632018 5302M Na | Dite Lise Cele3632018 5302M Na  | 
- | Si-L‘L'1Utu Sigs'led  | Status: Signed | Su-gery1Signed Insured Pain? | Su-gery1Signed Insured Pain  | 
- | Ellizur Larkin. John J. MD (Physician)  | Editor: Larkin, John J. MD (Physician) | Editor Larkin. John J. MD (Physician) | Editor Larkins John J MD Physician  | 
- | St. Elizabeth Healthcare  | St. Elizabeth Healthcare | St. Elizabeth Healthcare | St Elizabeth Healthcare  | 
- | DPEHATIVEIPHOCEDUFIE NOTE  | OPERATIVE/PROCEDURE NOTE | DETATIVEDICATIONDUFIE NOTE | DETATIVEDICATIONDUFIE NOTE  | 
- | March ‘1 6, 2018  | March 16, 2018 | March 1 6,2018  | March 1 6,2018 a  | 
- | Body mass index is 31.12 kgfmz.  | Body mass index is 31.12 kg/m2. | Body mass index is 31.12 kg | Body mass index is 31.12 kg  | 
- | PROCEDURES}: Procedure[sl:  | PROCEDURE(S): Procedure(s): | PROCEDURE}: Procedur[s: | PROCEDURE procedures  | 
- | SURGEONS]:  | SURGEON(S): | SURGEONS]: | SURGEONS  | 
- | Surgeonts) and Role:  | Surgeon(s) and Role: | Surgeons) and Role:  | Surgeons and Role a  | 
- | " Larkin, John J, MD - F‘rimaryr  | * Larkin, John J, MD - Primary | " Larkin, John J, MD - M Frimary | " Larkins John J MD - M Primary  | 
- | ANESTHESIA; General  | ANESTHESIA: General | ANESTHESIA; General  | ANESTHESIA General a  | 
- | SPEClMENS: * Ne specimens In log *  | SPECIMENS: * No specimens in log * | SPECIMENS: * No specimens in log | SPECIMENS a No specimens in log  | 
- | ESTIMATED BLOOD LOSS: 5m!  | ESTIMATED BLOOD LOSS: 5ml | ESTIMATED BLOOD LOSS: 5 | ESTIMATED BLOOD LOSS 5  | 
- | DISPUSI'I'iOhHPOST PFIOC COURSE: PACU  | DISPOSITION/POST PROC COURSE: PACU | DISPAUTIONTh PHY PRT FIC F OURS: PACU | DISPAUTIONTh WHY PART FIT F OURS PACU  | 
- | John J Lark'rn, MD  | John J Larkin, MD | John J Lark ar, MD  | John J Lark are MD a  | 
- | Date: 3515:9018  | Date: 3/16/2018 | Date: 3515:9018 | Date 3515:9018  | 
- | Printed by12379 at dill-'18 1:1? PM Page 2  | Printed by 12379 at 4/11/18 1:17 PM Page 2 | Printed by12379 ta Pl-n18 1:1Page  & | Printed by12379 ta Pl-n18 1:1Page a a  | 
- | St. Eilidbt‘lh | St. Elizabeth | St. Elizaber | St Elizabet  | 
- | fr1 _ ST. ELIZABETH  | ST. ELIZABETH | ST1 ELIZ.BETH STH ABTH  | ST1 ELIZABETH STH BATH a  | 
- | EDGEonD  | EDGEWOOD | EDGEWOOD  | EDGEWOOD a  | 
- | DP Notes  | Op Notes | D Notes  | D Notes a  | 
- | MRN: Dos:  | MRN: DOB: | MRN: Das: | MRNA Dash  | 
- | Acct #:  | Acct #: | Acct# : | Accts :  | 
- | Adm: 3115:2013, arc: 3.1 some  | Adm: 3/16/18, D/C: 3/16/18 | Adm: 3115:2013,c F:r3.1 some  | Admd 3115:2013,c F:r3.1 some a  | 
- | Operative 8‘ Procedure Notes (continued)  | Operative & Procedure Notes (continued) | Operative 8 Procedure Notes (ontinued) | Operative 8 Procedure Notes continued  | 
- | butt)? Larkin,John J, MD  | Author: Larkin, John J MD | Auth)r Larki, John,J MD  | author Larkin Johnny MD a  | 
- | Igor- Orthopedio  | Service: Orthopedic | Inso-  Orthopedic | Insol a Orthopedic  | 
- | tr Ego: Physioan  | Author Type: Physician | Author:Type Physician | Author:Type Physician  | 
- | Q'. .2 Signed  | Status: Signed | St.t.2Signed Insured Paing | St.t.2Signed Insured Pain  | 
- | Edsur Lmtm_JomiJ.MDcPhysdanJ  | Editor: Larkin, John J. MD (Physician) | Edicor Lart om D.D J Physician | Editor Part om Did J Physician  | 
- | DATE CIF OPERATION: ﬂ3f16f2018  | DATE OF OPERATION: 03/16/2018 | DATE CIF OPERATION: 316 2018 | DATE CIF OPERATION 316 2018  | 
- | SURGEGN: John J. Larkin, M.D.  | SURGEON: John J. Larkin, M.D. | SURGEON: John J. Larkin, M.D.  | SURGEON John J Larkins Made a  | 
- | RNESTHESIA: General.  | ANESTHESIA: General. | ANESTHESIA: General. | ANESTHESIA General  | 
- | Printed by123?9 at4A'1151'1B 1:1? PM Page 3  | Printed by12379 at 4/11/18 1:17 PM Page 3 | Printed by123Y9 ta4A11511& 1:1ge    &3 | Printed by123Y9 ta4A11511& 1:1ge a a a &3  | 
- | SEE". E LIZAE E'E'H | ST. ELIZABETH | ST".LIZABETH | ST".LIZABETH  | 
- | Edgewood | EDGEWOOD | EDGEWOOD | EDGEWOOD  | 
- | FACESHEE’T | FACESHEET | FACESHEET | FACESHEET  | 
- | MRN: Doe Sex: | MRN: DOB Sex: | MRN: DOB Sex: | MRNA DOB Sex  | 
- | Patient Demographics . | Patient Demographics | Patient Demooraphics | Patient Demographics  | 
- | Patient ID | Patient ID | Patient ID | Patient ID  | 
- | SSN xxxexxvmocx  | SSN xxx-xx-xxxx | SSN xxxxxxx | SSN xxxxxxx  | 
- | EEFU'I Date | Birth Date | Birth Date | Birth Date  | 
- | Address  | Address | Address | Address  | 
- | Fho ne  | Phone | Phone # | Phone #  | 
- | Email  | Email | Email  | Email a  | 
- | Empioyer  | Employer | Employer  | Employer a  | 
- | Reg. Status Verified  | Reg Status Verified | Reg.st Status Verified  | regest Status Verified a  | 
- | Date Last Verified  | Date Last Verified 03/14/18 | Date Last Verified  | Date Last Verified a  | 
- | Next Renew Date  | Next Renew Date 05/13/18 | Naxt Renew Date | Next Renew Date  | 
- | Admission Intormation  | Admission Information | Admission Information | Admission Information  | 
- | Attending Provider  | Attending Provider | Attending Provider  | Attending Provider a  | 
- | Admitting. Srowder Larkin. John J. MD  | Admitting Provider Larkin. John J. MD | Admitting.Provider Larkin. John J. MD  | Admitting.Provider Larkins John J MD a  | 
- | Admissaon Type Admission Elective | Admission Type Elective | Admission Type Admission Elective | Admission Type Admission Elective  | 
- | Admission Date.n'T:n1e 01-1818 1432 | Admission Date/Time 03/16/18 1432 | Admission Date.Tim: 101-181814 | Admission Date.Tim: 101-181814  | 
- | Discharge Date DSHEHB  | Discharge Date 03/16/18 | Discharge Date DIHE STRGE S | Discharge Date DIE STAGE S  | 
- | Hospital Service  | Hospital Service Surgery | Hospital Service  | Hospital Service a  | 
- | Authe'C-ert Status Incompiete | Auth/Cert Status Incomplete | Auther -ount Status Incomplete | Author count Status Incomplete  | 
- | Service Area ST. ELIEABETH SERVJCE AREA  | Service Area ST. ELIZABETH SERVICE AREA | Service Area ST. ELE ABREATHY CERATH AREA | Service Area ST ELE BREATHY CREATH AREA  | 
- | EDG SC CRESTWEW HELL-S  | EDG SC CRESTVIEW HILLS | EDG SC CRESTVIEW HIL-S | EDGE SC CRESTVIEW HILLS  | 
- | Roomi‘Eed EDGSCCEEDGSCC  | Room/Bed EDGSCC/EDGSCC | RoomBed EDGSCCEDGSCC  | roomed EDGSCCEDGSCC a  | 
- | Admission Status Discharged {Confirmedi  | Admission Status Discharged (Confirmed) | Admission Status Discharged {Confirmed | Admission Status Discharged Confirmed  | 
- | Hospital Account  | HOSE. ital Account | Hospital Account  | Hospital Account a  | 
- | Primary  | Primary | Primary  | Primary a  | 
- | Name  | Name | Name  | Name a  | 
- | Acct ID  | Acct ID | Acct ID  | Acct ID a  | 
- | Class Same Day Surgery  | Class Same Day Surgery | Class Same Day Surgery Surgery Counery Surgery | Class Same Day Surgery Surgery Country Surgery  | 
- | Status Bilied  | Status Billed | Status Billed  | Status Billed a  | 
- | Coverage  | Coverage | Insured | Insured  | 
- | Guarantor Account {for Hospital Account }  | Guarantor Account (for Hospital Account ) | Guarantor Account {for Hospital Account } | Guarantor Account for Hospital Account }  | 
- | Name  | Name | Name  | Name a  | 
- | Relation to 9t Sei‘f | Relation to Pt Self | Relation to 9o Sten | Relation to 9o Sten  | 
- | Service Area SEH  | Service Area SEH | Service Area SEH | Service Area SHE  | 
- | Active? Yes  | Active? Yes | Active? Yes No | Active Yes No  | 
- | Sei‘f SEH Yes Personali'i-‘amrly  | Acct Type Personal/Family | STail Sels Personaldicla -es | Stail Sels Personaldicla yes  | 
- | Address  | Address | Address | Address  | 
- | Phone  | Phone | Phone  | Phone a  | 
- | Coverage Information (for Hospital Account: t  | Coverage Information (for Hospital Account ) | Inspital Information (for Hospital Account: | Hospital Information for Hospital Account  | 
- | PIC) Payori'ﬁlan  | F/O Payor/Plan | Pay)Paynorilann | Pay)Paynorilann  | 
- | Precert #  | Precert # | Precert? # | Precepts #  | 
- | Subscriber  | Subscriber | Subscriber  | Subscriber a  | 
- | Subscriber it N R21GMSUE24 | Subscriber # KNR210M80624 | Subscriber St N R21SURES2 | Subscriber St N R21SURES2  | 
- | Address  | Address | Address | Address  | 
- | Phone  | Phone | Phone  | Phone a  | 
- | Operative 8: Procedure Notee  | Operative & Procedure Notes | Operative 8:Procedure Notes | Operative 8:Procedure Notes  | 
- | Printed by123?9 at$ﬁ11i18 1:1? PM " Page1  | Printed by 12379 at 4/11/18 1:17 PM Page 1 | Printed by1239 a$ 1118 1:1ing P"gel 1 | Printed by1239 a 1118 1:1ing Page 1  | 
- | SHORT TERM DISABILITY CLAIM FORM | SHORT TERM DISABILITY CLAIM FORM | SHORT TERM DISABILITY CAIM FORM | SHORT TERM DISABILITY AIM FORM  | 
- | m The Benefits Center | The Benefits Center | The Benefits Center | The Benefits Center  | 
- | www.unum.mrn | www.unum.com | www.unum.com | www.unum.com  | 
- | ATTENDING PHYSICIAN STATEMENT (PLEASE PRINT)  | ATTENDING PHYSICIAN STATEMENT (PLEASE PRINT) | ATTENDING PHYSICIAN STATEMENT (PLEASE PRINT) | ATTENDING PHYSICIAN STATEMENT PLEASE PRINT  | 
- | Social Semi-ﬂy Number  | Social Security Number | Social Selu-ity Number  | Social security Number a  | 
- | Data of Birth (mmiduiyy)  | Date of Birth (mm/dd/yy) | Date of Birth (mmddyy)  | Date of Birth (mmddyy) a  | 
- | mien! Taiapi'iona Number  | Patient Telephone Number | Patient Talizated Number  | Patient Talizated Number a  | 
- | Expnnlad Delivery Dale (mmldcilyy):  | Expected Delivery Date (mm/dd/yy): | Explonal Delivery Date (mmddyy): | Explonal Delivery Date (mmddyy):  | 
- | Aqua] Dgiivqry Dal; (mwudiyy):  | Actual Delivery Date (mm/dd/yy): | Aute]Divivery Date;(mddyy):  | Aute]Divivery Date;(mddyy): a  | 
- | Delivery Type!  | Delivery Type: Vaginal C-Section | Delivery Type Selved | Delivery Type Served  | 
- | Dare Hospitalized :mmidciryy):  | Date Hospitalized (mm/dd/yy): | Date Hospitalized :mmddyy): | Date Hospitalized :mmddyy):  | 
- | Diagnosis:  | Diagnosis: | Diagnosis:  | Diagnosis a  | 
- | iCD Code: | ICD Code: | ICD Code: | ICD Codes  | 
- | ii you. on what dais {mmftidiyyi’i’ | If yes, on what date (mm/dd/yy)? | If yes. on what date {mmddyy? | If yes on what date {mmddyy?  | 
- | If yas, plazas: uplain:  | If yes, please explain: | If yes, plaame: Splain:  | If yes plaame: Plain a  | 
- | Data oi Saar affine visit (mmrddfyyi:  | Date of last office visit (mm/dd/yy): | Date of Biate affine visit(mmddyy:  | Date of Bite affine visit(mmddyy: a  | 
- | ate nf next ofﬁca visit (mmiddfw):  | Date of next office visit (mm/dd/yy): | Dite of next officist vi(it mm):yy  | Dite of next official visit mm):yy a  | 
- | [mmiddiyyiz We: iryeamnwnammeimmrddiyy)?  | If yes, on what date (mm/dd/yy)? | [f yes on wer: is and mmddyy? Yes) | of yes on were is and mmddyy? Yes  | 
- | Patient’s Height:  | Patient’s Height: | Patient’s Height:  | patients Height a  | 
- | Paliant’s Weighi  | Patient's Weight: | Patient's Weight  | patients Weight a  | 
- | Primary Dlﬁgnosis:  | Primary Diagnosis: | Primary Diagnosis:  | Primary Diagnosis a  | 
- | Primary [CD Code:  | Primary ICD Code: | Primary [CD Code:  | Primary NCD Codes a  | 
- | Secondary Diagnosis:  | Secondary Diagnosis: | Secondary Diagnosis:  | Secondary Diagnosis a  | 
- | Secondary IGD Cede:  | Secondary ICD Code: | Secondary ICD Code:  | Secondary ICD Codes a  | 
- | Haa the patient baan hospitalized? D Yes No  | Has the patient been hospitalized? Yes No | Has the patient baan hospitalized? Yes No | Has the patient barn hospitalized Yes No  | 
- | Was surge performed?  | Was surgery performed? Yes No | Was surger performed?  | Was surger performed a  | 
- | If yes, what pro  | If yes, what procedure was performed? | If yes, what pare | If yes what pare  | 
- | cad rl a 4-. cp'er:  | CPT Code: | CPT Code4-. Emplo:er  | CPT Code4-. employer a  | 
- | Data Surgery Parforrnad (mmi'ddlyy):  | Date Surgery Performed (mm/dd/yy): | Date Surgery Parformed (mddyy): | Date Surgery Performed (mddyy):  | 
- | Enznlngs Typu: Kuuxly | Earnings Type: Hourly | Eandings Typo: Knut | Endings Typo Knut  | 
- | Euxniugs deu: Weakly | Earnings Mode: Weekly | Earnings Mod: Weakly | Earnings Mode Weakly  | 
- | Afiler' THI' 0 (N30 | After Tax: 0 000 | After Tax  0o( | After Tax a 0o(  | 
- | Rtpozt Gxoup: 26 | Report Group: 26 | Rtpout Group: 26 | Report Group 26  | 
- | Product: _ | Product: | Product: | Products  | 
- | I’xod‘ac‘t Typo: Leave Hgmt Svnz | Product Type: Leave Mgmt Svc | Indicat Type L:ave Tym Sivn | Indicate Type Leave Tm Sign  | 
- | Funding: Not Applicable  | Funding: Not Applicable | Funding: Not Applicable  | Funding Not Applicable a  | 
- | State Plan; No  | State Plan: No | State Plan; No  | State Plan No a  | 
- | Employee Coverage; Yes  | Employee Coverage: Yes | Employee Coverage; Yes  | Employee Coverage Yes a  | 
- | Employﬁr Coverage: YER  | Employer Coverage: Yes | Employer Coverage: Yes | Employer Coverage Yes  | 
- | Policy No.:  | Policy No.: | Policy No.: | Policy Not  | 
- | DiVision:  | Division: | Division: | Division  | 
- | PEG:  | PEG: | PEG:  | PEGS a  | 
- | Cholce.  | Choice: | Choice.  | Choice a  | 
- | Eff DatE'  | Eff Date: | Eff Date | Eff Date  | 
- | Tarn. Date:  | Term Date: | Tirn.Date: | Tirn.Date:  | 
- | Plan Lnxuiugb  | Plan Earnings: | Plan Landunt | Plan Landing  | 
- | 1151-13-13:]! Typu:  | Earnings Type: | 1151-13-13:]pe Vy:r  | 1151-13-13:]pe VOIR a  | 
- | Earnlngs Mode:  | Earnings Mode: | Earnings Mode:  | Earnings Mode a  | 
- | after Tax:  | After Tax: | After Tax:  | After Tax a  | 
- | anwrt Grnup: 76  | Report Group: 26 | Reart Grure: 76   | Heart Gruel 76 a a  | 
- | Deductjmns  | Deductions | Deductions  | Deductions a  | 
- | Work Schedule   | Work Schedule | Work Schedule  | Work Schedule a  | 
- | ﬂvuzs Per Week: 30.00  | Hours Per Week: 30.00 | Huas Per Week:30.00? | Has Per Week:30.00?  | 
- | Slck ﬁay Hours; 0,00  | Sick Pay Hours: 0.00 | Sick Pay Hours; 0,00 | Sick Pay Hours 0,00  | 
- | Vazi able Schedule; Yes  | Variable Schedule: Yes | Variable Schedule;Yes Nes | Variable Schedule;Yes Nes  | 
- | Sunday: N0  | Sunday: No | Sunday: N0 | Sunday N0  | 
- | Monday; No  | Monday: No | Monday; No  | Monday No a  | 
- | Tuesday; ND  | Tuesday: No | Tuesday; No | Tuesdays No  | 
- | Wednesday: Nu  | Wednesday: No | Wednesday: No | Wednesdays No  | 
- | Thursday: No  | Thursday: No | Thursday: No | Thursday No  | 
- | Przday: No  | Friday: No | Priday: No | Friday No  | 
- | Saturday: NU  | Saturday: No | Saturday: No | Saturday No  | 
- | ___Yos No. If yon. dam of ntlmlaalon: | Yes No. If yes, dates of admission: | Yes No I. yes d.tes of atmins | Yes No In yes dates of admins  | 
- | Datelelﬂ's'nolsl of Trnannant | Date(s)/Type(s) of Treatment | DatesTypesion of Treatmant | DatesTypesion of Treatment  | 
- | Nature and ntlmatod duration of treatments:  | Nature and estimated duration of treatments: | Nature and entimated duration is relatents:  | Nature and estimated duration is relatents: a  | 
- | Job duodptlen le attached. It tat-tacked here: D  | Job description is attached, if checked here: | Job desured talen istache. if ch-cked here | Job desired taken istache. if checked here  | 
- | Busineee address  | Business address | Business address  | Business address a  | 
- | Telephone:  | Telephone: | Telephone:  | Telephone a  | 
- | Sluneturn of Health Care Provider | Signature of Health Care Provider | Sungeturn of Health Care Provider | Sungeturn of Health Care Provider  | 
- | Un um"  | Unum | Unum | Unum  | 
- | . j . ACCIDENT CLAIM FORM  | ACCIDENT CLAIM FORM | .CCI.ENT CLAIM FORM  | ACCIDENT CLAIM FORM a  | 
- | The Bonoﬂts Center | The Benefits Center | The Benefits Center | The Benefits Center  | 
- | ATTENDING PHYSICIAN $TATEMENT  | ATTENDING PHYSICIAN STATEMENT | ATTENDING PHYSICIAN $TATEMENT | ATTENDING PHYSICIAN STATEMENT  | 
- | Data or Blrlh (mmnoryy)  | Date of Birth (mm/dd/yy) | Date of Birth (mmddy)  | Date of Birth (mmddy) a  | 
- | Date of Birth immoral”)—  | Date of Birth (mm/dd/yy) | Date of Birth mmddy)—  | Date of Birth mmddy)— a  | 
- | ACCIDENT DETAILS  | ACCIDENT DETAILS | ACCIDENT DETAILS ON S | ACCIDENT DETAILS ON S  | 
- | Sow-loo (including Conﬁnement) | Dates of Services (including Confinement) | Dat-s of(including Confineme)t | dates of(including confinement  | 
- | Guido (ICU) Coda  | Diagnosis Code (ICD) | Diagno(is )ode ICD | diagnosis rode ICD  | 
- | If 5499.. Diane provide the following:  | If yes, please provide the following: | If 5499..lease provide the following: | If 5499..lease provide the following  | 
- | Diagmsia'  | Diagnosis: | Diagnosis | Diagnosis  | 
- | Troutmant Dates:  | Treatment Dates: | Treatmant Dates:  | Treatment Dates a  | 
- | Did you adin'aa iil'II paliont lo stop working?  | Did you advice the patient to stop working? | Did you adired Caintifiel patient to stop working? | Did you adored Caintifiel patient to stop working  | 
- | If yes. as of what date? lmrnl-ddl'yy)  | If yes as of what date? (mm/dd/yy) | If yes. as of what date? mmd-yy  | If yes as of what date mmd-yy a  | 
- | Physician Information  | Physician Information | Physician Information | Physician Information  | 
- | C. Signatum cl Attending Physician  | C. Signature of Attending Physician | C. Signature Sttending Physician | C Signature Attending Physician  | 
- | _ 3—0/1») I. [Lg/ZKJAJ  | Medical Specialty | St3—0/1I) &.y[Zi/ht  | St3—0/1I) &.y[Zi/ht a  | 
- | Address  | Address | Address | Address  | 
- | Gib] EUGEW’ﬂd’ﬂ K State Zip H/ﬂ/O  | City State Zip | Cit] State Zip | City State Zip  | 
- | Telephone Number  | Telephone Number | Telephone Number  | Telephone Number a  | 
- | Fax Number  | Fax Number | Fax Number  | Fax Number a  | 
- | g g . SHORT TERM DISABILITY CLAIM FORM  | SHORT TERM DISABILITY CLAIM FORM | ART .HORE TER DISARILIZY CATIE FORM  | ART SHORE TER DISABILITY CATIE FORM a  | 
- | w The Beneﬁts Cantor  | The Benefits Center | The Benefits Center | The Benefits Center  | 
- | ananomo PHYSICIAN STATEMENT (continued)  | ATTENDING PHYSICIAN STATEMENT (Continued) | ATTENDING PHYSICIAN STATEMEN( Continu)d | ATTENDING PHYSICIAN STATEMENT continued  | 
- | Date of Birth [mmrddiyﬁ  | Date of Birth (mm/dd/yy) | Date of Birth [mmddyy | Date of Birth [mmddyy  | 
- | Name  | Name | Name  | Name a  | 
- | Speclelty  | Specialty | Specialty  | Specialty a  | 
- | Address  | Address | Address | Address  | 
- | Phone lit  | Phone # | Phone # | Phone #  | 
- | Port-time hours per day  | Part-time hours per day | Port-me time hours day | Port-me time hours day  | 
- | C. Functional Capacity  | C. Functional Capacity | C. Functional Capacity  | C Functional Capacity a  | 
- | Restrictions ondior Limitations  | Restrictions and/or Limitations | Restrictions andor Limitations | Restrictions andor Limitations  | 
- | D. Signature of Attending Physician  | D. Signature of Attending Physician | D. Signature of Attending Physician | Do Signature of Attending Physician  | 
- | - at; | Date | -ate; | later  | 
- | unumu' | unum | unum | unum  | 
- | O O O The Benefits Center | The Benefits Center | The Benefits Center | The Benefits Center  | 
- | (Not for FMLA Requests) | (Not for FMLA Requests) | (Not for FMLA Requests) | Not for FPLA Requests  | 
- | Electronically Signed 03/14/2018 | Electronically Signed 03/14/2018 | Electronically Signed 03/14/2018 | Electronically Signed 03/14/2018  | 
- | Insured’s Signature Date Signed  | Insured’s Signature Date Signed | Insured’s Signature Date Signed Insured Paing | insureds Signature Date Signed Insured Pain  | 
- | Printed Name Socral Security Number | Printed Name Social Security Number | Printed Name Social Security Number | Printed Name Social Security Number  | 
- | CL-1116 (11/14)  | CL-1116 (11/14) | CL-1116 (11/14) | CL-1116 (11/14)  | 
- | Dependent Inform mion  | Dependent Information | Dependent Information | Dependent Information  | 
- | First Name:  | First Name: | First Name:  | First Name a  | 
- | Middle Name/initial:  | Middle Name/Initial: | Middle Name/Initial:  | Middle Name/Initial: a  | 
- | Last Name:  | Last Name: | Last Name:  | Last Name a  | 
- | Social Security Number:  | Social Security Number: | Social Security Number:  | Social Security Number a  | 
- | Bil‘lh Date:  | Birth Date: | Birth Date: | Birth Date  | 
- | Gender:  | Gender: | Gender:  | Gender a  | 
- | Claim Event Information  | Claim Event Information | Claim Event Information | Claim Event Information  | 
- | Accident Work Related: No  | Accident Work Related: No | Accident Work Related: No  | Accident Work Related No a  | 
- | Time ofAccident: 1:30 pm  | Time of Accident: 1:30 pm | Time of Acciden:1:30 | Time of Acciden:1:30  | 
- | Accident Date: 02/] 1 52018  | Accident Date: 02/11/2018 | Accident Date: 02/]1 52018 | Accident Date 02/]1 52018  | 
- | Diagnosis Code: Concussion  | Diagnosis Code: Concussion | Diagnosis Code: Concussion | Diagnosis Codes Concussion  | 
- | SII l‘g Ei')’ Information  | Surgery Information | Surgery Inf)rmation  | Surgery information a  | 
- | 15 Surgery Required:  | Is Surgery Required: No | 15 Surgery Required:  | 15 Surgery Required a  | 
- | Medical Pl'oxitlel' Information , Physician  | Medical Provider Information - Physician | Medical Provider Information  P,ysician | Medical Provider Information a Physician  | 
- | unqu  | unum | unum | unum  | 
- | O . O The Benefits Center  | The Benefits Center | Th. Benefits Center  | The Benefits Center a  | 
- | (Not for FMLA Requests)  | (Not for FMLA Requests) | (Not for FMLA Requests) | Not for FPLA Requests  | 
- | Electronically Signed  | Electronically Signed Insured’s Signature | Electronically Signed Insured Congiced  | Electronically Signed Insured Convinced a  | 
- | 03/15/2018 Date Signed  | 03/15/2018 Date Signed | 03/15/2018 Date Signed Insured Paing | 03/15/2018 Date Signed Insured Pain  | 
- | Printed Name  | Printed Name | Printed Name  | Printed Name a  | 
- | Social Security Number  | Social Security Number | Social Security Number  | Social Security Number a  | 
- | CL-1116 (11114)  | CL-1116 (11/14) | CL-1116 (11114) | CL-1116 (11114)  | 
- | Encounter Date: 02! 1 2/20 1:  | Encounter Date: 02/12/2018 | Encounter Date: 0212/20 | Encounter Date 0212/20  | 
- | Author: Souha Hakim, MD  | Author: Souha Hakim, MD | Author: Souha Hakim, MD  | Author Socha Hakim MD a  | 
- | Service; (none)  | Service: (none) | Service; (none)  | Service none a  | 
- | Author Type: Physician  | Author Type: Physician | Author Type: Physician | Author Type Physician  | 
- | Fiied: 03l12i18 0017  | Filed: 03/12/18 0017 | Filed: 0312i180017  | Filed 0312i180017 a  | 
- | Encounter Date: 2/12i'20'18  | Encounter Date: 2/12/2018 | Encounter Date: 2/122018 | Encounter Date 2/122018  | 
- | Status: Signed  | Status: Signed | Status: Signed  | Status Signed a  | 
- | Editor: Souha Hakim, MD (Physician)  | Editor: Souha Hakim, MD (Physician) | Editor: Souha Hakim, MD (Physician) | Editor Socha Hakim MD Physician  | 
- | Subjective:  | Subjective: | Subjective:  | Subjective a  | 
- | Patient ID: .  | Patient ID: . | Patient ID: . | Patient ID .  | 
- | History provided by: dad.  | History provided by: dad. | History provided by: dad. | History provided by dad  | 
- | Language interpreter used: No  | Language interpreter used: No | Language interpreter used: No | Language interpreter used No  | 
- | Chief Complaint  | Chief Complaint | Chief Complaint  | Chief Complaint a  | 
- | Patient presents with  | Patient presents with | Patient presents with  | Patient presents with a  | 
- | - Concussion  | Concussion | -oncussion  | concussion a  | 
- | urgent care ﬂu  | urgent care f/u | urgent care fur | urgent care fur  | 
- | Review of Systems  | Review of Systems | Review of Systems  | Review of Systems a  | 
- | Cardiovascular: Negative for chest pain.  | Cardiovascular: Negative for chest pain. | Cardiovascular: Negative for chest pain. | Cardiovascular Negative for chest pain  | 
- | Skin: Negative for rash.  | Skin: Negative for rash. | Skin: Negative for rash. | Skin Negative for rash  | 
- | Neurological: Negative for headaches.  | Neurological: Negative for headaches. | Neurological: Negative for headaches. | Neurological Negative for headaches  | 
- | Objective: . .  | Objective: | Objective: | Objective  | 
- | Physical Exam  | Physical Exam | Physical Exam | Physical Exam  | 
- | HENT:  | HENT: | HENT:  | HENTY a  | 
- | Right Ear: Tympanic membrane normal.  | Right Ear: Tympanic membrane normal. | Right Ear: Tympanic membrane normal. | Right Ears Tympanic membrane normal  | 
- | Nose: Nase normal.  | Nose: Nose normal. | Nose: Nase normal. | Nose Case normal  | 
- | Mouth/Throat: Oropharynx is clear.  | Mouth/Throat: Oropharynx is clear. | Mouth/Throat: Oropharynx is clear. | Mouth/Throat: Oropharynx is clear  | 
- | Eyes: Conjunctivae and EOM are normal.  | Eyes: Conjunctivae and EOM are normal. | Eyes: Conjunctivae and EOM are normal. | Eyes Conjunctivae and EOM are normal  | 
- | Neck: Neck supple. No rigidity.  | Neck: Neck supple. No rigidity. | Neck: Neck supple. No rigidity. | Neck Neck supple No rigidity  | 
- | No murmur heard.  | No murmur heard. | No murmur heard. | No murmur heard  | 
- | Encounter Date: 02112/20] E  | Encounter Date: 02/12/2018 | Encounter Date: 02112/20] | Encounter Date 02112/20]  | 
- | Lymphadenopathy:  | Lymphadenopathy: | Lymphadenopathy:  | Lymphadenopathy a  | 
- | He has no cervical adenopathy.  | He has no cervical adenopathy. | He has no cervical adenopathy. | He has no cervical adenopathy  | 
- | Neurological: He is alert.  | Neurological: He is alert. | Neurological: He is alert. | Neurological He is alert  | 
- | Skin: Skin is warm. No rash noted.  | Skin: Skin is warm. No rash noted. | Skin: Skin is warm. No rash noted. | Skin Skin is warm No rash noted  | 
- | Assessment:  | Assessment: | Assessment:  | Assessment a  | 
- | Plan:  | Plan: | Plan:  | Plan a  | 
- | MedExpress‘  | MedExpress’ | MedExpreast  | MedExpreast a  | 
- | Patient Name:  | Patient Name: | Patient Name:  | Patient Name a  | 
- | Patient DOB:  | Patient DOB: | Patient DOB: | Patient DOB  | 
- | Current Mods  | Current Meds | Current Meds | Current Meds  | 
- | ACTIVE: albuterol sulfate  | ACTIVE: albuterol sulfate | ATTIVE: albuterol sulfate | ACTIVE albuterol sulfate  | 
- | Date ot‘Visit’Admisslorr 02/112018  | Date of Visit/Admission: 02/11/2018 | Date of VisitAdmission 02/112018 | Date of VisitAdmission 02/112018  | 
- | Date ot‘Discllarge: 03!] 112018  | Date of Discharge: 20/11/2018 | Date of Discharge:03] 11201 | Date of Discharge:03] 11201  | 
- | Procedure: Urgent Care Visit for Concussion  | Procedure: Urgent Care Visit for Concussion | Procedure: Urgent Care Visit for Concussion | Procedure Urgent Care Visit for Concussion  | 
- | Employm em In formation  | Employment Information | Employment Information | Employment Information  | 
- | Employer N arm:  | Employer Name: | Employer Name: | Employer Name  | 
- | Policy Number:  | Policy Number: | Policy Number:  | Policy Number a  | 
- | Electronic Submis siorl  | Electronic Submission | Electronic Submission  | Electronic Submission a  | 
- | C lairn Event Identiﬁer: 26774 53  | Clairn Event Identifier: 2677453 | Claimar Event Identifie:2677453 | Claimer Event Identifie:2677453  | 
- | Electronically Signed Indicator: Yes  | Electronically Signed Indicator: Yes | Electronically Signed Indicator: Yes | Electronically Signed Indicator Yes  | 
- | Electronically Signed Date: Thursday  | Electronically Signed Date: Thursday | Electronically Signed Date: Thursday | Electronically Signed Date Thursday  | 
- | Claim Tji'pe: V'B Accident - Accidental Injury  | Claim Type: VB Accident - Accidental Injury | Claim Type :B Accident  A-cidental Injury | Claim Type B Accident a Accidental Injury  | 
- | Policg'h old er: Owner Information  | Policyholder/Owner Information | PolicyholderOw:er Information  | PolicyholderOw:er Information a  | 
- | First Name:  | First Name: | First Name:  | First Name a  | 
- | Last Name:  | Last Name: | Last Name:  | Last Name a  | 
- | Social Secun'ty Number:  | Social Security Number: | Social Security Number:  | Social Security Number a  | 
- | Birth Date:  | Birth Date: | Birth Date:  | Birth Date a  | 
- | Gender:  | Gender: | Gender:  | Gender a  | 
- | Language Preference:  | Language Preference: | Language Preference: | Language Preference  | 
- | Address Line 1:  | Address Line 1: | Address Line 1:  | Address Line 1: a  | 
- | City:  | City: | City:  | City a  | 
- | Stater‘Pronnce:  | State/Province: | StateProvince:  | StateProvince: a  | 
- | Postal Code:  | Postal Code: | Postal Code:  | Postal Codes a  | 
- | C mmtry',  | Country: | Country, | Country  | 
- | “Fork State-Comm:  | Work State/Country: | Fork State-orn: | Fork State-orn:  | 
- | Email Address:  | Email Address: | Email Address:  | Email Address a  | 
- | unum  | unum | unum | unum  | 
- | December 1, 2017  | December 1, 2017 | December 1, 2017 | December 1, 2017  | 
- | Confirmation of Coverage  | Confirmation of Coverage | Confirmation of Coverage | Confirmation of Coverage  | 
- | Employer:  | Employer: | Employer: | Employers  | 
- | Group Policy #:  | Group Policy #: | Group Policy #: | Group Policy of  | 
- | Customer Policy #:  | Customer Policy #: | Customer Policy #: | Customer Policy of  | 
- | EE Name:  | EE Name: | EE Name:  | EE Name a  | 
- | Coverage 1" r V r T Wan  | Insured Coverage Type Coverage Effective Date | Insured C1"erage Zive Tain  | Insured C1"erage Give Tain a  | 
- | Employee 0n 3L Off-Job Acc January 1, 2018  | Employee On & Off-Job Acc January 1, 2018 | Employee 0n 3 Off-ob Acc January 1,2018 | Employee 0n 3 Off-ob Acc January 1,2018  | 
- | Spouse On 8:. Off-Job Acc January 1, 2018  | Spouse On & Off-Job Acc January 1, 2018 | Spouse On 8:.ffJ-b Acc January 1,201 | Spouse On 8:.ffJ-b Acc January 1,201  | 
- | Child On 81 Off-Job Acc January 1, 2018  | Child On & Off-Job Acc January 1, 2018 | Child On 81Off-ob Acc January 1,2018 | Child On 81Off-ob Acc January 1,2018  | 
- | Total Monthly Premium: $39.71  | Total Monthly Premium: $39.71 | Total Monthly Premium: $39.71 | Total Monthly Premium $39.71  | 
- | I: I—  | ME | D:te— | Date  | 
- | Med Express  | MedExpress | MedExpreass  | MedExpreass a  | 
- | Patient Name:  | Patient Name: | Patient Name:  | Patient Name a  | 
- | Patient DOB:  | Patient DOB: | Patient DOB: | Patient DOB  | 
- | Date ofVisit: February II 2018  | Date of Visit: February 11 2018 | Date of Visi: Ferury IZ 2018 | Date of Visit Ferry IZ 2018  | 
- | Seen By: Vijay Patel, MD  | Seen By: Vijay Patel, MD | Seen By: Vijay Patel, MD  | Seen By Vijao Patel MD a  | 
- | Location: MedExprcss Jackson, N West Ave  | Location: MedExpress Jackson, N West Ave | Location: MedExproxprachsst ,ame Avest | Location MedExproxprachsst same Avert  | 
- | 1325 North West Avenue  | 1325 North West Avenue | 1325Not West Avenue  | 1325Not West Avenue a  | 
- | Jackson: MI 49202—2050  | Jackson, MI 49202-2050 | Jackson: MIN49202—2050 | Jackson MIN49202—2050  | 
- | Policy Holder:  | Policy Holder: | Policy Holder:  | Policy Holder a  | 
- | DOB:  | DOB: | DOB:  | DOB a  | 
- | Effective Date:  | Effective Date: | Effective Date:  | Effective Date a  | 
- | Sex:  | Sex: | Sex:  | Sex a  | 
- | Type:  | Type: | Type:  | Type a  | 
- | Patient Na me:  | Patient Name: | Patient Name: | Patient Name  | 
- | Visit Date: Description: Qty  | Visit Date: Description: Qty | Visit Date: Description: Qty Cty | Visit Date Description Qty Cry  | 
- | Clinical Summary Report  | Clinical Summary Report | Clinical Summary Report | Clinical Summary Report  | 
- | Chief Complaint  | Chief Complaint | Chief Complaint  | Chief Complaint a  | 
- | Allergies  | Allergies | Allergies | Allergies  | 
- | Active: Reviewed Allergies; Penicillins - Rash  | Active: Reviewed Allergies; Penicillins - Rash | Active: Reviewed Allergies; Penicillins - Rast  | Active Reviewed Allergies Penicillins - Rast a  | 
- | Vitals  | Vitals | Vitals  | Vitals a  | 
- | Taken on 0231112018 at 3:47 PM:  | Taken on 02/11/2018 at 3:47 PM: | Take on 0231112018 t a3:47 | Take on 0231112018 t a3:47  | 
- | BP: 112158 mmHg  | BP: 112/58 mmHg | BP: 112158 mmHg  | BPT 112158 mmHg a  | 
- | PULSE: 75 bpm  | PULSE: 75 bpm | PULSE: 75 bpm | PULSE 75 bpm  | 
- | RESP: 18 breathslmin  | RESP: 18 breaths/min | RESP: 18 breathsmin | RESP 18 breathsmin  | 
- | TEMP: 98.5  | TEMP: 98.5 | TEMP: 98.5  | TEMPS 98.5 a  | 
- | WEIGHT: 114 |b(51.71 kg)  | WEIGHT: 114 lb(51.71 kg) | WEIGHT: 114 lb(51.71 kg)  | WEIGHT 114 lb(51.71 kgr a  | 
- | HEIGHTILENGTHZ 5 ft 5 in  | HEIGHT/LENGTH: 5 ft 5 in | HEIGHTLENGTH 5 ft 5 in | HEIGHTLENGTH 5 ft 5 in  | 
- | BMI: 18.97  | BMI: 18.97 | BMI: 18.97 | BMI 18.97  | 
- | 02 SAT: 98%  | O2 SAT: 98% | 02 SAT: 98% | 02 SAT 98%  | 
- | Current Mode  | Current Meds | Current Meds | Current Meds  | 
- | Medical Provider Roles:Primary Care  | Medical Provider Roles: Primary Care | Medical Provider Roles: Primary Care | Medical Provider Roles Primary Care  | 
- | Provider First Name: S ouha  | Provider First Name: Souha | Provider First Name: Souha Sersa  | Provider First Name Socha Sera a  | 
- | Provider Last Name: Hakim  | Provider Last Name: Hakim | Provider Last Name: Hakim | Provider Last Name Hakim  | 
- | Address Line 1: 1413 E. Michigan Ave  | Address Line 1: 1418 E. Michigan Ave | Address Line 1: 1413Em.chan Ave Ave Addich | Address Line 1: 1413Em.chan Ave Ave Addice  | 
- | C ity. Jackson  | City: Jackson | City.Jachson  | City.Jachson a  | 
- | S mte/I’rou'nee : LII  | State/Province : MI | State/Provinee :ILI Name | State/Provinee FILI Name  | 
- | Postal Code: 49202  | Postal Code: 49202 | Postal Code: 49202 | Postal Codes 49202  | 
- | Liotmtry". US  | Country: US | Country".TS | Country".TS  | 
- | Business Telephone: (517) 783-1779  | Business Telephone: (517) 783-1779 | Business Telephone: (517)783-1 | Business Telephone (517)783-1  | 
- | Date ofFirst Visit 02/12/2018  | Date of First Visit: 02/12/2018 | Date of First Visit02/12/2018  | Date of First Visit02/12/2018 a  | 
- | Hospital N anle: Medlixpress  | Hospital Name: MedExpress | Hospital Name :edExpress  | Hospital Name :edExpress a  | 
- | Address Line 1: 1 325 North West Ave.  | Address Line 1: 1325 North West Ave. | Address Line 1: 1325 West Aves | Address Line 1: 1325 West Aves  | 
- | City .Tackson  | City: Jackson | City .tachson  | City .tachson a  | 
- | State/Province: MI  | State/Province: MI | State/Province: MI  | State/Province: MI a  | 
- | Postal Codes 4 92 02  | Postal Codes: 49202 | Postal Codes49202  | Postal Codes49202 a  | 
- | Comm-1 US  | Country: US | Coun-1y S | Coun-1y S  | 
- | Medical Provider Roles: Primary Care  | Medical Provider Roles: Primary Care | Medical Provider Roles: Primary Care | Medical Provider Roles Primary Care  | 
- | Provider First Name: Todd  | Provider First Name: Todd | Provider First Name: Todd  | Provider First Name Todd a  | 
- | Provider Last Name: Francis  | Provider Last Name: Francis | Provider Last Name: Francis | Provider Last Name Francis  | 
- | Address Line 1: 5 700 Monroe ST Suite 203  | Address Line 1: 5 700 Monroe St Suite 203 | Address Line 1: 5700  Monte  Mo | Address Line 1: 5700 a Monte a Mo  | 
- | C ity. Sylvania  | City: Sylvania | City .tale Zivania | City tale Zizania  | 
- | State/Produce: OH  | State/Produce: OH | State/Produce: HO K | State/Produce: HO K  | 
- | Postal Code: 43560  | Postal Code: 43560 | Postal Code: 43560 | Postal Codes 43560  | 
- | Liotmtry".  | Country: | Country". | Country  | 
- | Business Telephone: (419) 843-8100  | Business Telephone: (419) 843-8100 | Business Telephone: (419)843-8100  | Business Telephone (419)843-8100 a  | 
- | Medical Pl'oﬁtlel' Information 7 Physician  | Medical Provider Information - Physician | Medical Provider Information  7hysician | Medical Provider Information a 7hysician  | 
- | Medical Provider Specially. Podiﬂll'ibl  | Medical Provider Specially: Podiatrist | Medical Provider Specialty. Podicible | Medical Provider Specialty Podicible  | 
- | Medical Provider Roles: [rearing  | Medical Provider Roles: Treating | Medical Provider Roles: [rearing  | Medical Provider Roles rearing a  | 
- | Provider First Name: Ryan  | Provider First Name: Ryan | Provider First Name: Ryan | Provider First Name Ryan  | 
- | Pl'mider la st Name: Kish  | Provider Last Name: Kish | Provider Last Name:Kish  | Provider Last Name:Kish a  | 
- | Address Line 1: 3905. W’est Sylvania Ave.  | Address Line 1: 3905 West Sylvania Ave. | Address Line 1: 3905.eldania Selvate  | Address Line 1: 3905.eldania Selvage a  | 
- | City: Toledo  | City: Toledo | City: Toled  | City Toled a  | 
- | Stater'Proxince: OH  | State/Province: OH | StateProvince:HOH | StateProvince:HOH  | 
- | Claim Tji'pe: VB Accident - Accidental Injury  | Claim Type: VB Accident - Accidental Injury | Claim Type :B Accident  -ccidental Injury | Claim Type B Accident a accidental Injury  | 
- | Policg'h old 91': Owner Information  | Policyholder: Owner Information | Policyholder91n:r Information  | Policyholder91n:r Information a  | 
- | First Name:  | First Name: | First Name:  | First Name a  | 
- | Last Name:  | Last Name: | Last Name:  | Last Name a  | 
- | Social Secun'ty Number:  | Social Security Number: | Social Security Number:  | Social Security Number a  | 
- | Birth Date:  | Birth Date: | Birth Date:  | Birth Date a  | 
- | Gender:  | Gender: | Gender:  | Gender a  | 
- | Language Preference:  | Language Preference: | Language Preference: | Language Preference  | 
- | Address Line 1:  | Address Line 1: | Address Line 1:  | Address Line 1: a  | 
- | City:  | City: | City:  | City a  | 
- | Slater‘Pronnce:  | State/Province | StateProvince:  | StateProvince: a  | 
- | Postal Code:  | Postal Code: | Postal Code:  | Postal Codes a  | 
- | C mm’rry',  | Country: | Country , | Country ,  | 
- | “Fork State-Comm:  | Work State/Country: | Fork State-orn: | Fork State-orn:  | 
- | Best Phone Number to be Reached During the Day  | Best Phone Number to be Reached During the Day | Best Phone Number to be Reached During the Day  | Best Phone Number to be Reached During the Day a  | 
- | Email Address:  | Email Address: | Email Address:  | Email Address a  | 
- | 31199018  | 3/19/2018 | 31199018 | 31199018  | 
- | Claim Details | Claim Details | Claim Details | Claim Details  | 
- | Member ND:  | Member No: | Member Me: | Member Me  | 
- | Amount Billed:  | Amount Billed: $ 264.00 | Amount Billed:  | Amount Billed a  | 
- | Allowed Amnum: | Allowed Amount: $ 136.22 | Allowed Amoun: | Allowed Amount  | 
- | Service Date: 03:0912013 | Service Date: 03/09/2018 | Service Date: 03:09120 | Service Date 03:09120  | 
- | Paramount Paid: $ 101.22 | Paramount Paid: $ 101.22 | Paramount Paid: $101.22 | Paramount Paid $101.22  | 
- | Type: Medical  | Type: Medical | Type: Medical @ Secal Sedical @ Medical @ Sed  | Type Medical a Seal Medical a Medical a Sed a  | 
- | Provider/Facility: Ryan C Klsh. DPM | Provider/Facility: Ryan C Kish, DPM | Provider/Facility: Ryan C Kish. DPM | Provider/Facility: Ryan C Kishy DPM  | 
- | Member Responsibility:  | Member Responsibility: $ 35.00 | Member Responsibility:  | Member Responsibility a  | 
- | Service Details for This Claim  | Service Details for This Claim | Service Details for This Claim | Service Details for This Claim  | 
- | SERVICE LINE #  | SERVICE LINE # | SERVICE LINE # | SERVICE LINE #  | 
- | DATES] OF SERVICE  | DATE(S) OF SERVICE | DATE] OF SERVICE  | DATE OF SERVICE a  | 
- | AUTHORIZATION NO.  | AUTHORIZATION NO. | AUTHORIZATION NO.  | AUTHORIZATION NOT a  | 
- | PROCEDURE NOJREVENUE CODE  | PROCEDURE NO./REVENUE CODE | PROCEDURE NOREVENUE CODE | PROCEDURE NONREVENUE CODE  | 
- | PROCEDURE MODJFIER  | PROCEDURE MODIFIER | PROCEDURE MODIFIER  | PROCEDURE MODIFIER a  | 
- | DIAGNOSlS CODE  | DIAGNOSIS CODE | DIAGNOSIS CODE | DIAGNOSIS CODE  | 
- | EXPLAIN CODE  | EXPLAIN CODE | EXPLAIN CODE | EXPLAIN CODE  | 
- | AMOUNT BlLLED  | AMOUNT BILLED | AMOUNT BiLLED COD | AMOUNT billed COD  | 
- | ALLOWED AMOUNT  | ALLOWED AMOUNT | ALLOWED AMOUNT  | ALLOWED AMOUNT a  | 
- | PARAM 0 UNT PAID  | PARAMOUNT PAID | PARAM 0NDUNT PAID  | PARAM 0NDUNT PAID a  | 
- | 9 Indicalas additional information is available  | Indicates additional information is available. | 9ndicatealas additional information is available | 9ndicatealas additional information is available  | 
- | Claim Details  | Claim Details | Claim Details  | Claim Details a  | 
- | Mamba: No:  | Member No: | Mamie: No: | Mamie Not  | 
- | Amount Billed:   | Amount Billed | Amount Billed:  | Amount Billed a  | 
- | Allowed Amount:  | Allowed Amount: | Allowed Amount: | Allowed Amount  | 
- | \Paramount Paid:    | Paramount Paid: | \aramount Paid:  | paramount Paid a  | 
- | Providen'Facility: ProMedicn Tole do Hospital  | Provider/Facility: ProMedica Toledo Hospital | Provider Facility: ProMedical Hospital Hospital  | Provider Facility premedical Hospital Hospital a  | 
- | Member Responsibility: 3 350.00 | Member Responsibility $ 350.00 | Member Responsibility:3350 | Member Responsibility:3350  | 
- | Service Details for This Clc-lm  | Service Details for This Claim | Service Details for This Cla-m | Service Details for This claim  | 
- | SERVICE LINE #  | SERVICE LINE # | SERVICE LINE # | SERVICE LINE #  | 
- | DATES) OF SERVICE  | DATE(S) OF SERVICE | DATE) OF SERVICE  | DATE OF SERVICE a  | 
- | AUTHORIZA ‘ION  | AUTHORIZATION NO. | AUTHORIZATION Na | AUTHORIZATION Na  | 
- | PROCEDURE NDJ‘REVENUE  | PROCEDURE NO./REVENUE CODE | PROCEDURE NODAREVENUE DERE  | PROCEDURE NODAREVENUE DERE a  | 
- | PROCEDURE MODEFIER | PROCEDURE MODIFIER | PROCEDURE MODIFIER | PROCEDURE MODIFIER  | 
- | DlAGNOSiS CODE  | DIAGNOSIS CODE | DEAGNOSS CODE | DIAGNOSIS CODE  | 
- | E X PLAI N CODE  | EXPLAIN CODE | EXPLAIN CODE OCDE S | EXPLAIN CODE CODE S  | 
- | AMOUNT BILL ED  | AMOUNT BILLED | AMOUNT BILLED ON | AMOUNT BILLED ON  | 
- | ALLOWED AMOUNT  | ALLOWED AMOUNT | ALLOWED AMOUNT  | ALLOWED AMOUNT a  | 
- | PARAMOU NT PAID  | PARAMOUNT PAID | PARAMOUNT PAID DID  | PARAMOUNT PAID DID a  | 
- | 9 Indicates additional information i- available.  | Indicates additional information is available. | 9ndicates additional information is -vailable | 9ndicates additional information is available  | 
- | Employer Nana:  | Employer Name: | Employer Name:  | Employer Name a  | 
- | Electron [1: S u Innis sion  | Electronic: Submission | Electroni[1:u Indission  | Electroni[1:u Incision a  | 
- | C lairn Event Identiﬁer:  | Claim Event Identifier: | Claim Event Identifier: | Claim Event Identifier  | 
- | Submission Date: 03/122018  | Submission Date: 03/12/2018 | Submission Date: 03/122018 | Submission Date 03/122018  | 
- | Electromeally Signed Indicator: Yes  | Electronically Signed Indicator: Yes | Electronically Signed Indicato: Yes | Electronically Signed Indicator Yes  | 
- | Spou s 0 Information  | Spouse Information | Spouse 0nformation | Spouse 0nformation  | 
- | First Name:  | First Name: | First Name:  | First Name a  | 
- | Middle Name/initial:  | Middle Name/Initial: | Middle Name/Initial:  | Middle Name/Initial: a  | 
- | Last Name:  | Last Name: | Last Name:  | Last Name a  | 
- | Social Security Number:  | Social Security Number: | Social Security Number:  | Social Security Number a  | 
- | Birth Date:  | Birth Date: | Birth Date:  | Birth Date a  | 
- | Gender:  | Gender: | Gender:  | Gender a  | 
- | Claim Event Information  | Claim Event Information | Claim Event Information | Claim Event Information  | 
- | Accident Work Related: N o  | Accident Work Related: No | Accident Work Related: No  | Accident Work Related No a  | 
- | Time ofAceident: 03 :00  | Time ofAccident: 03:00 | Time of Acciden:03r:00  | Time of Acciden:03r:00 a  | 
- | Accident Date: 03/099018  | Accident Date: 03/09/2018 | Accident Date: 03/099018 | Accident Date 03/099018  | 
- | Diagnosis Code: Broken big toe on lett foot  | Diagnosis Code: Broken big toe on left foot | Diagnosis Code: Broken big toe on lett foot | Diagnosis Codes Broken big toe on lett foot  | 
- | Sn l‘g er)‘ In formation  | Surgery Information | Surgery I)formation  | Surgery Information a  | 
- | 15 SIII‘HED" Required:  | Is Surgery Required: Unknown | 15 SIITHED "equired : | 15 SITHED required :  | 
- | Medical Proxitler Information — Physician  | Medical Proxitler Information - Physician | Medical Provider Information —Physician | Medical Provider Information Physician  | 
- | unum  | unum | unum | unum  | 
- | June21,2017  | June 21, 2017 | Junt21,2017 | Junt21,2017  | 
- | Confirmation of Coverage  | Confirmation of Coverage | Confirmation of Coverage | Confirmation of Coverage  | 
- | Employer:  | Employer: | Employer: | Employers  | 
- | Group Policy #:  | Group Policy #: | Group Policy #: | Group Policy of  | 
- | 1“ r V r T Enema: Coverage  | Insured Coverage Type Coverage Effective Date | 1nsured Coverage:Type Coverage Effective Date | 1nsured Coverage:Type Coverage Effective Date  | 
- | Employee 0n & Off-Job Acc July 1, 2017  | Employee On & Off-Job Acc July 1, 2017 | Employee 0n & Off-Job Acc July 1, 2017 | Employee 0n a Off-Job Acc July 1, 2017  | 
- | Spouse 0n 8!. Off-Job Acc July 1, 2017'  | Spouse On & Off-Job Acc July 1, 2017 | Spouse 0n 8 .ffJ-b Acc July 1,201 | Spouse 0n 8 .ffJ-b Acc July 1,201  | 
- | Employee Wellness Benefit July 1, 2017  | Employee Wellness Benefit July 1, 2017 | Employee Wellness Benefit July 1, 2017 | Employee Wellness Benefit July 1, 2017  | 
- | Spouse Wellness Benefit July 1, 2017  | Spouse Wellness Benefit July 1, 2017 | Spouse Wellness Benefit July 1, 2017 | Spouse Wellness Benefit July 1, 2017  | 
- | Total Monthly Premium: $29.30  | Total Monthly Premium: $29.30 | Total Monthly Premium: $29.3 | Total Monthly Premium $29.3  | 
- | Postal Code: 43623  | Postal Code: 43623 | Postal Code: 43623  | Postal Codes 43623 a  | 
- | Country". US  | Country: US | Country".US  | Country".US a  | 
- | Business Telephone: (419) 474- 1210  | Business Telephone: (419) 474-1210 | Business Telephone: (419)474-1210 | Business Telephone (419)474-1210  | 
- | Business Fax (419) 474-3076  | Business Fax: (419) 474-3076 | Business Fax (419)474-3076  | Business Fax (419)474-3076 a  | 
- | Date ofFirst Visit: 03/09/2018  | Date of First Visit: 03/09/2018 | Date of First Visi:03/09/2018 | Date of First Visi:03/09/2018  | 
- | Date ofNen Visit: 03/16/2018 | Date of Next Visit: 03/16/2018 | Date of Next Vis:t03/16/2018 | Date of Next Vis:t03/16/2018  | 
- | Hospital Name: Toledo Hospital  | Hospital Name: Toledo Hospital | Hospital Name: Toleddo Hospital | Hospital Name Toledo Hospital  | 
- | Address Line 1 2142 N Cove Blvd   | Address Line 1 : 2142 N Cove Blvd | Address Line 1 2142 Cover Bive  | Address Line 1 2142 Cover Give a  | 
- | C ity. OH  | City: OH | City.OH NAME | City.OH NAME  | 
- | S lute riProx-inee:  | State/Province: OH | Suluter Provi-ce : | Saluter province :  | 
- | Postal Code: 43606  | Postal Code: 43606 | Postal Code: 43606  | Postal Codes 43606 a  | 
- | (10th US  | Country: US | (10 US S | (10 US S  | 
- | Date ofVisit/A d‘miss ion 03/09/2018  | Date of Visit/Admission: 03/09/2018 | Date of Visi/Admiss on 03/09/201 | Date of Visi/Admiss on 03/09/201  | 
- | Date ofDiseharge: 03/09/2018  | Date of Discharge: 03/09/2018 | Date of Discharg:03/09/2018 | Date of Discharg:03/09/2018  | 
- | Procedure: ER visit, me  | Procedure: ER visit, Xray | Procedure: ER visit,Number  | Procedure ER visit,Number a  | 
- | Emplomi ent In formation  | Employment Information | Employment Information | Employment Information  | 
- | Medical Provider Roles:  | Medical Provider Roles: Treating | Medical Provider Roles:  | Medical Provider Roles a  | 
- | Provider First Name:  | Provider First Name: David | Provider First Name:  | Provider First Name a  | 
- | Provider Last Name:  | Provider Last Name: Bruce | Provider Last Name:  | Provider Last Name a  | 
- | Address Line 1:  | Address Line 1: | Address Line 1:  | Address Line 1: a  | 
- | Address Line 2:  | Address Line 2: | Address Line 2:  | Address Line 2: a  | 
- | City.  | City: | City.  | City a  | 
- | State-Proxince:  | State/Province: | State-Province:  | State-Province: a  | 
- | Postal Code:  | Postal Code: | Postal Code:  | Postal Codes a  | 
- | Country.  | Country: | Country.  | Country a  | 
- | Business Telephone:  | Business Telephone: | Business Telephone:  | Business Telephone a  | 
- | Date ofFirst Visit: 0211952018  | Date of First Visit: 02/19/2018 | Date of First Visi:0211952018  | Date of First Visi:0211952018 a  | 
- | Date ofNeXt Visit; 03/120018  | Date of Next Visit: 03/12/2018 | Date of Next Visi;03/120018 | Date of Next Visi;03/120018  | 
- | Emplqvm am In formation  | Employment Information | Employment Information | Employment Information  | 
- | Flrployer Name:  | Employer Name: | Employer Name: | Employer Name  | 
- | Electronic Sn bmil. sion  | Electronic Submission | Electronic Submil.sion  | Electronic submission a  | 
- | Claim Event Identiﬁer: 2667305  | Claim Event Identiﬁer: 2667305 | Claim Event Identifie:2667305 | Claim Event Identifie:2667305  | 
- | Submission Date: 03/122018 | Submission Date: 03/12/2018 | Submission Date: 03/122018 | Submission Date 03/122018  | 
- | Claim Tji'pe: V'B Accident - Accidental Injury  | Claim Type: VB Accident - Accidental Injury | Claim Type :B Accident  A-cidental Injury | Claim Type B Accident a Accidental Injury  | 
- | Policg'h old er: Owner Information  | Policyholder/Owner Information | PolicyholderOw:er Information  | PolicyholderOw:er Information a  | 
- | First Name:  | First Name: | First Name:  | First Name a  | 
- | hﬁddle Name/initial:  | Middle Name/Initial: | Middle Name/Initial:  | Middle Name/Initial: a  | 
- | Last Name:  | Last Name: | Last Name:  | Last Name a  | 
- | Social Secun'ty Number:  | Social Security Number: | Social Security Number:  | Social Security Number a  | 
- | Birth Date:  | Birth Date: | Birth Date:  | Birth Date a  | 
- | Gender:  | Gender: | Gender:  | Gender a  | 
- | Language Preference:  | Language Preference: | Language Preference: | Language Preference  | 
- | Address Line 1:  | Address Line 1: | Address Line 1:  | Address Line 1: a  | 
- | City.  | City: | City.  | City a  | 
- | State/PrOVirice:  | State/Province: | State/Province: | State/Province:  | 
- | Postal Code  | Postal Code: | Postal Code  | Postal Code a  | 
- | Country.  | Country: | Country.  | Country a  | 
- | Email Address:  | Email Address: | Email Address:  | Email Address a  | 
- | unumQ  | unum | unum  | unum a  | 
- | The Benefits Center | The Benefits Center | The Benefits Center | The Benefits Center  | 
- | (Not for FMLA Requests)  | (Not for FMLA Requests) | (Not for FMLA Requests) | Not for FPLA Requests  | 
- | Electronically Signed InsureEI’s Signature   | Electronically Signed Insured’s Signature | Electronically Signed Insured’sture Signature  | Electronically Signed Insured’sture Signature a  | 
- | 03/1212018 Date Signed  | 03/12/2018 Date Signed | 03/1212018 Date Signed Insured  | 03/1212018 Date Signed Insured a  | 
- | Printed Name  | Printed Name | Printed Name  | Printed Name a  | 
- | SOCIaI Security Number  | Social Security Number | Social Security Number  | Social Security Number a  | 
- | CL-1116 (11114)  | CL-1116 (11/14) | CL-1116 (11114) | CL-1116 (11114)  | 
- | Daytime Phone:  | Daytime Phone: | Daytime Phone:  | Daytime Phone a  | 
- | Dependent Information  | Dependent Information | Dependent Information | Dependent Information  | 
- | First Name:  | First Name: | First Name:  | First Name a  | 
- | Last Name:  | Last Name: | Last Name:  | Last Name a  | 
- | Social Security Number:  | Social Security Number: | Social Security Number:  | Social Security Number a  | 
- | Birth Date:  | Birth Date: | Birth Date:  | Birth Date a  | 
- | Gender:  | Gender: | Gender:  | Gender a  | 
- | Claim Event Information  | Claim Event Information | Claim Event Information | Claim Event Information  | 
- | Accident Work Related: No | Accident Work Related: No | Accident Work Related: No | Accident Work Related No  | 
- | Time ofAccident: 14:45  | Time of Accident: 14:45 | Time of Acciden:14:45  | Time of Acciden:14:45 a  | 
- | Accident Date: 02/170018  | Accident Date: 02/17/2018 | Accident Date: 02/170018 | Accident Date 02/170018  | 
- | Diagnosis Code: knee injury | Diagnosis Code: knee injury | Diagnosis Code: knee injury | Diagnosis Codes knee injury  | 
- | Sn rg er)’ Information  | Surgery Information | Surgery )nformation  | Surgery information a  | 
- | 15 Surgery Required: No  | Is Surgery Required: No | 15 Surgery Required: No  | 15 Surgery Required No a  | 
- | Medical Proxitler Information , Physician  | Medical Provider Information - Physician | Medical Provider Information ,Physician | Medical Provider Information Physician  | 
- | Medical Provider Specially. Orthopedic Surgeon  | Medical Provider Specially: Orthopedic Surgeon | Medical Provider Specialty. Orthopedic Surgeon  | Medical Provider Specialty Orthopedic Surgeon a  | 
- | unum‘  | unum | unum | unum  | 
- | June 19, 2012  | June 19, 2012 | June 19, 2012 | June 19, 2012  | 
- | Conﬁrmation of Coveraoe  | Confirmation of Coverage | Confirmation of Coverage | Confirmation of Coverage  | 
- | Insured Coverme TIE Elfective Coverage Date  | Insured Coverage Type Coverage Effective Date | Insured Coverage Type Coverage Effective Date | Insured Coverage Type Coverage Effective Date  | 
- | Employee Off—Job Acc June 18, 2012  | Employee Off-Job Acc June 18, 2012 | Employee Off—Job Acc June 18, 2012 | Employee Off—Job Acc June 18, 2012  | 
- | Spouse Off—Job Acc June 18, 2012  | Spouse Off-Job Acc June 18, 2012 | Spouse Off—Job Acc June 18, 2012 | Spouse Off—Job Acc June 18, 2012  | 
- | Child Off—Job Acc June 18, 2012  | Child Off-Job Acc June 18, 2012 | Child Off—Job Acc June 18, 2012 | Child Off—Job Acc June 18, 2012  | 
- | Total Monthly Premium: $31.81  | Total Monthly Premium: $31.81 | Total Monthly Premium: $31.81 | Total Monthly Premium $31.81  | 
- | Electonically Signed Indicator: Yes  | Electronically Signed Indicator: Yes | Electronically Signed Indicato: Yes | Electronically Signed Indicator Yes  | 
- | E1ec11‘0111cally Signed Date:  | Electronically Signed Date: | E1ec11o0111lly Signed Date : | E1ec11o0111lly Signed Date :  | 
+ | Me dieal Provider Roles: Treating  | Medical Provider Roles: Treating | Medical Provider Roles:Treating  | Me deal Provider Roles Treating a  | 50 | 
+ | Provider First Name: Christine  | Provider First Name: Christine | Provider First Name: Christine | Provider First Name Christine a  | 50 | 
+ | Provider Last Name: Nolen, MD  | Provider Last Name: Nolen, MD | Provider Last Name: Nolen, MD | Provider Last Name Dolens MD a  | 50 | 
+ | Address Line 1 : 7 25 American Avenue  | Address Line 1 : 725 American Avenue | Address Line 1 : 7 25rden vain Adminuated | Address Line 1 : 7 25 American Avenue a  | 50 | 
+ | City. W’aukesha  | City: Waukesha | City.States | City Waukesha a  | 50 | 
+ | StatefProvinee: ‘WI  | State/Province: WI | StateProvince: WI BILWS | StatefProvinee: WI a  | 50 | 
+ | Postal Code: 5 31 88  | Postal Code: 53188 | Postal Code: 531 88   ta | Postal Codes 5 31 88 a  | 50 | 
+ | Country". US  | Country:  US | Country".USurance OF Surgery | Country US a  | 50 | 
+ | Business Telephone: (2 62) 92 8- 1000  | Business Telephone: (262) 928- 1000 | Business Telephone: (262) 92 8-m1000 | Business Telephone (2 62) 92 8- 1000 a  | 50 | 
+ | Date ot‘Pirst Visit: 1 2/01f20 17  | Date of First Visit: 12/01/2017 | Date of First Visit: 12/0120 | Date ot‘Pirst Visit 1 2/01f20 17 a  | 50 | 
+ | Medical Protitler Information — Hospitalization  | Medical Provider Information - Hospitalization | Medical Provider Information —Hospitalization | Medical Profiteer Information — Hospitalization a  | 50 | 
+ | Hospital Name: W'aukesha Memorial Hospital  | Hospital Name: Waukesha Memorial Hospital | Hospital Name: WaukesharM Member Hospital  Hospita | Hospital Name Waukesha Memorial Hospital a  | 50 | 
+ | Address Line 1 : 7" 25 Arnerie an Drive  | Address Line 1 : 725 American Drive | Address Line 1 : 7"A25in shoeview Drive | Address Line 1 : 7" 25 Arteries an Drive a  | 50 | 
+ | City. ‘Waukesha  | City: Waukesha | City.Work Paid | City Waukesha a  | 50 | 
+ | StatefProﬁnoe: W'I  | State/Province: WI | StateProvinc: WI | StatefProﬁnoe: Wi a  | 50 | 
+ | Postal Code: 5 31 88  | Postal Code: 53188 | Postal Code: 531 88   ta | Postal Codes 5 31 88 a  | 50 | 
+ | Country. US  | Country: US | Country. US | Country US a  | 50 | 
+ | Claim Type: VB Accident - Accidental Injury  | Claim Type: VB Accident - Accidental Injury | Claim Type: VB Accident - Accidental Injury  | Claim Type VB Accident - Accidental Injury a  | 50 | 
+ | Who The Reporled ETEIII Happened To: ErrployeefPolicyholders Child  | Who The Reported Event Happened To: Employee/Policyholder's child | Who The Reported Evert Happened To:Erployee Policyholders Child | Who The Reported ETEIII Happened To ErrployeefPolicyholders Child a  | 100 | 
+ | Policyhold El':"0“1l€l' In form ariorl  | Policyholder/Owner Information | Policyholder I:"0t1fier Information  | Policyhold El':"0“1l€l' In form prior a  | 50 | 
+ | First Name:  | First Name: | First Name:  | First Name a  | 50 | 
+ | Middle Narmflnitial:  | Middle Name/Initial: | Middle NameInitial: | Middle Narmflnitial: a  | 50 | 
+ | Last Name:  | Last Name: | Last Name:  | Last Name a  | 50 | 
+ | Social 8 ecurity Number:  | Social Security Number: | Social 8ecurity Number: | Social 8 security Number a  | 50 | 
+ | Birth Date:  | Birth Date: | Birth Date: | Birth Date a  | 50 | 
+ | Gender:  | Gender: | Gender: F | Gender a  | 50 | 
+ | Language Preference:  | Language Preference: | Language Preference: No | Language Preference a  | 50 | 
+ | Address Line 1:  | Address Line 1: | Address Line 1: | Address Line 1: a  | 50 | 
+ | CW-  | City: | Co-Inter  | CWO a  | 50 | 
+ | StatefProvince :  | State/Province: | StateProvince: | StatefProvince : a  | 50 | 
+ | Postal Code:  | Postal Code: | Postal Code:  | Postal Codes a  | 50 | 
+ | Country  | Country: | Country  | Country a  | 50 | 
+ | Best Phone Number to be Reached Dming the Day  | Best Phone Number to be Reached During the Day | Best Phone Number to be Reached Dumine Date  | Best Phone Number to be Reached Doing the Day a  | 50 | 
+ | Email Address:  | Email Address: | Email Address: | Email Address a  | 50 | 
+ | PROI—IEALTH CARE  | PROHEALTH CARE | PROI—HORIZATE | PROI—IEALTH CARE a  | 50 | 
+ | Waukesha Memorial Hospital. Inc. drbla ProHealth Waukesha Memorial Hospital  | Waukesha Memorial Hospital, Inc,d/b/a ProHealth Waukesha Memorial Hospital | Wauke the Memorial Hospita. In. drelate anc Workeshal Hemorial Hospital | Waukesha Memorial Hospital Inch dobla ProHealth Waukesha Memorial Hospital a  | 100 | 
+ | 0conomowoc Memorial Hospital, Inc., dinla ProHealIh Oconornowoc Memorial Hospi  | Oconomowoc Memorial Hospital, Inc., d/b/a ProHealth Oconomowoc Memorial Hospital | 0conomococ Memorial Hospital, Inc., ddino ProHeal0 Oncorial Hospital Hospital,Hosp.,al Hosp  | 0conomowoc Memorial Hospital Inch Dina ProHealIh Oconornowoc Memorial Hosp a  | 100 | 
+ | PraI-Iealth Care Msdicai Aseoolelas. Ino. di‘ba'a ProHeaith Medical Group  | ProHealth Care Medical Associates, Inc., d/b/a ProHealth Medical Group | Prov-ry Indocale Care Mono dinol A.doca. Aneo Medica- Cendical Cendicate Careu | PraI-Iealth Care Medical Aseoolelas. Inoc di‘ba'a ProHeaith Medical Group a  | 100 | 
+ | STATEMENT OF SERVICES  | STATEMENT OF SERVICES | STATEMENT OF SERVICES | STATEMENT OF SERVICES a  | 50 | 
+ | GUARANTOR ID _ I  | GUARANTOR ID | GUARANTOR ID | GUARANTOR ID a I a  | 50 | 
+ | TT INSURANCIEINFORMATICN PRIMARY: UMR SECONDARY: ' | INSURANCE INFORMATION PRIMARY: UMR SECONDARY: | INSURANCEN ORN ORMATION PRIMARY:UMMARY UMCOND:RY | TT INSURANCIEINFORMATICN PRIMARY MR SECONDARY a  | 100 | 
+ | STATEMENT DATE 1121/2018 | STATEMENT DATE 1/21/2018 | STATEMENT DATE 1121/2018 | STATEMENT DATE 1121/2018  | 50 | 
+ | PATIENT NAME  | PATIENT NAME | PATIENT NAME | PATIENT NAME a  | 50 | 
+ | pAvMENTsm'E—I: STATEMENT DATE WILL NOT APPEAR ON THIS STATEMENT  | PAYMENTS RECEIVED AFTER STATE DATE WILL NOT APPEAR ON THIS STATEMENT | PAYMENTE IN— :TATEMENT DATE WILL NOT APPEAR ON THIS STATEMEN— :ENT  | pAvMENTsm'E—I: STATEMENT DATE WILL NOT APPEAR ON THIS STATEMENT a  | 100 | 
+ | DATE  | DATE | DATE | DATE a  | 50 | 
+ | DESCRIPTION  | DESCRIPTION | DESCRIPTION REPORT | DESCRIPTION a  | 50 | 
+ | _AYMENTS  | PAYMENTS | AMERGENCY NAME | PAYMENTS a  | 50 | 
+ | _DJUSTMENTS  | ADJUSTMENTS | JDSTEMENT  | ADJUSTMENTS a  | 50 | 
+ | PAT'ENT BALANCE  | PATIENTS BALANCE | PATIENT BALANCE  | PATIENT BALANCE a  | 50 | 
+ | INVOICE NUMBER. ' .  | INVOICE NUMBER : | INVOICE NUMBER. | INVOICE NUMBER a . a  | 50 | 
+ | _ Previous Visit Balance - Visit # — . | Previous Visit Balance- Visit # |  Previous Visit Balance -isit # | a Previous Visit Balance - Visit # — .  | 50 | 
+ | CURRENT TOTAL VISIT BALANCE  | CURRENT TOTAL VISIT BALANCE 964.70 | CURRENT TOTAL VBSITS ANYONTE | CURRENT TOTAL VISIT BALANCE a  | 50 | 
+ | - IF YOU HAVE ANY QUESTIONS OR TOI MAKE PAYMENT CALL, ONLY INVOICESI WITH A BALANCE DU_E_ APPEAR FOR ONLINE PAYMENTS www. Qrohealthoare. org.  | IF YOU HAVE ANY QUESTIONS OR TO MAKE PAYMENT CALL, ONLY INVOICES  WITH A BALANCE DUE APPEAR. FOR ONLINE PAYMENTS www.prohealthcare.org. | - IN OU HAVE AN WON MALE INS OR TOINS ORNS INAL M-KE INS ONE WINAICE DUE APLANCE DUE APPEAR FOP-EAR  | - IF YOU HAVE ANY QUESTIONS OR TOI MAKE PAYMENT CALL ONLY INVOICES WITH A BALANCE DUE APPEAR FOR ONLINE PAYMENTS www Qrohealthoare. org a  | 100 | 
+ | PLEASE PAY THIS  | PLEASE PAY THIS | PLEASESP PAY THIS | PLEASE PAY THIS a  | 50 | 
+ | MESSAGES: Please see reverse side for additional information  | MESSAGES: Please see reverse side for additional information | MESSAGES: Please see reverse sede for additional informat:on | MESSAGES Please see reverse side for additional information a  | 100 | 
+ | I The balance due' Is your responsibility Pay the full balance or contact Customer Relations to set up a SiIJitable payment arrangement -  | The balance due is your responsibility. Pay the full balance or contact Customer Relations to set up a suitable payment arrangement. | Is The balanced cont hent calance Cast the full and contact Cust the full Contations to seltions to  | I The balance due Is your responsibility Pay the full balance or contact Customer Relations to set up a SiIJitable payment arrangement - a  | 100 | 
+ | RETURN THIS PORTION WITH YOURIPAYMENIT  | RETURN THIS PORTION WITH YOUR PAYMENT | RESURENTH PATIONIN WITH YES NO | RETURN THIS PORTION WITH YOURIPAYMENIT a  | 50 | 
+ | [:I Piease Check box if address is inoorreot or insurawce information has changed andmdicatechange(s)0n revalse side.  | Please check if address is incorrect or insurance information has changed and indicate charge(s) on reverse side | [:ese Check box insurated in ore insurang and in[:race information has changed and dis cantechang[: | I Please Check box if address is incorrect or insurance information has changed andmdicatechange(s)0n revalue side a  | 100 | 
+ | - VIASTERCARD | MASTERCARD | -ASTOVER | - VIASTERCARD  | 50 | 
+ | DISCOVER | DISCOVER | DISCOVER | DISCOVER  | 50 | 
+ | VISA | VISA | VISCA | VISA  | 50 | 
+ | RATIENTIIAME | PATIENT NAME | PATIENT INCE | RATIENTIIAME  | 50 | 
+ | DUEDATE  | DUE DATE | DUE DATE | DEBATE a  | 50 | 
+ | GUARANTORID | GUARANTOR ID | GUARANTOR ID | GUARANTORID  | 50 | 
+ | BALANCE DUE | BALANCE DUE | BALANCE DUE | BALANCE DUE  | 50 | 
+ | Amount Enclosed  | Amount Enclosed | Amount Encloped  | Amount Enclosed a  | 50 | 
+ | MAKE CHECK PAYABLE TO PROHEALTH CARE 5535““ (PC  | MAKE CHECK PAYABLE TO PROHEALTH CARE | MAKE CHECKS PAYABLENT CLTE PATIENT 5535SE (RINT | MAKE CHECK PAYABLE TO PROHEALTH CARE 5535““ OPC a  | 50 | 
+ | EMERGENCY MEDICAL ASSOCIATES :  | EMERGENCY MEDICAL ASSOCIATES | EMERGENCY MEDICAL ASSOCIATES | EMERGENCY MEDICAL ASSOCIATES : a  | 50 | 
+ | STATEMENT DATE 01/03/18  | STATEMENT DATE  01/03/18 | STATEMENT DATE 01/03/18 | STATEMENT DATE 01/03/18 a  | 50 | 
+ | —ue DATE _1/13/18  | DUE DATE 01/13/18 | —Tea DATE 1/13/18 | due DATE _1/13/18 a  | 50 | 
+ | snow AMOUNT$ PNDHEHE  | SHOW AMOUNT PAID HERE $ | PAIn AMOUNT$PAID HERE  | snow AMOUNT PNDHEHE a  | 50 | 
+ | PHONE: 414—423—4120 —ue  | PHONE: 414-423-4120 | PHONE:I414—423—4120m— | PHONE 414—423—4120 due a  | 50 | 
+ | PNDHEHE  | ADDRESSEE: | PHONE  HEAL No | PNDHEHE a  | 50 | 
+ | - MAKE CHECKS PHASE “3' "  | MAKE CHECKS PAYABLE TO: | -AKK CHECKS PAYABLE T3 | - MAKE CHECKS PHASE “3' " a  | 50 | 
+ | EMERGENCY MEDICAL ASSOCIATES  | EMERGENCY MEDICAL ASSOCIATES | EMERGENCY MEDICAL ASSOCIATES | EMERGENCY MEDICAL ASSOCIATES a  | 50 | 
+ | 64-00 INDUSTRIAL LOOP  | 6400 INDUSTRIAL LOOP | 64-00INDUSTRIAL LOOP PLOW | 64-00 INDUSTRIAL LOOP a  | 50 | 
+ | GREENDALE, WI  | GREENDALE, WI | GEANENEN,JAILS | GREENDALE WI a  | 50 | 
+ | III Please check box it above address is incorrect or insurance _Informatlon has changed. and Indlcate change(s) on reverse side. | Please check box it above address is incorrect or insurance information has changed, and indicate change(s) on reverse side. | Is Please check box insurance Insurance Information to Insurance Information hanged and Indinalone a | III Please check box it above address is incorrect or insurance Information has changed and Indicate changes on reverse side  | 100 | 
+ | STATEMENT  | STATEMENT | STATEMENT LENSE | STATEMENT a  | 50 | 
+ | PLEASE DETACH AND RETURN TOP PORTION WITH YOUR PAYMENT  | PLEASE DETACH AND RETURN TOP PORTION WITH YOUR PAYMENT | PLEASE DETACH AND RETURN TOP PORTION WITH YOUR PAYMENT | PLEASE DETACH AND RETURN TOP PORTION WITH YOUR PAYMENT a  | 100 | 
+ | To pay your bill on line with a credit card, log on to www.ebixinc.comlpayonline.html.  | To pay your bill on line with a credit card, log on to www.ebixinc.com/payonline.html. | To pay your bill on line with a credity car, log on to wwwentixincehinccompatoly  | To pay your bill on line with a credit cards log on to www.ebixinc.comlpayonline.html. a  | 100 | 
+ | ACCOUNT# EMA297232 | ACCOUNT# EMA297232 | ACCOUNT# EMA297232 | ACCOUNT EMA297232  | 50 | 
+ | PLACE OF SERVICE 11 Office 21 Inpatient 22 Outpatient Hospital 23 Emergency Room-Hospital | PLACE OF SERVICE 11 Office 21 Inpatient 22 Outpatient Hospital 23 Emergency Room-Hospital | PLACE OF ORVERVIC11 Offic21 Oulpatie22 Hospital  Emergency R11m Hospit21  Emergen22 | PLACE OF SERVICE 11 Office 21 Inpatient 22 Outpatient Hospital 23 Emergency Room-Hospital  | 100 | 
+ | PATIENT‘S NAME | PATIENT'S NAME | PATIENT'S NAME | PATIENTS NAME  | 50 | 
+ | CPT CODE | CPT CODE | CPT CODE | CPT CODE  | 50 | 
+ | SERVICE DESCRIPTION | SERVICE DESCRIPTION | SERVICE DESCRIPTION | SERVICE DESCRIPTION  | 50 | 
+ | AMOUNT | AMOUNT | AMOUNT | AMOUNT  | 50 | 
+ | UMR FISERV WI  | UMR FISERV WI BILLED ON 12/12/17 | UMR FISERV WI | MR MISERY WI a  | 50 | 
+ | YOUR INSURANCE HAS PAID THEIR PORTION OF THE ABOVE SERVICES. THE BALANCE DUE IS YOUR RESPONSIBILITY.  | YOUR INSURANCE HAS PAID THEIR PORTION OF THE ABOVE SERVICES. THE BALANCE DUE IS YOUR RESPONSIBILITY. | OUR INSURANCE HAS PHE AHE AHE AHE AHE AHE AHE AHE AHE AHE AHE RESPONS ES OUR RESPONSICE DUE SOUNSICI | YOUR INSURANCE HAS PAID THEIR PORTION OF THE ABOVE SERVICES THE BALANCE DUE IS YOUR RESPONSIBILITY a  | 100 | 
+ | CURRENT  | CURRENT | CURRENT  | CURRENT a  | 50 | 
+ | IOVER 3D DAYSI  | OVER 30 DAYS | INVOIC3 DATE SITWaY | IOVER 3D DAYS a  | 50 | 
+ | OVER 60 DAYS  | OVER 60 DAYS | OVER 60 DAYS | OVER 60 DAYS a  | 50 | 
+ | OVER 30 DAYS  | OVER 90 DAYS | OVER 30 DAYS | OVER 30 DAYS a  | 50 | 
+ | IOVER 120 DAYS  | OVER 120 DAYS | OVER 120DAYS | IOVER 120 DAYS a  | 50 | 
+ | ILAST PAY DATEI  | LAST PAY DATE | LAST PAY DATE SAME | LAST PAY DATE a  | 50 | 
+ | STMT DATE  | STMT DATE | STMT DATE  | STM DATE a  | 50 | 
+ | BALANCE DUE  | BALANCE DUE | BALANCE DUE | BALANCE DUE a  | 50 | 
+ | DOCTOR LEGEND  | DOCTOR LEGEND | DOCTOR LEGEND | DOCTOR LEGEND a  | 50 | 
+ | 1 NOLEN, CHRISTINE, M. D.  | 1 NOLEN, CHRISTINE, M. D. | 1 NOLEN, CHRISTINE, M. D. Bivy   | 1 DOLENS CHRISTINE My Do a  | 50 | 
+ | COMMENTS  | COMMENTS | COMMENTS  | COMMENTS a  | 50 | 
+ | PRIMARY INSUR: UMR FISERV WI  | PRIMARY INSUR: UMR FISERV WI | PRIMARY INSUR: UMR SICURE WI | PRIMARY INSURE MR MISERY WI a  | 50 | 
+ | SECONDARY INSUR:  | SECONDARY INSUR: | SECONDARY INSUR: UNITS | SECONDARY INSURE a  | 50 | 
+ | EMERGENCY MEDICAL ASSOCIATES  | EMERGENCY MEDICAL ASSOCIATES | EMERGENCY MEDICAL ASSOCIATES | EMERGENCY MEDICAL ASSOCIATES a  | 50 | 
+ | PHONE:  | PHONE: | PHONE:  | PHONE a  | 50 | 
+ | Due to the HIPAA Regulations we cannot discuss this account with anyone except the patient without the patient's direct consent E  | Due to the HIPAA Regulations we cannot discuss this account with anyone except the patient without the patient's direct consent. | Due to the Regulations wat ance is ancount dith any wat ance pange exce the patient whe patient with | Due to the HIPPA Regulations we cannot discuss this account with anyone except the patient without the patients direct consent E a  | 100 | 
+ | Web user notes:  | Web user notes: | Web user notes:  | Web user notes a  | 50 | 
+ | medical statements  | medical statements | medical Patient Responsibility | medical statements a  | 50 | 
+ | unum‘D  | unum | unum | unused a  | 50 | 
+ | . . O The Benefits Center  | The Benefits Center | .h. By Belefits Center | . . O The Benefits Center a  | 50 | 
+ | Call toll-free Monday through Friday, 8 am. to 8 pm. Eastern Time.  | Call toll-free Monday through Friday, 8 a.m. to 8 p.m. Eastern Time. | Call toll-free Monday through Friday, 8 a. to8 pm Eas-ern Time | Call toll-free Monday through Friday 8 am to 8 pm Eastern Time a  | 100 | 
+ | Please sign and return this authorization to The Benefits Center at the address above. You are entitled to receive a copy of this authorization. This authorization is designed to comply with the Health Insurance Portability and Accountability Act (HIPAA) Privacy Rule.  | Please sign and return this authorization to The Benefits Center at the address above. You are entitled to receive a copy of this authorization. This authorization is designed to comply with the Health Insurance Portability and Accountability Act (HIPAA) Privacy Rule. | Please sign and return the Bentrization to The Benter at the Benter above Yos No Indress abde enttin | Please sign and return this authorization to The Benefits Center at the address above You are entitled to receive a copy of this authorization This authorization is designed to comply with the Health Insurance Portability and Accountability Act (HIPAA) Privacy Rule a  | 100 | 
+ | Authorization to Collect and Disclose Information  | Authorization to Collect and Disclose Information | Authorization to Collect and Disclose Information | Authorization to Collect and Disclose Information a  | 100 | 
+ | (Not for FMLA Requests)  | (Not for FMLA Requests) | (Not for FMLA Requests) | Not for FULA Requests a  | 50 | 
+ | I authorize the followin persons: health care professionals, hospitals, clinics, laboratories, pharmacies and all other medical or me ically related providers, facilities or services, rehabilitation professionals, vocational evaluators, health plans, insurance companies, third party administrators, insurance producers, insurance service providers, consumer reporting agencies including credit bureaus, GENEX Services, Inc., The Advocator Group and other Social Security advocacy vendors, professional licensing bodies, employers, attorneys, financial institutions and/or banks, and governmental entities;  | I authorize the following persons: health care professionals, hospitals, clinics, laboratories, pharmacies and all other medical or medically related providers, facilities or services, rehabilitation professionals, vocational evaluators, health plans, insurance companies, third party administrators, insurance producers, insurance service providers, consumer reporting agencies including credit bureaus, GENEX Services, Inc., The Advocator Group and other Social Security advocacy vendors, professional licensing bodies, employers, attorneys, financial institutions and/or banks, and governmental entities; | I authorize the following preson: hospital an pressional slinics clinics lab:oratorizes pharkes phar | I authorize the following persons health care professionals hospitals clinics laboratories pharmacies and all other medical or me Cally related providers facilities or services rehabilitation professionals vocational evaluators health plans insurance companies third party administrators insurance producers insurance service providers consumer reporting agencies including credit bureaus GENE Services Inch The Advocator Group and other Social Security advocacy vendors professional licensing bodies employers attorneys financial institutions andor banks and governmental entities a  | 100 | 
+ | To disclose information, whether from before, during or after the date of this authorization, about my health, including HIV, AIDS or other disorders of the Immune system, use of drugs or alcohol, mental or phy5ica| histor , condition, advice or treatment (except this authorization does not authorize release of psychotherapy notesi, prescription drug history, earnings, financial or credit history, professional licenses, employment history, insurance claims and benefits, and all other claims and benefits, including Social Security claims and benefits (“My Information");  | To disclose information, whether from before, during or after the date of this authorization, about my health, including HIV, AIDS or other disorders of the immune system, use of drugs or alcohol, mental or physical history, condition, advice or treatment (except this authorization does not authorize release of psychotherapy notes, prescription drug history, earnings, financial or credit history, professional licenses, employment history, insurance claims and benefits, and all other claims and benefits, including Social Security claims and benefits ("My Information"); | To diclose information,when duling or a the,date of the refore duerthe, zathorization atho,ization a | To disclose information whether from before during or after the date of this authorization about my health including HIVE AIDS or other disorders of the Immune system use of drugs or alcohol mental or phy5ica| history , condition advice or treatment except this authorization does not authorize release of psychotherapy notes prescription drug history earnings financial or credit history professional licenses employment history insurance claims and benefits and all other claims and benefits including Social Security claims and benefits My Information"); a  | 100 | 
+ | To Unum Group and its subsidiaries, Unum Life Insurance Company ofAmerica, Provident Life and Accident Insurance Compan , The Paul Revere Life Insurance Company, and persons who evaluate claims for any oi those companies (“ num”);  | To Unum Group and its subsidiaries, Unum Life Insurance Company of America, Provident Life and Accident Insurance Company, The Paul Revere Life Insurance Company, and persons who evaluate claims for any of those companies ("Unum"); | To Unum Group and its subsidiaries, Unum Life Insurance Complice Insurance Complete,and Accident Con | To Unum Group and its subsidiaries Unum Life Insurance Company ofAmerica, Provident Life and Accident Insurance Company , The Paul Revere Life Insurance Company and persons who evaluate claims for any oi those companies of num”); a  | 100 | 
+ | So that Unum may evaluate and administer my claims, including providing assistance with return to work. For such evaluation and administration of claims, this authorization is valid for two years, or the duration of my claim for benefits, whichever is shorter. I understand that once My Information is disclosed to Unum, any privacy rotections established by HIPAA may not apply to the information, but other privacy laws continue to apply. num may then disclose My Information only as permitted by law, including, state fraud reporting laws or as authorized by me.  | So that Unum may evaluate and administer my claims, including providing assistance with return to work. For such evaluation and administration of claims, this authorization is valid for two years, or the duration of my claim for benefits, whichever is shorter. I understand that once My Information is disclosed to Unum, any privacy protections established by HIPAA may not apply to the information, but other privacy laws continue to apply. Unum may then disclose My Information only as permitted by law, including, state fraud reporting laws or as authorized by me. | Sot the Unum Grovider your and insteding providen and including providing assistance whistanc to wer | So that Unum may evaluate and administer my claims including providing assistance with return to work For such evaluation and administration of claims this authorization is valid for two years or the duration of my claim for benefits whichever is shorter I understand that once My Information is disclosed to Unum any privacy protections established by HIPPA may not apply to the information but other privacy laws continue to apply num may then disclose My Information only as permitted by law including state fraud reporting laws or as authorized by me a  | 100 | 
+ | I also authorize Unu_m to disclose My Information to the following persons (for the purpose of reporting claim status or experience, or so that the moment may carry out health care operations, claims payment, administrative or audit functions related to any benefit, plan or claim): any employee benefit plan sponsored b my employer; any person proViding serVIces or insurance benefits to (or on behalf of) my employer, any suc plan or claim, or any benefit offered by Unum; or, the Social Securit Administration. Unum will not condition the payment of insurance benefits on whether I authorize the disc osures described in this paragraph. For the purposes of these disclosures by Unum, this authorization is valid for one year or for the length of time otherwise permitted by law.  | I also authorize Unum to disclose My Information to the following persons (for the purpose of reporting claim status or experience, or so that the recipient may carry out health care operations, claims payment, administrative or audit functions related to any benefit, plan or claim): any employee benefit plan sponsored by my employer; any person providing services or insurance benefits to (or on behalf of) my employer, any such plan or claim, or any benefit offered by Unum; or, the Social Security Administration. Unum will not condition the payment of insurance benefits on whether I authorize the disclosures described in this paragraph. For the purposes of these disclosures by Unum, this authorization is valid for one year or for the length of time otherwise permitted by law. | I aid authorize Unum to disclose My Information to the following to the purgory of the purgors of re | I also authorize unum to disclose My Information to the following persons for the purpose of reporting claim status or experienced or so that the moment may carry out health care operations claims payment administrative or audit functions related to any benefit plan or claim any employee benefit plan sponsored b my employers any person providing services or insurance benefits to for on behalf of my employers any such plan or claim or any benefit offered by Unum or the Social Security Administration Unum will not condition the payment of insurance benefits on whether I authorize the disc tsures described in this paragraph For the purposes of these disclosures by Unum this authorization is valid for one year or for the length of time otherwise permitted by law a  | 100 | 
+ | Information authorized for use or disclosure may include information which may indicate the presence of a communicable or non-communicable disease.  | Information authorized for use or disclosure may include information which may indicate the presence of a communicable or non-communicable disease. | Information authorized for disclose may incoude for dislon to hishoral which may indicate the presen | Information authorized for use or disclosure may include information which may indicate the presence of a communicable or noncommunicable disease a  | 100 | 
+ | If I do not sign this authorization or if I alter or revoke it, except as specified above, Unum may not be able to evaluate or administer my claim(s), which may lead to my claim(s) being denied. I may revoke this authorization at any time by sending written notice to the address above. I understand that revocation will not apply to any information that Unum requests or discloses prior to Unum receiving my revocation request.  | If I do not sign this authorization or if I alter or revoke it, except as specified above, Unum may not be able to evaluate or administer my claim(s), which may lead to my claim(s) being denied. I may revoke this authorization at any time by sending written notice to the address above. I understand that revocation will not apply to any information that Unum requests or discloses prior to Unum receiving my revocation request. | If yes on this ans anthorization ar if pervore in the recordization ab specified abs perviced Unum m | If I do not sign this authorization or if I alter or revoke it except as specified above Unum may not be able to evaluate or administer my claim(s), which may lead to my claims being denied I may revoke this authorization at any time by sending written notice to the address above I understand that revocation will not apply to any information that Unum requests or discloses prior to Unum receiving my revocation request a  | 100 | 
+ | Electronically Signed Insured 5 Signature  | Electronically Signed Insured's Signature | Electronically Signed Insured’5 Signature | Electronically Signed Insured 5 Signature a  | 50 | 
+ | 03/14/2018 Date Signed  | 03/14/2018 Date Signed | 03/14/2018 Parmende  | 03/14/2018 Date Signed a  | 50 | 
+ | Printed Name  | Printed Name | Printed Name  | Printed Name a  | 50 | 
+ | Seeial Security Number  | Social Security Number | Social Security Number  | Serial Security Number a  | 50 | 
+ | I signed on behalf of the Insured as (Relationship). If Power of Attorney Designee, Guardian, or Conservator, please attach a copy of the document granting authority. | I signed on behalf of the Insured as (Relationship). If Power of Attorney Designee, Guardian, or Conservator, please attach a copy of the document granting authority. | Is ineled on beled as Relationship (f the Insured as melinee Designed Descrine Gu(rdian Cor Conthan  | I signed on behalf of the Insured as (Relationship). If Power of Attorney Designees Guardian or Conservatory please attach a copy of the document granting authority  | 100 | 
+ | Unum is a registered trademark and marketing brand of Unum Group and its insuring subsidiaries.  | Unum is a registered trademark and marketing brand of Unum Group and its insuring subsidiaries. | Unum is a registered trademark and marketing brand of Unum Group and its insuring subsidiaries | Unum is a registered trademark and marketing brand of Unum Group and its insuring subsidiaries a  | 100 | 
+ | CL-1116 (  | CL-1116 | CL-1116 (od s | CL-1116 ( a  | 50 | 
+ | Daytime Phone:  | Daytime Phone: | Daytime Phone: | Daytime Phone a  | 50 | 
+ | Dependent Information  | Dependent Information | Dependent Information  | Dependent Information a  | 50 | 
+ | First Name:  | First Name: | First Name:  | First Name a  | 50 | 
+ | Middle Nameﬂnitial:  | Middle Name/Initial: | Middle NameInitia: | Middle Nameﬂnitial: a  | 50 | 
+ | Last Name:  | Last Name: | Last Name:  | Last Name a  | 50 | 
+ | Social Security Number:  | Social Security Number: | Social Security Number:  | Social Security Number a  | 50 | 
+ | Birth Date:  | Birth Date: | Birth Date: | Birth Date a  | 50 | 
+ | Gender:  | Gender: | Gender: F | Gender a  | 50 | 
+ | Claim Event Information  | Claim Event Information | Claim Event Information  | Claim Event Information a  | 50 | 
+ | Accident Description _ ___1was working on his truck, using a power drill to drill a hole when the bit broke, the drill slipped and the remainingr bit drilled into his right pointer ﬁnger. | Accident Description: was working on his truck, using a power drill to drill a hole when the bit broke, the drill slipped and the remaining bit drilled into his right pointer ﬁnger. | Accident Description Serv1ce on his working on his working on his working 1n drele when then the leg | Accident Description a ___1was working on his truck using a power drill to drill a hole when the bit broken the drill slipped and the remaining bit drilled into his right pointer anger  | 100 | 
+ | Accident Work Related: No | Accident Work Related: No | Accident Work Related: No | Accident Work Related No  | 50 | 
+ | Time ofAccident: 8:00 PM | Time of Accident: 8:00 PM | Time of Acciden:8:00 MA | Time ofAccident: 8:00 PM  | 50 | 
+ | Accident Date:  | Accident Date: 12/01/2018 | Accident Date: | Accident Date a  | 50 | 
+ | 5 n rg erji' Inform ari on  | Surgery Information | 5Diagnosis Code Information  | 5 n rg eric Inform Ari on a  | 50 | 
+ | 15 Surgery Required: No  | Is Surgery Required: No | 15 Surgery Required: No | 15 Surgery Required No a  | 50 | 
+ | Medical Provider Information - Physician  | Medical Provider Information - Physician | Medical Provider Information - Physician | Medical Provider Information - Physician a  | 50 | 
+ | Medical Provider Specialty: ElVIS  | Medical Provider Specialty: EMS | Medical Provider Specialty: No | Medical Provider Specialty elvis a  | 50 | 
+ | UﬂUﬁT  | unum | Unug Date | UﬂUﬁT a  | 50 | 
+ | August 23, 2017  | August 28, 2017 | Autur 23,201 | August 23, 2017 a  | 50 | 
+ | Confirmation of Coverage  | Confirmation of Coverage | Confirmation of Coverage | Confirmation of Coverage a  | 50 | 
+ | Employer:  | Employer: | Employer: | Employers a  | 50 | 
+ | Group Policy #:  | Group Policy #: | Group Policy #: | Group Policy of a  | 50 | 
+ | Customer Policy #:  | Customer Policy #: | Customer Policy #: | Customer Policy of a  | 50 | 
+ | EE Name:  | EE Name: | EE Name:  | EE Name a  | 50 | 
+ | MONTANO  | MONTANO | MONTANO NO | MONTANO a  | 50 | 
+ | The information below is provided to give you a general summary of your coverage and premium as of the date of this letter, consistent with the benefits outlined in your certificate.  | The information below is provided to give you a general summary of your coverage and premium as of the date of this letter, consistent with the benefits outlined in your certificate. | The above mation below is provided to giver and moveraged to giver come to coverage and premium of o | The information below is provided to give you a general summary of your coverage and premium as of the date of this letter consistent with the benefits outlined in your certificates a  | 100 | 
+ | Insucesl Comes: ﬂee Amount Ettectivemte  | Insured Coverage Type Coverage Amount Coverage Effective Date | Insured Covera:e Yes None Amount Etate  | Induces Comes see Amount Ettectivemte a  | 50 | 
+ | Employee‘lc CI w/Cancer Conditions $20,000.00 January 1, 2015  | Employee*  CI w/Cancer Conditions $20,000.00 January 1, 2015 | Employee*’ Carkc/r Conditions Medit$20,000.00ary    | Employee‘lc CI cancer Conditions $20,000.00 January 1, 2015 a  | 100 | 
+ | Employee‘kt Wellness Benefit $50.00 January 1{ 2015  | Employee** Wellness Benefit $50.00 January 1, 2015 | Employee** Wellness Benefit J$50.00   J1{u20y  | Employee‘kt Wellness Benefit $50.00 January 1{ 2015 a  | 100 | 
+ | *Children are covered at 25% of Employee's benefit amount.  | *Children are covered at 25% of Employee's benefit amount. | **Children are covered at25% of Employee's benefit amount | Children are covered at 25% of employees benefit amount a  | 100 | 
+ | ”Children are covered for the full Wellness Benefit.  | **Children are covered for the full Wellness Benefit. | **Children are covered for the full Wellness Benefit | Children are covered for the full Wellness Benefit a  | 100 | 
+ | Total Employee Benefit Amount: $20,000.00  | Total Employee Benefit Amount: $20,000.00 | Total Employee Benefit Amount: $20,000.00  | Total Employee Benefit Amount $20,000.00 a  | 50 | 
+ | Total Monthly Premium: $40.40  | Total Monthly Premium: $40.40 | Total Monthly Premium: $40.40 | Total Monthly Premium $40.40 a  | 50 | 
+ | Total Employee Semi-Monthly Payroll Deduction: $20.20  | Total Employee Semi-Monthly Payroll Deduction: $20.20 | Total Employee Semi-Monthly Payroll Deduction: $2 | Total Employee Semimonthly Payroll Deduction $20.20 a  | 100 | 
+ | Note: Final cost may vary slightly clue to rounding differences.  | Note: Final cost may vary slightly clue to rounding differences. | Note: Final cost may vary slightly clue to rounding d:fferences | Note Final cost may vary slightly clue to rounding differences a  | 100 | 
+ | This information is in abbreviated form only. It is provided to give you a general understanding of your Group Critical Illness coverage.  | This information is in abbreviated form only. It is provided to give you a general understanding of your Group Critical Illness coverage. | This information to gived form only in provi.ed to giver to gived to gist manderal understand.ng off | This information is in abbreviated form only It is provided to give you a general understanding of your Group Critical Illness coverage a  | 100 | 
+ | Please retain all confirmation letters as a record of your Critical Illness coverage. While your total coverage amount is based on your initial coverage election and any subsequent changes you or your employer may have made to your plan, your total amount may not be reflected on this single confirmation letter.  | Please retain all confirmation letters as a record of your Critical Illness coverage. While your total coverage amount is based on your initial coverage election and any subsequent changes you or your employer may have made to your plan, your total amount may not be reflected on this single confirmation letter. | Please retain all contrers as are Crition let or your Cracture of your Croverage While your to rour  | Please retain all confirmation letters as a record of your Critical Illness coverage While your total coverage amount is based on your initial coverage election and any subsequent changes you or your employer may have made to your plan your total amount may not be reflected on this single confirmation letter a  | 100 | 
+ | Your actual coverage and amounts are subject to all the terms, conditions, limitations and exclusions stated in your Certificate of Coverage and Policy. Please refer to your Certificate of Coverage for a detailed description of your coverage. If the information in this letter differs from the Policy held by your Employer or Plan Administrator, the terms of the Policy will govern. Please contact your Plan Administrator with any questions or call our Contact Center at 1-800-635-5597 and we can assist you.  | Your actual coverage and amounts are subject to all the terms, conditions, limitations and exclusions stated in your Certificate of Coverage and Policy. Please refer to your Certificate of Coverage for a detailed description of your coverage. If the information in this letter differs from the Policy held by your Employer or Plan Administrator, the terms of the Policy will govern. Please contact your Plan Administrator with any questions or call our Contact Center at 1-800-635-5597 and we can assist you. | Your acture coverage and and limitations limitations limitations limitations limitations and exrecti | Your actual coverage and amounts are subject to all the terms conditions limitations and exclusions stated in your Certificate of Coverage and Policy Please refer to your Certificate of Coverage for a detailed description of your coverage If the information in this letter differs from the Policy held by your Employer or Plan Administrator the terms of the Policy will govern Please contact your Plan Administrator with any questions or call our Contact Center at 1-800-635-5597 and we can assist you a  | 100 | 
+ | UNUM LIFE INSURANCE COMPANY OF AMERICA 2211 CONGRESS ST PORTLAND ME 04122-0002  | UNUM LIFE INSURANCE COMPANY OF AMERICA 2211 CONGRESS ST PORTLAND ME 04122-0002 | UNUM LIFE INSURANCE COMPANY OF AMERICA 2211 CONGRESS ST PORTLAND ME  | UNUM LIFE INSURANCE COMPANY OF AMERICA 2211 CONGRESS ST PORTLAND ME 04122-0002 a  | 100 | 
+ | Date ofVisithdmission  | Date of Visit/Admission: 12/01/2017 | Date of VisitAdmission | Date ofVisithdmission a  | 50 | 
+ | Date ot’DischaIge: 1210112017  | Date of Discharge: 12/01/2017 | Date of Discharge: 1210112017 | Date ot’DischaIge: 1210112017 a  | 50 | 
+ | Proc edure : Cleaning, may: bandage | Procedure: Cleaning, xray, bandage | Prograse Nu:ber Clea,ing:xrint | Proc endure : Cleaning may bandage  | 50 | 
+ | E11113] arm en t In formation  | Employment Information | C11113]ater maIn Information  | E11113] arm en t In formation a  | 50 | 
+ | Employer Name:  | Employer Name: | Employer Name: | Employer Name a  | 50 | 
+ | Electronic Submission  | Electronic Submission | Electronic Submission | Electronic Submission a  | 50 | 
+ | Claim Event Identiﬁer:  | Claim Event Identifier: | Claim Event Identifie:  | Claim Event Identiﬁer: a  | 50 | 
+ | Submission Date: 03411419018 | Submission Date: 03/14/2018 | Submission Date: 03411419018 | Submission Date 03411419018  | 50 | 
+ | Electronically Signed Indicator: Yes | Electronically Signed Indicator:  Yes | Electronically Signed Indicator: Yes | Electronically Signed Indicator Yes  | 50 | 
+ | Electronically Signed Date: Wednesday, 0311412018 09:09 PM  | Electronically Signed Date: Wednesday, 03/14/2018 09:09 PM | Electronically Signed Date: Wedeneday, 0311412018 P | Electronically Signed Date Wednesdays 0311412018 09:09 PM a  | 100 | 
+ | TWIN CITIES  | TWIN CITIES | TWIN CITITS | TWIN CITIES a  | 50 | 
+ | ORTHOPEDICS  | ORTHOPEDICS | ORTHOPEDICS | ORTHOPEDICS a  | 50 | 
+ | Twin Cities Orthopedics-Burnsville  | Twin Cities Orthopedics-Burnsville | Twin Cities Orthopedics-Burnsville | Twin Cities Orthopedics-Burnsville a  | 50 | 
+ | MRN: . Date of Service: 02/ 15/201 8 9:30AM  | MRN: Date of Service: 02/15/2018 9:30AM | MRN: .ate of Service : 02/ 15/201 8o9:30  | MRNA . Date of Service 02/ 15/201 8 9:30AM a  | 50 | 
+ | Provider: Jamie Birkelo PA  | Provider: Jamie Birkelo PA | Provider: Jamie Birkelo PA | Provider Jamie Birkelo PA a  | 50 | 
+ | Chief Complaint  | Chief Complaint | Chief Complaint | Chief Complaint a  | 50 | 
+ | sip rlght knee ACL repair, MCL repair utilizing internal bracing (DOS: 2/2/18)  | s/p right knee ACL repair, MCL repair utilizing internal bracing (DOS: 2/2/18) | sip ralth knee ACL repair,uttlenal Cinternal bracing internal bracing DOS,  | sip right knee ACL repair MAL repair utilizing internal bracing DOSE 2/2/18) a  | 100 | 
+ | Post-Op  | Post-Op | Post-Op NOtes | Postop a  | 50 | 
+ | returns to clinic approximately 2 weeks status post right knee AOL repair with right knee MCL repair using internal brace. Overall, she reports doing quite well. Her pain is well controlled with over the counter medication as wall as Hydrocodone at night. She has been taking Aspirin twice daily as prescribed. She has been attending physical therapy and has been compliant with her touch down weight bearing status.  | returns to clinic approximately 2 weeks status post right knee ACL repair with right knee MCL repair using internal brace. Overall, she reports doing quite well. Her pain is well controlled with over the counter medication as wall as Hydrocodone at night. She has been taking Aspirin twice daily as prescribed. She has been attending physical therapy and has been compliant with her touch down weight bearing status. | Preturns to collicate treatm spa2us post right knee AOL repatus post right knee M2C trance MCL repai | returns to clinic approximately 2 weeks status post right knee AOL repair with right knee MAL repair using internal braced Overall she reports doing quite well Her pain is well controlled with over the counter medication as wall as Hydrocodone at night She has been taking Aspirin twice daily as prescribed She has been attending physical therapy and has been compliant with her touch down weight bearing status a  | 100 | 
+ | Active Problems  | Active Problems | Active Problems | Active Problems a  | 50 | 
+ | 1. Knee injury  | 1. Knee injury | 1. Knee injury No  | 1. Knee injury a  | 50 | 
+ | 2. New tear of anterior cruciate ligament of right knee  | 2. New tear of anterior cruciate ligament of right knee | 2. New tear of anterior cruciate ligament of righ2.knee  | 2. New tear of anterior cruciate ligament of right knee a  | 100 | 
+ | Social History  | Social History | Social History of History  | Social History a  | 50 | 
+ | 0 Age reporting  | • Age reporting | 0 Age reporting | 0 Age reporting a  | 50 | 
+ | 0 Consumes alcohol  | • Consumes alcohol | 0 Consumes alcohol  | 0 Consumes alcohol a  | 50 | 
+ | I Exercises regularly  | • Exercises regularly | • Exercises regularly to | I Exercises regularly a  | 50 | 
+ | - Identifies as female gender  | • Identifies as female gender | - Identifies as female gender  | - Identifies as female gender a  | 50 | 
+ | 0 Lives with family  | • Lives with family | 0 Lives with family hials  | 0 Lives with family a  | 50 | 
+ | 0 Married  | • Married | 0 Married  | 0 Married a  | 50 | 
+ | 0 Tobacco quit date established (287.891)  | • Tobacco quit date established (287.891) | 0 Tobacco quit date established (287.891) | 0 Tobacco quit date established (287.891) a  | 50 | 
+ | 0 : 10 years  | • : 10 years | 0 : 10 year  | 0 : 10 years a  | 50 | 
+ | Current Made  | Current Made | Current Medd | Current Made a  | 50 | 
+ | 1. Hydrocodone-Acetaminophen 5-325 MG Oral Tablet: Take 1-2 tablets every 6 hours as needed for pain;  | 1. Hydrocodone-Acetaminophen 5-325 MG Oral Tablet; Take 1-2 tablets every 6 hours as needed for pain; | 1. Hydrocodoci-o Accident  5-325 Oralet Selvi1.s Chable Se-able to hours 5-325eded for paidle1. | 1. Hydrocodone-Acetaminophen 5-325 MG Oral Tablet Take 1-2 tablets every 6 hours as needed for pain a  | 100 | 
+ | Therapy: 09Feb2018 to (Last Rx:09Feb2018) Ordered  | Therapy: 09Feb2018 to (Last Rx:09Feb2018) Ordered | Therapy: 09Feb2018 to (Last Rx:09Feb2018) Ordered | Therapy 09Feb2018 to Last Rx:09Feb2018) Ordered a  | 100 | 
+ | 2. HydrOXYzine Pamoate 25 MG Oral Capsule; Take 1—2 capsules every 6 hours as needed;  | 2. HydrOXYzine Pamoate 25 MG Oral Capsule; Take 1-2 capsules every 6 hours as needed; | 2. HydrOXYzine Pamoate 25 MG Oral Capsule; Take 12. capsules every  hou25 as needed | 2. hydroxyzine Palate 25 MG Oral Capsule Take 1—2 capsules every 6 hours as needed a  | 100 | 
+ | Therapy: 09Feb2018 to (Last Rx:09Feb20‘[8) Ordered  | Therapy: 09Feb2018 to (Last Rx:09Feb2018) Ordered | Therapy: 09Feb2018 to (Last Rx:09Feb20[8)Ordered  | Therapy 09Feb2018 to Last Rx:09Feb20‘[8) Ordered a  | 100 | 
+ | 3. Multi-Vitamin TABS;  | 3. Multi-Vitamin TABS; | 3. Multi-Vity Visit T;pe   | 3. Multivitamin TABS a  | 50 | 
+ | Therapy: (Recordedz24Jan2018) to Recorded  | Therapy: (Recorded:24Jan2018) to Recorded | Therapy: (Recorded24Jan2018) to Recorded | Therapy (Recordedz24Jan2018) to Recorded a  | 50 | 
+ | 4. Probiotic CAPS;  | 4. Probiotic CAPS; | 4. Probiotic CAPS; | 4. Probiotic CAPS a  | 50 | 
+ | Therapy: 21Jan2018 to Recorded  | Therapy: 21Jan2018 to Recorded | Therapy: 21Jan2018 to Recorded | Therapy 21Jan2018 to Recorded a  | 50 | 
+ | oiiiiiiﬁ’s‘iiés 1 of2 3/22/18 3:09:42 PM  | TWIN CITIES ORTHOPEDICS 1 of2 3/22/18 3:09:42 PM | First Cimity 123/22/183: | oiiiiiiﬁ’s‘iiés 1 of2 3/22/18 3:09:42 PM a  | 50 | 
+ | -- McMurray’s  | -- McMurray’s | -- McMurray’s | of McMurray’s a  | 50 | 
+ | symmetric dial at 0 and 90 degrees  | symmetric dial at 0 and 90 degrees | symmetric dial at 0 and 90 degrees | symmetric dial at 0 and 90 degrees a  | 50 | 
+ | ResultsIData  | Results/Data | Results ID | ResultsIData a  | 50 | 
+ | Right knee MRI IMPRESSION:  | Right knee MRI IMPRESSION: | Right knee MRI IMPRESSION:  | Right knee MRI IMPRESSION a  | 50 | 
+ | 1. ACL tear.  | 1. ACL tear. | 1. ACL tear. | 1. ACL tears a  | 50 | 
+ | 2. MCL high-grade tear with few if any Intact ﬁbers present at the femoral attachment.  | 2. MCL high-grade tear with few if any Intact fibers present at the femoral attachment. | 2. MCL high-grade the res in the res In the res I2.the femor-l the femoral attachment | 2. MAL high-grade tear with few if any Intact CBers present at the femoral attachment a  | 100 | 
+ | 3. Posteroiateral corner deep soft tissue edema. Although the ﬁbular collateral ligament, biceps femoris tendon. and popliteal tendon appear intact, this edema raises the possibility of additional posterolateral corner capsular or arcuate ligament injury.  | 3. Posterolateral corner deep soft tissue edema. Although the fibular collateral ligament, biceps femoris tendon. and popliteal tendon appear intact, this edema raises the possibility of additional posterolateral corner capsular or arcuate ligament injury. | 3. Poster iatern cont tissue the full to leame .n3.lightlar collateral ligament bllaternt bice. 3. t | 3. Posterolateral corner deep soft tissue edema Although the tubular collateral ligaments biceps femoris tendon and popliteal tendon appear intact this edema raises the possibility of additional posterolateral corner capsular or arcuate ligament injury a  | 100 | 
+ | 4. Lateral compartment osseous contusions involving the posterior rim of the lateral tibial plateau and terminal sulcus of lateral femoral condyle.  | 4. Lateral compartment osseous contusions involving the posterior rim of the lateral tibial plateau and terminal sulcus of lateral femoral condyle. | 4. Lateral compartment incoupang the postering th4.postering the patient to ristent is ater latera4. | 4. Lateral compartment osseous contusions involving the posterior rim of the lateral tibial plateau and terminal sulcus of lateral femoral condyle a  | 100 | 
+ | 5. Patellar apical grade 1-2 chondromalacia.  | 5. Patellar apical grade 1-2 chondromalacia. | 5. Patellar apical grade 1-2hingrach | 5. Patellar apical grade 1-2 chondromalacia a  | 50 | 
+ | Diagnosis  | Diagnosis | Diagnosis  | Diagnosis a  | 50 | 
+ | Right knee ACL rupture and high grade MCL tear  | Right knee ACL rupture and high grade MCL tear |  Right knee ACL rupture and high grade MCL tear | Right knee ACL rupture and high grade MAL tear a  | 50 | 
+ | Plan  | Plan | Plan  | Plan a  | 50 | 
+ | Health Maintenance  | Health Maintenance | Health Maintenance  | Health Maintenance a  | 50 | 
+ | I Blood Pressure educational material provided to patient; Status:Complete; Done: 24Jan2018  | • Blood Pressure educational material provided to patient; Status:Complete; Done: 24Jan2018 | I Clood Presired to patient to patient to patient to patient StatusComplete Done Jan | I Blood Pressure educational material provided to patient Status:Complete; Done 24Jan2018 a  | 100 | 
+ | ast Updated ByzRowan, Ann; 0112412018 9:19:29 AM;Ordered; ForzHealth Maintenance; Ordered By:Ho|m,Jason;  | Last Updated By:Rowan, Ann; 01/24/2018 9:19:29 AM;Ordered; For:Health Maintenance; Ordered By:Holm, Jason; | Ast Updated By Rowe,ed ;r0112412018i9:19:29 Ma;ntenal Maintenal M,rina;e0112412018y9:19:29um;JS | ast Updated ByzRowan, Ann 0112412018 9:19:29 AM;Ordered; ForzHealth Maintenance Ordered By:Ho|m,Jason; a  | 100 | 
+ | New tear of anterior cruciate ligament of right knee  | New tear of anterior cruciate ligament of right knee | New tear of anterior cruciate ligament of right knee  | New tear of anterior cruciate ligament of right knee a  | 100 | 
+ | v Townsend ROM-SS RT; Status:Complete: Done: 24Jan2018  | • Townsend ROM-SS RT; Status:Complete: Done: 24Jan2018 | Instrend ROMS- RT ;tatusC:mplete :one :24n | v Townsend ROMANS RT Status:Complete: Done 24Jan2018 a  | 100 | 
+ | Perform:Minnesota Prosthetics 8: Orthotics-Burnsville: Due:29Jan2018; Last Updated By:Hurley. Kelly;  | Perform:Minnesota Prosthetics & Orthotics-Burnsville: Due:29Jan2018; Last Updated By:Hurley, Kelly; 01/24/2018 | Perform: Mannes Mensville Dur8:ville Dur-sville Durns:ille Durnsville By 8:st Updated- Kast Cally | Perform:Minnesota Prosthetics 8: Orthotics-Burnsville: Due:29Jan2018; Last Updated By:Hurley. Kellyn a  | 100 | 
+ | 011241201 8 10:24:20 AM:Ordered; For:New tear of anterior cruciate ligament of right knee; Ordered ByzHolm, Jason;  | 10:24:20 AM;Ordered; For:New tear of anterior cruciate ligament of right knee; Ordered By:Holm, Jason; | 0112412018S10:24:20r :or Ne;r tr:at of anteri011241201t8 10:24:20 of:right k;ee :rdered Order0112 | 011241201 8 10:24:20 AM:Ordered; For:New tear of anterior cruciate ligament of right knee Ordered ByzHolm, Jason a  | 100 | 
+ | DiscussionlSumrnary  | Discussion/Sumrnary | DiscussionSumrnary | DiscussionlSumrnary a  | 50 | 
+ | I had a long discussion with today going over the MRI and discussing her ACL rupture and high grade MCL tear. I used a model to discuss the role of the ACL and MCL and we reviewed operative versus nonoperative management. At this point. based on her current symptoms and activity goals I feel that it would reasonable to proceed with AOL repair versus reconstruction as well as internal bracing of the MCL. We discussed various graft options and the associated risks with each and set-lied on a quadriceps tendon autograft in the case of a reconstruction. We discussed the frequent need for addressing associated meniscus tears and how this will be addressed at the time of surgery with either repair or debridement depending on the location and quality of the tear. We discussed the importance of working with physical therapy after surgery and i provided her with my postoperative rehabilitation protocol. After a thorough discussion of the potential risks. including but not limited to stiffness, neurovascular injury, infection, blood clots and failure of the reconstructed ACL, she has elected to proceed. She will be sent to MPO to have a post-op knee brace ﬁt for this ACL surgery to help support, stabilize, and protect the knee to prevent further injury and facilitate healing after surgery. The brace will also limit range of motion according to speciﬁcations.  | I had a long discussion with today going over the MRI and discussing her ACL rupture and high grade MCL tear. I used a model to discuss the role of the ACL and MCL and we reviewed operative versus nonoperative management. At this point. based on her current symptoms and activity goals I feel that it would reasonable to proceed with ACL repair versus reconstruction as well as internal bracing of the MCL. We discussed various graft options and the associated risks with each and settled on a quadriceps tendon autograft in the case of a reconstruction. We discussed the frequent need for addressing associated meniscus tears and how this will be addressed at the time of surgery with either repair or debridement depending on the location and quality of the tear. We discussed the importance of working with physical therapy after surgery and i provided her with my postoperative rehabilitation protocol. After a thorough discussion of the potential risks. including but not limited to stiffness, neurovascular injury, infection, blood clots and failure of the reconstructed ACL, she has elected to proceed. She will be sent to MPO to have a post-op knee brace fit for this ACL surgery to help support, stabilize, and protect the knee to prevent further injury and facilitate healing after surgery. The brace will also limit range of motion according to specifications. | Is the lang iscussion whe the resusising disches in and dischuse cover ACL rupture and high graded | I had a long discussion with today going over the MRI and discussing her ACL rupture and high grade MAL tears I used a model to discuss the role of the ACL and MAL and we reviewed operative versus nonoperative management At this point based on her current symptoms and activity goals I feel that it would reasonable to proceed with AOL repair versus reconstruction as well as internal bracing of the MILD We discussed various graft options and the associated risks with each and settled on a quadriceps tendon autograft in the case of a reconstruction We discussed the frequent need for addressing associated meniscus tears and how this will be addressed at the time of surgery with either repair or debridement depending on the location and quality of the tears We discussed the importance of working with physical therapy after surgery and i provided her with my postoperative rehabilitation protocol After a thorough discussion of the potential risks including but not limited to stiffness neurovascular injury infection blood clots and failure of the reconstructed ACLU she has elected to proceed She will be sent to MPO to have a postop knee brace it for this ACL surgery to help support stabilizes and protect the knee to prevent further injury and facilitate healing after surgery The brace will also limit range of motion according to speciﬁcations. a  | 100 | 
+ | 15 minutes spent, over 50% of which was spent in discussion regarding diagnosis, treatment options and answering questions.  | 15 minutes spent, over 50% of which was spent in discussion regarding diagnosis, treatment options and answering questions. | 15 mment spent ,len 50%f whing dischession dia15osis pent in d,schest50% goungment oreatment on15ion | 15 minutes spent over 50% of which was spent in discussion regarding diagnosis treatment options and answering questions a  | 100 | 
+ | Scribe - Statements  | Scribe - Statements | Scribe - Statements | Scribe - Statements a  | 50 | 
+ | Nate Graden is acting as scribe for Dr. Jason Holm  | Nate Graden is acting as scribe for Dr. Jason Holm | Nate Graden is acting as scribe for Dr. Jason Holm | Nate Garden is acting as scribe for Dry Jason Holm a  | 100 | 
+ | Signatures  | Signatures | Signatures | Signatures a  | 50 | 
+ | Electronically signed by : Jason Holm, M.D.; Jan 24 2018 3:24PM CST  | Electronically signed by : Jason Holm, M.D.; Jan 24 2018 3:24PM CST | Electronically signed by : Jason Holm, M.D.; Jan   PM CST | Electronically signed by : Jason Holme M.D.; Jan 24 2018 3:24PM CST a  | 100 | 
+ | 'OTR‘giilgf’Eiﬁgs 3 of3 3/22/18 3:09:54 PM  | TWIN CITIES ORTHOPEDICS 3 of 3 3/22/18 3:09:54 PM |  Problems Firs 3 – 33/22/18 3:0 | 'OTR‘giilgf’Eiﬁgs 3 of3 3/22/18 3:09:54 PM a  | 50 | 
+ | TWIN CITIES  | TWIN CITIES | TWIN CITITS | TWIN CITIES a  | 50 | 
+ | ORTHOPEDICS  | ORTHOPEDICS | ORTHOPEDICS | ORTHOPEDICS a  | 50 | 
+ | Twin Cities Orthopedics-Burnsville  | Twin Cities Orthopedics-Burnsville | Twin Cities Orthopedics-Burnsville | Twin Cities Orthopedics-Burnsville a  | 50 | 
+ | MRN: Date of Service: 01/24/2018 9:10AM  | MRN: Date of Service: 01/24/2018 9:10AM | MRN: Date of Service: 01/24/2018 9:10AM | MRNA Date of Service 01/24/2018 9:10AM a  | 50 | 
+ | Provider: Jason Holm MD.  | Provider: Jason Holm M.D. | Provider: Jason Holm M.  | Provider Jason Holm MD a  | 50 | 
+ | Chief Complaint  | Chief Complaint | Chief Complaint | Chief Complaint a  | 50 | 
+ | right knee (DOE 1l21f18)  | right knee (DOI 1/21/18) | right knee (DOIg121 18)t | right knee DOE 1l21f18) a  | 50 | 
+ | History of Present illness  | History of Present Illness | History of Present Illness | History of Present illness a  | 50 | 
+ | 5 a 37 year old female referred to clinic for a right knee" Injury (DOI 1/21/18). Patient states that she was playtng hockey and stepped on the puck with her left leg resulting“ In her right leg being forced outward Since time of‘ Injury her pain has been decreasing, but she is sore with a plant/twist motion or with end range extension. She is having twinges of pain and is sore in the mornings. She is taking ibuprofen for pain control. She is noticing catching, instability, and swelling. Soreness is located anteromedial and posterolateral. No history of knee injury. but she has had a right Achilles repair 4-5 years ago. She is hereto discuss her MRI results.  | a 37 year old female referred to clinic for a right knee Injury (DOI 1/21/18). Patient states that she was playing hockey and stepped on the puck with her left leg resulting in her right leg being forced outward. Since time of injury her pain has been decreasing, but she is sore with a plant/twist motion or with end range extension. She is having twinges of pain and is sore in the mornings. She is taking ibuprofen for pain control. She is noticing catching, instability, and swelling. Soreness is located anteromedial and posterolateral. No history of knee injury. but she has had a right Achilles repair 4-5 years ago. She is here to discuss her MRI results. | 5erv37e free for ale free and contured to clinic 5or 37 injury Dist  to this patient states thes5the3 | 5 a 37 year old female referred to clinic for a right knee Injury DOI 1/21/18). Patient states that she was playing hockey and stepped on the puck with her left leg resulting In her right leg being forced outward Since time of Injury her pain has been decreasing but she is sore with a plant/twist motion or with end range extension She is having twinges of pain and is sore in the mornings She is taking ibuprofen for pain control She is noticing catching instability and swelling Soreness is located anteromedial and posterolateral No history of knee injury but she has had a right Achilles repair 4-5 years ago She is hereto discuss her MRI results a  | 100 | 
+ | Review of Systems  | Review of Systems | Review of Systems | Review of Systems a  | 50 | 
+ | General: no constitutional symptoms.  | General: no constitutional symptoms. | General: no constitutional symptoms. | General no constitutional symptoms a  | 50 | 
+ | Cardiovascular: no cardiovascular symptoms.  | Cardiovascular: no cardiovascular symptoms. | Cardiovascular: no cardiovascular symptoms. | Cardiovascular no cardiovascular symptoms a  | 50 | 
+ | Skin no skin symptoms.  | Skin no skin symptoms. | Skin no skin symptoms. | Skin no skin symptoms a  | 50 | 
+ | ENT: no ears, nose or throat symptoms.  | ENT: no ears, nose or throat symptoms. | ENT: no ears, nose or throat symptoms. | ENTR no ears nose or throat symptoms a  | 50 | 
+ | Endocrine: no endocrine symptoms.  | Endocrine: no endocrine symptoms. | Endocrine: no endocrine symptoms. | Endocrine no endocrine symptoms a  | 50 | 
+ | Eyes: glasseslcontact.  | Eyes: glasses/contact. | Eyes: glassescontact. | Eyes glasseslcontact. a  | 50 | 
+ | Gastrointestinal: no gastrointestinal symptoms.  | Gastrointestinal: no gastrointestinal symptoms. | Guaruston istabl: to atmants to stop working? | Gastrointestinal no gastrointestinal symptoms a  | 50 | 
+ | Genitourinary: no genitourinary symptoms.  | Genitourinary: no genitourinary symptoms. | Genitourinary: no genitourinary symptoms. | Genitourinary no genitourinary symptoms a  | 50 | 
+ | HematologicILymphatlc no hematologic symptoms.  | Hematologic/Lymphatlc no hematologic symptoms. | HematologicLymphatic no hematologic symptoms. | HematologicILymphatlc no hematologic symptoms a  | 50 | 
+ | Musculoskeletal: See HPI section for remaining musculoskeletal symptoms.  | Musculoskeletal: See HPI section for remaining musculoskeletal symptoms. | Musculoskeletal: See HPI section for remaining musculoskeletal s:mptoms | Musculoskeletal See HIP section for remaining musculoskeletal symptoms a  | 100 | 
+ | Neurological: no neurological symptoms.  | Neurological: no neurological symptoms. | Neurological: no neurological symptoms. | Neurological no neurological symptoms a  | 50 | 
+ | Psychiatric: no psychiatric symptoms.  | Psychiatric: no psychiatric symptoms. | Psychiatric: no psychiatric symptoms. | Psychiatric no psychiatric symptoms a  | 50 | 
+ | Respiratory: no respiratory symptoms.  | Respiratory: no respiratory symptoms. | Respiratory: no prosedir symptoms | Respiratory no respiratory symptoms a  | 50 | 
+ | Active Problems  | Active Problems | Active Problems | Active Problems a  | 50 | 
+ | 1. Knee injury (889.90XA)  | 1. Knee injury (S89.90XA) | 1. Knee injury (889.90XA) | 1. Knee injury (889.90XA) a  | 50 | 
+ | Past Medical History  | Past Medical History | Past Medical History of H | Past Medical History a  | 50 | 
+ | 0 No signiﬁcant past medical history  | • No significant past medical history | 0 No significant past medical history of  | 0 No significant past medical history a  | 50 | 
+ | Surgical History  | Surgical History | Surgical History  | Surgical History a  | 50 | 
+ | 0 History of Ankle Surgery  | • History of Ankle Surgery | 0 History of Ankle Surgery  | 0 History of Ankle Surgery a  | 50 | 
+ | Family History  | Family History | Family History Rachal Ristory | Family History a  | 50 | 
+ | Jillitﬁ'géiés 1 of 3 3/22/18 3:09:54 PM  | TWIN CITIES ORTHOPEDICS 1 of 3 3/22/18 3:09:54 PM | • Jall OND 1  33/22/18A3:09:54  | Jillitﬁ'géiés 1 of 3 3/22/18 3:09:54 PM a  | 50 | 
+ | TWIN CITIES  | TWIN CITIES | TWIN CITITS | TWIN CITIES a  | 50 | 
+ | ORTHOPEDICS  | ORTHOPEDICS | ORTHOPEDICS | ORTHOPEDICS a  | 50 | 
+ | Twin Cities Orthopedics-Burnsville  | Twin Cities Orthopedics-Burnsville | Twin Cities Orthopedics-Burnsville | Twin Cities Orthopedics-Burnsville a  | 50 | 
+ | Date of Service: 01/21/2018 7:30PM  | Date of Service: 01/21/2018 7:30PM | Date of Service: 01/21/2018 7:30 | Date of Service 01/21/2018 7:30PM a  | 50 | 
+ | Provider: David Feivor PA-C  | Provider: David Feivor PA-C | Provider: David Feivor PA-C | Provider David Fervor PARC a  | 50 | 
+ | Chief Complaint  | Chief Complaint | Chief Complaint | Chief Complaint a  | 50 | 
+ | Right knee injury  | Right knee injury | Right knee injury  | Right knee injury a  | 50 | 
+ | DOI 112112018  | DOI 1/21/2018 | DO K112112018 | DOI 112112018 a  | 50 | 
+ | History of Present Illness -  | History of Present Illness | History of Present Illness- | History of Present Illness - a  | 50 | 
+ | is a 37 year old woman presenting with a right knee injury that occurred today when she twisted her knee and fell while playing hockey. She states that the pain is mainly at the posterior aspect of her right knee with weight bearing and turning. She also states that it is unstable and has given out on her a few times, and there is swelling present. She denies any clicking or locking of the knee. She has tried ice and Ibuprofen with some relief and denies any history of injury to her right knee.  | is a 37 year old woman presenting with a right knee injury that occurred today when she twisted her knee and fell while playing hockey. She states that the pain is mainly at the posterior aspect of her right knee with weight bearing and turning. She also states that it is unstable and has given out on her a few times, and there is swelling present. She denies any clicking or locking of the knee. She has tried ice and Ibuprofen with some relief and denies any history of injury to her right knee. | Is th37restrict vith sccury the resured to a the dith 37d what occurred to when she to when she were | is a 37 year old woman presenting with a right knee injury that occurred today when she twisted her knee and fell while playing hockey She states that the pain is mainly at the posterior aspect of her right knee with weight bearing and turning She also states that it is unstable and has given out on her a few times and there is swelling present She denies any clicking or locking of the knee She has tried ice and Ibuprofen with some relief and denies any history of injury to her right knee a  | 100 | 
+ | Review of Systems  | Review of Systems | Review of Systems | Review of Systems a  | 50 | 
+ | General: no constitutional symptoms.  | General: no constitutional symptoms. | General: no constitutional symptoms. | General no constitutional symptoms a  | 50 | 
+ | Cardlovascular: no cardiovascular symptoms.  | Cardiovascular: no cardiovascular symptoms. | Cardiovascular: no cardiovascular symptoms. | Cardlovascular: no cardiovascular symptoms a  | 50 | 
+ | Skin no skin symptoms.  | Skin no skin symptoms. | Skin no skin symptoms. | Skin no skin symptoms a  | 50 | 
+ | ENT: no ears. nose or throat symptoms.  | ENT: no ears, nose or throat symptoms. | ENT: no ears.n at er to teippy | ENTR no ears nose or throat symptoms a  | 50 | 
+ | Endocrine: no endocrine symptoms.  | Endocrine: no endocrine symptoms. | Endocrine: no endocrine symptoms. | Endocrine no endocrine symptoms a  | 50 | 
+ | Eyes: glassesicontact.  | Eyes: glasses/contact. | Eyes: glassescontact. | Eyes glassesicontact. a  | 50 | 
+ | Gastrointestinal: no gastrointestinal symptoms.  | Gastrointestinal: no gastrointestinal symptoms. | Guaruston istabl: to atmants to stop working? | Gastrointestinal no gastrointestinal symptoms a  | 50 | 
+ | Genitourinary: no genitourinary symptoms.  | Genitourinary: no genitourinary symptoms. | Genitourinary: no genitourinary symptoms. | Genitourinary no genitourinary symptoms a  | 50 | 
+ | HematologiciLymphatic no hematologic symptoms.  | Hematologic/Lymphatic no hematologic symptoms. | HematologicLymphatic no hematologic symptoms. | HematologiciLymphatic no hematologic symptoms a  | 50 | 
+ | Musculoskeletal: See HPI section for remaining musculoskeletal symptoms.  | Musculoskeletal: See HPI section for remaining musculoskeletal symptoms. | Musculoskeletal: See HPI section for remaining musculoskeletal s:mptoms | Musculoskeletal See HIP section for remaining musculoskeletal symptoms a  | 100 | 
+ | Neurological: no neurological symptoms.  | Neurological: no neurological symptoms. | Neurological: no neurological symptoms. | Neurological no neurological symptoms a  | 50 | 
+ | Psychiatric: no psychiatric symptoms.  | Psychiatric: no psychiatric symptoms. | Psychiatric: no psychiatric symptoms. | Psychiatric no psychiatric symptoms a  | 50 | 
+ | Respiratory: no respiratory symptoms.  | Respiratory: no respiratory symptoms. | Respiratory: no prosedir symptoms | Respiratory no respiratory symptoms a  | 50 | 
+ | Active Problems  | Active Problems | Active Problems | Active Problems a  | 50 | 
+ | 1. Knee injury  | 1. Knee injury | 1. Knee injury No  | 1. Knee injury a  | 50 | 
+ | Past Medical History  | Past Medical History | Past Medical History of H | Past Medical History a  | 50 | 
+ | I No signiﬁcant past medical history  | • No significant past medical history | Is No skin sign thas medical history of  | I No significant past medical history a  | 50 | 
+ | Surgical History  | Surgical History | Surgical History  | Surgical History a  | 50 | 
+ | 0 History of Ankle Surgery  | • History of Ankle Surgery | 0 History of Ankle Surgery  | 0 History of Ankle Surgery a  | 50 | 
+ | oinvi'inoggiiis  | TWIN CITIES ORTHOPEDICS | Time inturic Hustive | oinvi'inoggiiis a  | 50 | 
+ | MINNESOTA VALLEY SURGERY CENTER  | MINNESOTA VALLEY SURGERY CENTER | MINNESOTA VALLEY SURGERY CENTER | MINNESOTA VALLEY SURGERY CENTER a  | 50 | 
+ | OPERATIVE REPORT  | OPERATIVE REPORT | OPERATIVE REPORT | OPERATIVE REPORT a  | 50 | 
+ | MR #:  | MR #: | MR #:  | MR of a  | 50 | 
+ | SURGEON: JASON HOLM, M.D.  | SURGEON: JASON HOLM, M.D. | SURGEON: JASON HOLI,IT. . | SURGEON JASON HOLME Made a  | 50 | 
+ | DATE: 02/02/2018  | DATE: 02/02/2018 | DATE: 02/02/2018 | DATE 02/02/2018 a  | 50 | 
+ | 05/09/1980  | 05/09/1980 | 05/09/1980 | 05/09/1980 a  | 50 | 
+ | PREOPERATIVE DIAGNOSES:  | PREOPERATIVE DIAGNOSES: | PREOPERATIVE DIAGNOSES:  | PREOPERATIVE DIAGNOSES a  | 50 | 
+ | 1. Right knee anterior cruciate ligament tear.  | 1. Right knee anterior cruciate ligament tear. | 1. Right knee anterior cruciate ligament tear. | 1. Right knee anterior cruciate ligament tears a  | 50 | 
+ | 2. Me dial collateral ligament tear.  | 2. Medial collateral ligament tear. | 2. Medial collateral ligament tear. | 2. Me dial collateral ligament tears a  | 50 | 
+ | POSTOPERATIVE DIAGNOSES:  | POSTOPERATIVE DIAGNOSES: | PLOCEDURE MAILICITNES : | POSTOPERATIVE DIAGNOSES a  | 50 | 
+ | Right knee anterior cruciate ligament tear.  | 1. Right knee anterior cruciate ligament tear. |  Right knee anterior cruciate ligament t.ar | Right knee anterior cruciate ligament tears a  | 50 | 
+ | 2. Medial collateral ligament tear.  | 2. Medial collateral ligament tear. | 2. Medial collateral ligament tear. | 2. Medial collateral ligament tears a  | 50 | 
+ | PROCEDURES PERFORMED:  | PROCEDURES PERFORMED: | PROCEDURES PERFORMEN:  | PROCEDURES PERFORMED a  | 50 | 
+ | 1. Right knee arthroscopic anterior cruciate ligament repair.  | 1. Right knee arthroscopic anterior cruciate ligament repair. | 1. Right knee arthroscopic anterior cruciate liga1.nt repair | 1. Right knee arthroscopic anterior cruciate ligament repair a  | 100 | 
+ | 7 2. Medial collateral ligament repair utilizing internal brace.  | 2. Medial collateral ligament repair utilizing internal brace. | 72.edial collateral ligament repair utilizing in7e2.al brace | 7 2. Medial collateral ligament repair utilizing internal braced a  | 100 | 
+ | SURGEON: Jason Helm, MD.  | SURGEON: Jason Holm, M.D. | SURGEON: Jason Holm, M.  | SURGEON Jason Helm MD a  | 50 | 
+ | ASSISTANT: Jamie Birkelo, PA-C.  | ASSISTANT: Jamie Birkelo, PA-C. | ASSISTANT: Jamie Birkelo, PA-C. | ASSISTANT Jamie Birkelo, PACE a  | 50 | 
+ | ANESTI-IESIA: General.  | ANESTHESIA: General. | ANESTH-SIA :eneral | ANESTI-IESIA: General a  | 50 | 
+ | ANESTHESIOLOGIST:  | ANESTHESIOLOGIST: | ANESTHESIOLOGIST: | ANESTHESIOLOGISTS a  | 50 | 
+ | ESTIMATED BLOOD LOSS: 5 mL.  | ESTIMATED BLOOD LOSS: 5 mL. | ESTIMATED BLOOD LOSS: 5 mL. | ESTIMATED BLOOD LOSS 5 Mli a  | 50 | 
+ | INTRAOPERATIVE COMPLICATIONS: None apparent.  | INTRAOPERATIVE COMPLICATIONS: None apparent. | INTRAOPERATIVE COMPLICATIONS: None apparent. | INTRAOPERATIVE COMPLICATIONS None apparent a  | 50 | 
+ | OPERATIVE INDICATIONS: The patient sustained a planting and twisting injury to her right knee and was noted to have instability through both the ACL and MCL. Given the proximal nature of the ACL tear, it was felt that early operative intervention with the potential for repair would be indicated; and therefore, an MCL repair would also be indicated at that time as apposed to delaying surgery. Risks, beneﬁts, and alternatives were discussed at length with the patient. She elected to proceed.  | OPERATIVE INDICATIONS: The patient sustained a planting and twisting injury to her right knee and was noted to have instability through both the ACL and MCL. Given the proximal nature of the ACL tear, it was felt that early operative intervention with the potential for repair would be indicated; and therefore, an MCL repair would also be indicated at that time as apposed to delaying surgery. Risks, benefits, and alternatives were discussed at length with the patient. She elected to proceed. | OPERATIVE INDICATIONS: The patient sustain injury to hes patient susta:ng injury one right knee and  | OPERATIVE INDICATIONS The patient sustained a planting and twisting injury to her right knee and was noted to have instability through both the ACL and MILD Given the proximal nature of the ACL tears it was felt that early operative intervention with the potential for repair would be indicated and therefore an MAL repair would also be indicated at that time as apposed to delaying surgery Risks beneﬁts, and alternatives were discussed at length with the patient She elected to proceed a  | 100 | 
+ | PROCEDURE: The patient was identiﬁed in the preoperative holding area and the operative site was marked. The consent was again reviewed and all questions were answered. She was taken to the operating room, placed under general anesthesia, and positioned supine on the operating table with the right lower extremity prepped and draped in the usual sterile fashion. Preoperative antibiotics were administered. A time-out was called to ensure the correct operative site and procedure and the tourniquet was inﬂated to 300 mmHg. The arthroscope was introduced along with a working portal. A diagnostic arthroscopy showed no chondral wear to the patella or trochlea. The medial femoral condyle and medial tibial plateau were without chondral Wear. There was a large positive drive-through sign of the medial joint. The mediai meniscus showed a superior peripheral tear that did not extend to the inferior articular surface. This was probed and felt to be overall stable. Lateral femoral condyle and lateral tibial plateau were without chondral wear and the lateral meniscus was probed and noted to be intact throughout. The ACL showed a proximal one-ﬁfth avulsion type injury with remnant footprint noted at the lateral wall of the notch. The PCL was probed and noted to be intact. Examination under anesthesia showed a grade II pivot shift with a grade 113 Lachman’s and grade III opening to valgus stress at 0 and 30 degrees. There was a negative posterior drawer and asymmetric dial test.  | PROCEDURE: The patient was identified in the preoperative holding area and the operative site was marked. The consent was again reviewed and all questions were answered. She was taken to the operating room, placed under general anesthesia, and positioned supine on the operating table with the right lower extremity prepped and draped in the usual sterile fashion. Preoperative antibiotics were administered. A time-out was called to ensure the correct operative site and procedure and the tourniquet was inflated to 300 mmHg. The arthroscope was introduced along with a working portal. A diagnostic arthroscopy showed no chondral wear to the patella or trochlea. The medial femoral condyle and medial tibial plateau were without chondral wear. There was a large positive drive-through sign of the medial joint. The medial meniscus showed a superior peripheral tear that did not extend to the inferior articular surface. This was probed and felt to be overall stable. Lateral femoral condyle and lateral tibial plateau were without chondral wear and the lateral meniscus was probed and noted to be intact throughout. The ACL showed a proximal one-fifth avulsion type injury with remnant footprint noted at the lateral wall of the notch. The PCL was probed and noted to be intact. Examination under anesthesia showed a grade II pivot shift with a grade IIB Lachman’s and grade III opening to valgus stress at 0 and 30 degrees. There was a negative posterior drawer and asymmetric dial test. | PROCEDURE: The patient hon the pregnand in the pregnand in:the pregnand in the pregrand site wat was | PROCEDURE The patient was identified in the preoperative holding area and the operative site was marked The consent was again reviewed and all questions were answered She was taken to the operating room placed under general anesthesias and positioned supine on the operating table with the right lower extremity prepped and draped in the usual sterile fashion Preoperative antibiotics were administered A timeout was called to ensure the correct operative site and procedure and the tourniquet was invited to 300 mmHg The arthroscope was introduced along with a working portal A diagnostic arthroscopy showed no chondral wear to the patella or trochlear The medial femoral condyle and medial tibial plateau were without chondral Weary There was a large positive drivethrough sign of the medial joint The medial meniscus showed a superior peripheral tear that did not extend to the inferior articular surface This was probed and felt to be overall stable Lateral femoral condyle and lateral tibial plateau were without chondral wear and the lateral meniscus was probed and noted to be intact throughout The ACL showed a proximal one-ﬁfth avulsion type injury with remnant footprint noted at the lateral wall of the notch The PCL was probed and noted to be intact Examination under anesthesia showed a grade II pivot shift with a grade 113 Lachman’s and grade III opening to valgus stress at 0 and 30 degrees There was a negative posterior drawer and asymmetric dial test a  | 100 | 
