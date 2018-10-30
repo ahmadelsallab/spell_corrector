@@ -20,6 +20,7 @@ def parse(lang_sample):
     words = words_from_archive(lang_sample, include_dups=True)
     counts = zero_default_dict()
     for word in words:
+        counts[word.lower()] += 1
         counts[word] += 1
     return set(words), counts
 
